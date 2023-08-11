@@ -1,0 +1,17 @@
+# Ignore virtual environment
+venv/
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore any compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore logs or temporary files (if any)
+*.log
+*.tmp
+
+# Ignore any sensitive files that may contain secrets or personal information
+# (Add any specific filenames or patterns here)
