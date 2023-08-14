@@ -1,19 +1,33 @@
-import os
+import os, logging
 import pandas as pd
 from sqlalchemy import create_engine
 
-def save_to_postgresql(df: pd.DataFrame, table_name: str, db_uri: str):
-    """
-    Function to save a pandas DataFrame to a PostgreSQL table.
-    :param df: DataFrame containing the data to be saved.
-    :param table_name: Name of the table where the data will be saved.
-    :param db_uri: URI for the PostgreSQL database connection.
-    """
-    # Create a SQLAlchemy engine using the given database URI
-    engine = create_engine(db_uri)
 
-    # Save the DataFrame to the PostgreSQL table
-    df.to_sql(table_name, engine, index=False, if_exists='replace')
+class DatabaseInserter:
+    def __init__(self):
+        env_str = "MIMIR_POSTGRESQL_URI"
+        self.uri = os.environ.get(env_str)
+        if self.uri is None:
+            raise ValueError(f"{env_str} not found in environment variables")
+        self.engine = create_engine(self.uri)
+    
+    def insert_rei_all(self, df: pd.DataFrame, table_name: str):
+        # Function to save df to a PostgreSQL table
+        
+        # Create a SQLAlchemy engine using the given database URI
+        engine = create_engine(self.uri)
 
-    # Close the database connection
-    engine.dispose()
+        # Save DataFrame to PostgreSQL table
+        df.to_sql(table_name, engine, index=False, if_exists='append')
+        return
+    
+    def close(self):
+        self.engine.dispose()  # Close the database engine
+        
+        
+        
+# # Usage
+# db_conn = DatabaseConnection()
+# db_conn.insert_data(df1, 'table_name1')
+# db_conn.insert_data(df2, 'table_name2')
+# db_conn.close()

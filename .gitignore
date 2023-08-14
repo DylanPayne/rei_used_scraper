@@ -15,3 +15,5 @@ __pycache__/
 
 # Ignore any sensitive files that may contain secrets or personal information
 # (Add any specific filenames or patterns here)
+
+*.env
