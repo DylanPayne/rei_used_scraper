@@ -3,20 +3,27 @@ from datetime import datetime, timezone
 from utils.db_utils import DatabaseInserter
 from utils.scrape_utils import initialize_driver
 from rei.rei_parser import parse_rei_all
+from log_config import log_rei_all
 
-# Configure the logging settings
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
-logger = logging.getLogger(__name__)
-# Create a handler to write logs to a file
-log_file = "scrape_rei_all.log"
-file_handler = logging.FileHandler(log_file)
-file_handler.setLevel(logging.INFO)
+# # Create a logger instance
+# logger = logging.getLogger(__name__)
+# # Create a handler to write logs to a file
+# log_file = "scrape_rei_all.log"
+# file_handler = logging.FileHandler(log_file)
+# file_handler.setLevel(logging.INFO)
+# # Define the log format
+# formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+# file_handler.setFormatter(formatter)
+# # Add the file handler to the logger
+# logger.addHandler(file_handler)
+
 
 def main(suffix=None):
     # Log the start time
     start_time = time.time()
     run_id = datetime.utcnow().replace(tzinfo=timezone.utc).isoformat()
-    logger.info(f"Script started: {run_id}")
+    logger = log_rei_all("scrape_rei_all.log")
+    logger.info(f"\nScript started: {run_id}")
     
     # initialize selenium driver, extract data
     driver = initialize_driver()
