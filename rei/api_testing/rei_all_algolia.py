@@ -4,7 +4,8 @@ import json
 import uuid
 
 # Desktop API request, ex-cookies, randomly generated userToken uuid works
-# response
+# Response is more powerful than one GraphQL one currently implemented - gives item_count, sku urls, product category info, etc
+# But filtering / pagination is less obvious
 
 #userToken = '21e69a44-bdf5-4f09-9ff1-f6989c88cd35'
 # random = b05d1881-71c2-402a-8646-2a87036a6e4b

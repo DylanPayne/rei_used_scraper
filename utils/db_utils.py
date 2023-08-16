@@ -12,7 +12,7 @@ class DatabaseInserter:
             raise ValueError(f"{env_str} not found in environment variables")
         self.engine = create_engine(self.uri)
     
-    def insert_rei_all(self, df: pd.DataFrame, table_name: str, run_id : int, dt : datetime):
+    def insert_rei_all(self, df: pd.DataFrame, table_name: str, run_id : int, dt : datetime, logger):
         # Add run_id as a new column to df
         df['run_id'] = run_id
         df['dt'] = dt
@@ -22,6 +22,7 @@ class DatabaseInserter:
 
         # Save DataFrame to PostgreSQL table
         df.to_sql(table_name, engine, index=False, if_exists='append')
+        logger.info(f"Saved {len(df)} rows to {table_name}")
         return
     
     def close(self):
