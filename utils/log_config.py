@@ -1,6 +1,6 @@
 import logging
 
-def log_rei_all(log_file):
+def log_config(log_file):
     logger = logging.getLogger(__name__)
 
     # Create a handler to write logs to a file

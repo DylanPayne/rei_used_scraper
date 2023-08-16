@@ -1,0 +1,2640 @@
+{
+    "data": {
+        "partner": {
+            "shop": {
+                "canonical": "https://www.rei.com/used/shop/all",
+                "headline": "Used Clothing & Gear",
+                "subheadline": "",
+                "metaDescription": "Shop our selection of pre-loved clothing & footwear. Score deals on your favorite brands with pre-loved clothing & footwear from REI!",
+                "slug": "all",
+                "title": "REI Used Clothing & Gear | REI Co-op",
+                "facets": [
+                    {
+                        "tag": "department",
+                        "title": "Department",
+                        "entries": [
+                            {
+                                "name": "Women's Clothing",
+                                "displayName": "Women's Clothing",
+                                "count": 2907
+                            },
+                            {
+                                "name": "Women's Footwear",
+                                "displayName": "Women's Footwear",
+                                "count": 1660
+                            },
+                            {
+                                "name": "Gear",
+                                "displayName": "Gear",
+                                "count": 1304
+                            },
+                            {
+                                "name": "Men's Clothing",
+                                "displayName": "Men's Clothing",
+                                "count": 1110
+                            },
+                            {
+                                "name": "Men's Footwear",
+                                "displayName": "Men's Footwear",
+                                "count": 714
+                            },
+                            {
+                                "name": "Kids' Clothing",
+                                "displayName": "Kids' Clothing",
+                                "count": 300
+                            },
+                            {
+                                "name": "Kids' Footwear",
+                                "displayName": "Kids' Footwear",
+                                "count": 179
+                            }
+                        ],
+                        "visibleLimit": 7
+                    },
+                    {
+                        "tag": "category",
+                        "title": "Category",
+                        "entries": [
+                            {
+                                "name": "Jackets",
+                                "displayName": "Jackets",
+                                "count": 1481
+                            },
+                            {
+                                "name": "Pants",
+                                "displayName": "Pants",
+                                "count": 1420
+                            },
+                            {
+                                "name": "Hiking, Work & Winter Boots",
+                                "displayName": "Hiking, Work & Winter Boots",
+                                "count": 671
+                            },
+                            {
+                                "name": "Running Shoes",
+                                "displayName": "Running Shoes",
+                                "count": 560
+                            },
+                            {
+                                "name": "Shirts",
+                                "displayName": "Shirts",
+                                "count": 362
+                            },
+                            {
+                                "name": "Ski & Snowboard Boots",
+                                "displayName": "Ski & Snowboard Boots",
+                                "count": 306
+                            },
+                            {
+                                "name": "Hiking Shoes",
+                                "displayName": "Hiking Shoes",
+                                "count": 297
+                            },
+                            {
+                                "name": "Casual Shoes & Boots",
+                                "displayName": "Casual Shoes & Boots",
+                                "count": 294
+                            },
+                            {
+                                "name": "Sweaters & Hoodies",
+                                "displayName": "Sweaters & Hoodies",
+                                "count": 281
+                            },
+                            {
+                                "name": "Sleep Systems",
+                                "displayName": "Sleep Systems",
+                                "count": 263
+                            },
+                            {
+                                "name": "Shorts",
+                                "displayName": "Shorts",
+                                "count": 249
+                            },
+                            {
+                                "name": "Accessories",
+                                "displayName": "Accessories",
+                                "count": 190
+                            },
+                            {
+                                "name": "Packs",
+                                "displayName": "Packs",
+                                "count": 185
+                            },
+                            {
+                                "name": "Walking Shoes",
+                                "displayName": "Walking Shoes",
+                                "count": 161
+                            },
+                            {
+                                "name": "Sandals & Water Shoes",
+                                "displayName": "Sandals & Water Shoes",
+                                "count": 157
+                            },
+                            {
+                                "name": "Vests",
+                                "displayName": "Vests",
+                                "count": 157
+                            },
+                            {
+                                "name": "Cycling Shoes",
+                                "displayName": "Cycling Shoes",
+                                "count": 130
+                            },
+                            {
+                                "name": "Cycling",
+                                "displayName": "Cycling",
+                                "count": 122
+                            },
+                            {
+                                "name": "Boots",
+                                "displayName": "Boots",
+                                "count": 121
+                            },
+                            {
+                                "name": "Paddling",
+                                "displayName": "Paddling",
+                                "count": 88
+                            },
+                            {
+                                "name": "Base Layers",
+                                "displayName": "Base Layers",
+                                "count": 82
+                            },
+                            {
+                                "name": "Sunglasses & Optics",
+                                "displayName": "Sunglasses & Optics",
+                                "count": 77
+                            },
+                            {
+                                "name": "Climbing & Approach Shoes",
+                                "displayName": "Climbing & Approach Shoes",
+                                "count": 72
+                            },
+                            {
+                                "name": "Skirts & Dresses",
+                                "displayName": "Skirts & Dresses",
+                                "count": 60
+                            },
+                            {
+                                "name": "Snow Sports",
+                                "displayName": "Snow Sports",
+                                "count": 57
+                            },
+                            {
+                                "name": "Tents",
+                                "displayName": "Tents",
+                                "count": 51
+                            },
+                            {
+                                "name": "Travel & Luggage",
+                                "displayName": "Travel & Luggage",
+                                "count": 48
+                            },
+                            {
+                                "name": "Slippers",
+                                "displayName": "Slippers",
+                                "count": 41
+                            },
+                            {
+                                "name": "Fitness",
+                                "displayName": "Fitness",
+                                "count": 30
+                            },
+                            {
+                                "name": "Sandals",
+                                "displayName": "Sandals",
+                                "count": 27
+                            },
+                            {
+                                "name": "Swimwear",
+                                "displayName": "Swimwear",
+                                "count": 27
+                            },
+                            {
+                                "name": "Footwear Accessories",
+                                "displayName": "Footwear Accessories",
+                                "count": 19
+                            },
+                            {
+                                "name": "Hiking & Running Shoes",
+                                "displayName": "Hiking & Running Shoes",
+                                "count": 18
+                            },
+                            {
+                                "name": "Pet Gear",
+                                "displayName": "Pet Gear",
+                                "count": 13
+                            },
+                            {
+                                "name": "Tools, Gadgets & Gear",
+                                "displayName": "Tools, Gadgets & Gear",
+                                "count": 10
+                            },
+                            {
+                                "name": "Camp Kitchen",
+                                "displayName": "Camp Kitchen",
+                                "count": 9
+                            },
+                            {
+                                "name": "Buntings & Snowsuits",
+                                "displayName": "Buntings & Snowsuits",
+                                "count": 8
+                            },
+                            {
+                                "name": "Electronics",
+                                "displayName": "Electronics",
+                                "count": 8
+                            },
+                            {
+                                "name": "Skates & Skateboards",
+                                "displayName": "Skates & Skateboards",
+                                "count": 5
+                            },
+                            {
+                                "name": "Climbing",
+                                "displayName": "Climbing",
+                                "count": 4
+                            },
+                            {
+                                "name": "Health & Safety",
+                                "displayName": "Health & Safety",
+                                "count": 4
+                            },
+                            {
+                                "name": "Water Shoes",
+                                "displayName": "Water Shoes",
+                                "count": 3
+                            },
+                            {
+                                "name": "Camp Furniture",
+                                "displayName": "Camp Furniture",
+                                "count": 2
+                            },
+                            {
+                                "name": "Lighting",
+                                "displayName": "Lighting",
+                                "count": 2
+                            },
+                            {
+                                "name": "Kids",
+                                "displayName": "Kids",
+                                "count": 1
+                            },
+                            {
+                                "name": "Kids'",
+                                "displayName": "Kids'",
+                                "count": 1
+                            }
+                        ],
+                        "visibleLimit": 7
+                    },
+                    {
+                        "tag": "brand",
+                        "title": "Brand",
+                        "entries": [
+                            {
+                                "name": "686",
+                                "displayName": "686",
+                                "count": 41
+                            },
+                            {
+                                "name": "Adidas",
+                                "displayName": "Adidas",
+                                "count": 76
+                            },
+                            {
+                                "name": "Aku",
+                                "displayName": "Aku",
+                                "count": 17
+                            },
+                            {
+                                "name": "Allbirds",
+                                "displayName": "Allbirds",
+                                "count": 32
+                            },
+                            {
+                                "name": "Alps Mountaineering",
+                                "displayName": "Alps Mountaineering",
+                                "count": 19
+                            },
+                            {
+                                "name": "Altra",
+                                "displayName": "Altra",
+                                "count": 93
+                            },
+                            {
+                                "name": "Arc'teryx",
+                                "displayName": "Arc'teryx",
+                                "count": 52
+                            },
+                            {
+                                "name": "Asics",
+                                "displayName": "Asics",
+                                "count": 18
+                            },
+                            {
+                                "name": "Asolo",
+                                "displayName": "Asolo",
+                                "count": 27
+                            },
+                            {
+                                "name": "Atomic",
+                                "displayName": "Atomic",
+                                "count": 17
+                            },
+                            {
+                                "name": "Baffin",
+                                "displayName": "Baffin",
+                                "count": 17
+                            },
+                            {
+                                "name": "Beyond Yoga",
+                                "displayName": "Beyond Yoga",
+                                "count": 22
+                            },
+                            {
+                                "name": "Big Agnes",
+                                "displayName": "Big Agnes",
+                                "count": 44
+                            },
+                            {
+                                "name": "Birkenstock",
+                                "displayName": "Birkenstock",
+                                "count": 25
+                            },
+                            {
+                                "name": "Black Diamond",
+                                "displayName": "Black Diamond",
+                                "count": 63
+                            },
+                            {
+                                "name": "Bogs",
+                                "displayName": "Bogs",
+                                "count": 78
+                            },
+                            {
+                                "name": "Bontrager",
+                                "displayName": "Bontrager",
+                                "count": 20
+                            },
+                            {
+                                "name": "Boulder Gear",
+                                "displayName": "Boulder Gear",
+                                "count": 49
+                            },
+                            {
+                                "name": "Brooks",
+                                "displayName": "Brooks",
+                                "count": 110
+                            },
+                            {
+                                "name": "Burton",
+                                "displayName": "Burton",
+                                "count": 140
+                            },
+                            {
+                                "name": "Camaro",
+                                "displayName": "Camaro",
+                                "count": 19
+                            },
+                            {
+                                "name": "Carve Designs",
+                                "displayName": "Carve Designs",
+                                "count": 50
+                            },
+                            {
+                                "name": "Chaco",
+                                "displayName": "Chaco",
+                                "count": 73
+                            },
+                            {
+                                "name": "Columbia",
+                                "displayName": "Columbia",
+                                "count": 227
+                            },
+                            {
+                                "name": "Cotopaxi",
+                                "displayName": "Cotopaxi",
+                                "count": 51
+                            },
+                            {
+                                "name": "Craft",
+                                "displayName": "Craft",
+                                "count": 27
+                            },
+                            {
+                                "name": "Craghoppers",
+                                "displayName": "Craghoppers",
+                                "count": 36
+                            },
+                            {
+                                "name": "Dakine",
+                                "displayName": "Dakine",
+                                "count": 47
+                            },
+                            {
+                                "name": "Danner",
+                                "displayName": "Danner",
+                                "count": 66
+                            },
+                            {
+                                "name": "Dansko",
+                                "displayName": "Dansko",
+                                "count": 18
+                            },
+                            {
+                                "name": "Duer",
+                                "displayName": "Duer",
+                                "count": 17
+                            },
+                            {
+                                "name": "Exofficio",
+                                "displayName": "Exofficio",
+                                "count": 25
+                            },
+                            {
+                                "name": "Fischer",
+                                "displayName": "Fischer",
+                                "count": 19
+                            },
+                            {
+                                "name": "Five Ten",
+                                "displayName": "Five Ten",
+                                "count": 35
+                            },
+                            {
+                                "name": "Fjallraven",
+                                "displayName": "Fjallraven",
+                                "count": 36
+                            },
+                            {
+                                "name": "Flylow",
+                                "displayName": "Flylow",
+                                "count": 55
+                            },
+                            {
+                                "name": "Forsake",
+                                "displayName": "Forsake",
+                                "count": 18
+                            },
+                            {
+                                "name": "Giro",
+                                "displayName": "Giro",
+                                "count": 17
+                            },
+                            {
+                                "name": "Gordini",
+                                "displayName": "Gordini",
+                                "count": 20
+                            },
+                            {
+                                "name": "Gregory",
+                                "displayName": "Gregory",
+                                "count": 49
+                            },
+                            {
+                                "name": "Helly Hansen",
+                                "displayName": "Helly Hansen",
+                                "count": 57
+                            },
+                            {
+                                "name": "Hoka",
+                                "displayName": "Hoka",
+                                "count": 34
+                            },
+                            {
+                                "name": "Icebreaker",
+                                "displayName": "Icebreaker",
+                                "count": 17
+                            },
+                            {
+                                "name": "Kamik",
+                                "displayName": "Kamik",
+                                "count": 63
+                            },
+                            {
+                                "name": "Kari Traa",
+                                "displayName": "Kari Traa",
+                                "count": 30
+                            },
+                            {
+                                "name": "Keen",
+                                "displayName": "Keen",
+                                "count": 215
+                            },
+                            {
+                                "name": "Kelty",
+                                "displayName": "Kelty",
+                                "count": 25
+                            },
+                            {
+                                "name": "Kodiak",
+                                "displayName": "Kodiak",
+                                "count": 22
+                            },
+                            {
+                                "name": "Kuhl",
+                                "displayName": "Kuhl",
+                                "count": 138
+                            },
+                            {
+                                "name": "La Sportiva",
+                                "displayName": "La Sportiva",
+                                "count": 104
+                            },
+                            {
+                                "name": "Lole",
+                                "displayName": "Lole",
+                                "count": 16
+                            },
+                            {
+                                "name": "Lowa",
+                                "displayName": "Lowa",
+                                "count": 39
+                            },
+                            {
+                                "name": "lucy",
+                                "displayName": "lucy",
+                                "count": 17
+                            },
+                            {
+                                "name": "Mammut",
+                                "displayName": "Mammut",
+                                "count": 33
+                            },
+                            {
+                                "name": "Marmot",
+                                "displayName": "Marmot",
+                                "count": 135
+                            },
+                            {
+                                "name": "Merrell",
+                                "displayName": "Merrell",
+                                "count": 193
+                            },
+                            {
+                                "name": "Mountain Equipment",
+                                "displayName": "Mountain Equipment",
+                                "count": 37
+                            },
+                            {
+                                "name": "Mountain Hardwear",
+                                "displayName": "Mountain Hardwear",
+                                "count": 132
+                            },
+                            {
+                                "name": "Mountain Khakis",
+                                "displayName": "Mountain Khakis",
+                                "count": 16
+                            },
+                            {
+                                "name": "Mountainsmith",
+                                "displayName": "Mountainsmith",
+                                "count": 16
+                            },
+                            {
+                                "name": "Nemo",
+                                "displayName": "Nemo",
+                                "count": 25
+                            },
+                            {
+                                "name": "New Balance",
+                                "displayName": "New Balance",
+                                "count": 46
+                            },
+                            {
+                                "name": "Nike",
+                                "displayName": "Nike",
+                                "count": 51
+                            },
+                            {
+                                "name": "NRS",
+                                "displayName": "NRS",
+                                "count": 24
+                            },
+                            {
+                                "name": "O'neill",
+                                "displayName": "O'neill",
+                                "count": 19
+                            },
+                            {
+                                "name": "Obermeyer",
+                                "displayName": "Obermeyer",
+                                "count": 246
+                            },
+                            {
+                                "name": "Oboz",
+                                "displayName": "Oboz",
+                                "count": 113
+                            },
+                            {
+                                "name": "Olukai",
+                                "displayName": "Olukai",
+                                "count": 27
+                            },
+                            {
+                                "name": "On",
+                                "displayName": "On",
+                                "count": 37
+                            },
+                            {
+                                "name": "Osprey",
+                                "displayName": "Osprey",
+                                "count": 91
+                            },
+                            {
+                                "name": "Outdoor Research",
+                                "displayName": "Outdoor Research",
+                                "count": 189
+                            },
+                            {
+                                "name": "Patagonia",
+                                "displayName": "Patagonia",
+                                "count": 424
+                            },
+                            {
+                                "name": "Pearl Izumi",
+                                "displayName": "Pearl Izumi",
+                                "count": 87
+                            },
+                            {
+                                "name": "Picture Organic Clothing",
+                                "displayName": "Picture Organic Clothing",
+                                "count": 30
+                            },
+                            {
+                                "name": "Prana",
+                                "displayName": "Prana",
+                                "count": 374
+                            },
+                            {
+                                "name": "REI Co-op",
+                                "displayName": "REI Co-op",
+                                "count": 602
+                            },
+                            {
+                                "name": "Reima",
+                                "displayName": "Reima",
+                                "count": 18
+                            },
+                            {
+                                "name": "Rossignol",
+                                "displayName": "Rossignol",
+                                "count": 34
+                            },
+                            {
+                                "name": "Roxy",
+                                "displayName": "Roxy",
+                                "count": 46
+                            },
+                            {
+                                "name": "Royal Robbins",
+                                "displayName": "Royal Robbins",
+                                "count": 27
+                            },
+                            {
+                                "name": "Salomon",
+                                "displayName": "Salomon",
+                                "count": 192
+                            },
+                            {
+                                "name": "Saucony",
+                                "displayName": "Saucony",
+                                "count": 90
+                            },
+                            {
+                                "name": "Scarpa",
+                                "displayName": "Scarpa",
+                                "count": 53
+                            },
+                            {
+                                "name": "Scott",
+                                "displayName": "Scott",
+                                "count": 17
+                            },
+                            {
+                                "name": "Shimano",
+                                "displayName": "Shimano",
+                                "count": 31
+                            },
+                            {
+                                "name": "Smartwool",
+                                "displayName": "Smartwool",
+                                "count": 60
+                            },
+                            {
+                                "name": "Sorel",
+                                "displayName": "Sorel",
+                                "count": 79
+                            },
+                            {
+                                "name": "Tecnica",
+                                "displayName": "Tecnica",
+                                "count": 21
+                            },
+                            {
+                                "name": "Teva",
+                                "displayName": "Teva",
+                                "count": 41
+                            },
+                            {
+                                "name": "The North Face",
+                                "displayName": "The North Face",
+                                "count": 433
+                            },
+                            {
+                                "name": "Thirtytwo",
+                                "displayName": "Thirtytwo",
+                                "count": 26
+                            },
+                            {
+                                "name": "Toad&Co",
+                                "displayName": "Toad&Co",
+                                "count": 31
+                            },
+                            {
+                                "name": "Topo Athletic",
+                                "displayName": "Topo Athletic",
+                                "count": 27
+                            },
+                            {
+                                "name": "Topo Designs",
+                                "displayName": "Topo Designs",
+                                "count": 22
+                            },
+                            {
+                                "name": "United By Blue",
+                                "displayName": "United By Blue",
+                                "count": 16
+                            },
+                            {
+                                "name": "Vans",
+                                "displayName": "Vans",
+                                "count": 34
+                            },
+                            {
+                                "name": "Vasque",
+                                "displayName": "Vasque",
+                                "count": 58
+                            },
+                            {
+                                "name": "Veja",
+                                "displayName": "Veja",
+                                "count": 17
+                            },
+                            {
+                                "name": "Vuori",
+                                "displayName": "Vuori",
+                                "count": 21
+                            },
+                            {
+                                "name": "Xero Shoes",
+                                "displayName": "Xero Shoes",
+                                "count": 22
+                            }
+                        ],
+                        "visibleLimit": 7
+                    },
+                    {
+                        "tag": "activity",
+                        "title": "Activity",
+                        "entries": [
+                            {
+                                "name": "Camping & Hiking",
+                                "displayName": "Camping & Hiking",
+                                "count": 1753
+                            },
+                            {
+                                "name": "Snow Sports",
+                                "displayName": "Snow Sports",
+                                "count": 1604
+                            },
+                            {
+                                "name": "Fitness",
+                                "displayName": "Fitness",
+                                "count": 866
+                            },
+                            {
+                                "name": "Cycling",
+                                "displayName": "Cycling",
+                                "count": 362
+                            },
+                            {
+                                "name": "Water Sports",
+                                "displayName": "Water Sports",
+                                "count": 88
+                            },
+                            {
+                                "name": "Climbing",
+                                "displayName": "Climbing",
+                                "count": 80
+                            }
+                        ],
+                        "visibleLimit": 7
+                    },
+                    {
+                        "tag": "gender",
+                        "title": "Gender",
+                        "entries": [
+                            {
+                                "name": "Women's",
+                                "displayName": "Women's",
+                                "count": 4558
+                            },
+                            {
+                                "name": "Men's",
+                                "displayName": "Men's",
+                                "count": 1816
+                            },
+                            {
+                                "name": "Unisex",
+                                "displayName": "Unisex",
+                                "count": 1253
+                            },
+                            {
+                                "name": "Kids'",
+                                "displayName": "Kids'",
+                                "count": 478
+                            }
+                        ],
+                        "visibleLimit": 7
+                    },
+                    {
+                        "tag": "size",
+                        "title": "Size",
+                        "entries": [
+                            {
+                                "name": "ONE SIZE",
+                                "displayName": "ONE SIZE",
+                                "count": 94
+                            },
+                            {
+                                "name": "REGULAR",
+                                "displayName": "REGULAR",
+                                "count": 41
+                            },
+                            {
+                                "name": "REGULAR - LEFT ZIP",
+                                "displayName": "REGULAR - LEFT ZIP",
+                                "count": 37
+                            },
+                            {
+                                "name": "REGULAR - RIGHT ZIP",
+                                "displayName": "REGULAR - RIGHT ZIP",
+                                "count": 27
+                            },
+                            {
+                                "name": "XXS",
+                                "displayName": "XXS",
+                                "count": 37
+                            },
+                            {
+                                "name": "XS",
+                                "displayName": "XS",
+                                "count": 1059
+                            },
+                            {
+                                "name": "XS/S",
+                                "displayName": "XS/S",
+                                "count": 20
+                            },
+                            {
+                                "name": "S",
+                                "displayName": "S",
+                                "count": 1092
+                            },
+                            {
+                                "name": "S/M",
+                                "displayName": "S/M",
+                                "count": 40
+                            },
+                            {
+                                "name": "M",
+                                "displayName": "M",
+                                "count": 742
+                            },
+                            {
+                                "name": "M (10-12) KIDS",
+                                "displayName": "M (10-12) KIDS",
+                                "count": 10
+                            },
+                            {
+                                "name": "M/L",
+                                "displayName": "M/L",
+                                "count": 28
+                            },
+                            {
+                                "name": "L",
+                                "displayName": "L",
+                                "count": 637
+                            },
+                            {
+                                "name": "L (14-16) KIDS",
+                                "displayName": "L (14-16) KIDS",
+                                "count": 18
+                            },
+                            {
+                                "name": "L/XL",
+                                "displayName": "L/XL",
+                                "count": 23
+                            },
+                            {
+                                "name": "XL",
+                                "displayName": "XL",
+                                "count": 553
+                            },
+                            {
+                                "name": "1X",
+                                "displayName": "1X",
+                                "count": 27
+                            },
+                            {
+                                "name": "XXL",
+                                "displayName": "XXL",
+                                "count": 208
+                            },
+                            {
+                                "name": "2X",
+                                "displayName": "2X",
+                                "count": 34
+                            },
+                            {
+                                "name": "3X",
+                                "displayName": "3X",
+                                "count": 32
+                            },
+                            {
+                                "name": "XXXL",
+                                "displayName": "XXXL",
+                                "count": 24
+                            },
+                            {
+                                "name": "5T",
+                                "displayName": "5T",
+                                "count": 9
+                            },
+                            {
+                                "name": "6T",
+                                "displayName": "6T",
+                                "count": 10
+                            },
+                            {
+                                "name": "8K",
+                                "displayName": "8K",
+                                "count": 15
+                            },
+                            {
+                                "name": "9K",
+                                "displayName": "9K",
+                                "count": 15
+                            },
+                            {
+                                "name": "10K",
+                                "displayName": "10K",
+                                "count": 20
+                            },
+                            {
+                                "name": "11K",
+                                "displayName": "11K",
+                                "count": 12
+                            },
+                            {
+                                "name": "12K",
+                                "displayName": "12K",
+                                "count": 7
+                            },
+                            {
+                                "name": "13K",
+                                "displayName": "13K",
+                                "count": 16
+                            },
+                            {
+                                "name": "1K",
+                                "displayName": "1K",
+                                "count": 15
+                            },
+                            {
+                                "name": "2K",
+                                "displayName": "2K",
+                                "count": 7
+                            },
+                            {
+                                "name": "3K",
+                                "displayName": "3K",
+                                "count": 12
+                            },
+                            {
+                                "name": "4K",
+                                "displayName": "4K",
+                                "count": 20
+                            },
+                            {
+                                "name": "5K",
+                                "displayName": "5K",
+                                "count": 19
+                            },
+                            {
+                                "name": "6K",
+                                "displayName": "6K",
+                                "count": 36
+                            },
+                            {
+                                "name": "7K",
+                                "displayName": "7K",
+                                "count": 13
+                            },
+                            {
+                                "name": "2 KIDS",
+                                "displayName": "2 KIDS",
+                                "count": 9
+                            },
+                            {
+                                "name": "12 KIDS",
+                                "displayName": "12 KIDS",
+                                "count": 8
+                            },
+                            {
+                                "name": "0",
+                                "displayName": "0",
+                                "count": 86
+                            },
+                            {
+                                "name": "2",
+                                "displayName": "2",
+                                "count": 127
+                            },
+                            {
+                                "name": "4",
+                                "displayName": "4",
+                                "count": 166
+                            },
+                            {
+                                "name": "4.5",
+                                "displayName": "4.5",
+                                "count": 19
+                            },
+                            {
+                                "name": "5",
+                                "displayName": "5",
+                                "count": 130
+                            },
+                            {
+                                "name": "5.5",
+                                "displayName": "5.5",
+                                "count": 80
+                            },
+                            {
+                                "name": "6",
+                                "displayName": "6",
+                                "count": 482
+                            },
+                            {
+                                "name": "6.5",
+                                "displayName": "6.5",
+                                "count": 245
+                            },
+                            {
+                                "name": "7",
+                                "displayName": "7",
+                                "count": 301
+                            },
+                            {
+                                "name": "7.5",
+                                "displayName": "7.5",
+                                "count": 241
+                            },
+                            {
+                                "name": "8",
+                                "displayName": "8",
+                                "count": 530
+                            },
+                            {
+                                "name": "8.5",
+                                "displayName": "8.5",
+                                "count": 280
+                            },
+                            {
+                                "name": "9",
+                                "displayName": "9",
+                                "count": 387
+                            },
+                            {
+                                "name": "9.5",
+                                "displayName": "9.5",
+                                "count": 267
+                            },
+                            {
+                                "name": "10",
+                                "displayName": "10",
+                                "count": 425
+                            },
+                            {
+                                "name": "10.5",
+                                "displayName": "10.5",
+                                "count": 189
+                            },
+                            {
+                                "name": "11",
+                                "displayName": "11",
+                                "count": 270
+                            },
+                            {
+                                "name": "11.5",
+                                "displayName": "11.5",
+                                "count": 76
+                            },
+                            {
+                                "name": "12",
+                                "displayName": "12",
+                                "count": 170
+                            },
+                            {
+                                "name": "12.5",
+                                "displayName": "12.5",
+                                "count": 22
+                            },
+                            {
+                                "name": "13",
+                                "displayName": "13",
+                                "count": 51
+                            },
+                            {
+                                "name": "13.5",
+                                "displayName": "13.5",
+                                "count": 8
+                            },
+                            {
+                                "name": "14",
+                                "displayName": "14",
+                                "count": 88
+                            },
+                            {
+                                "name": "16",
+                                "displayName": "16",
+                                "count": 47
+                            },
+                            {
+                                "name": "18",
+                                "displayName": "18",
+                                "count": 12
+                            },
+                            {
+                                "name": "20",
+                                "displayName": "20",
+                                "count": 9
+                            },
+                            {
+                                "name": "22",
+                                "displayName": "22",
+                                "count": 8
+                            },
+                            {
+                                "name": "22.5 MONDO",
+                                "displayName": "22.5 MONDO",
+                                "count": 11
+                            },
+                            {
+                                "name": "23.5 MONDO",
+                                "displayName": "23.5 MONDO",
+                                "count": 36
+                            },
+                            {
+                                "name": "24",
+                                "displayName": "24",
+                                "count": 12
+                            },
+                            {
+                                "name": "24.5 MONDO",
+                                "displayName": "24.5 MONDO",
+                                "count": 18
+                            },
+                            {
+                                "name": "25",
+                                "displayName": "25",
+                                "count": 11
+                            },
+                            {
+                                "name": "25.5 MONDO",
+                                "displayName": "25.5 MONDO",
+                                "count": 20
+                            },
+                            {
+                                "name": "26",
+                                "displayName": "26",
+                                "count": 13
+                            },
+                            {
+                                "name": "26.5 MONDO",
+                                "displayName": "26.5 MONDO",
+                                "count": 37
+                            },
+                            {
+                                "name": "27",
+                                "displayName": "27",
+                                "count": 8
+                            },
+                            {
+                                "name": "27.5 MONDO",
+                                "displayName": "27.5 MONDO",
+                                "count": 13
+                            },
+                            {
+                                "name": "28",
+                                "displayName": "28",
+                                "count": 31
+                            },
+                            {
+                                "name": "28.5 MONDO",
+                                "displayName": "28.5 MONDO",
+                                "count": 8
+                            },
+                            {
+                                "name": "29.5 MONDO",
+                                "displayName": "29.5 MONDO",
+                                "count": 12
+                            },
+                            {
+                                "name": "30",
+                                "displayName": "30",
+                                "count": 27
+                            },
+                            {
+                                "name": "31",
+                                "displayName": "31",
+                                "count": 8
+                            },
+                            {
+                                "name": "32",
+                                "displayName": "32",
+                                "count": 29
+                            },
+                            {
+                                "name": "34",
+                                "displayName": "34",
+                                "count": 21
+                            },
+                            {
+                                "name": "36",
+                                "displayName": "36",
+                                "count": 21
+                            },
+                            {
+                                "name": "38",
+                                "displayName": "38",
+                                "count": 14
+                            },
+                            {
+                                "name": "38 EU",
+                                "displayName": "38 EU",
+                                "count": 8
+                            },
+                            {
+                                "name": "40",
+                                "displayName": "40",
+                                "count": 31
+                            },
+                            {
+                                "name": "40 EU",
+                                "displayName": "40 EU",
+                                "count": 15
+                            },
+                            {
+                                "name": "41 EU",
+                                "displayName": "41 EU",
+                                "count": 13
+                            },
+                            {
+                                "name": "42",
+                                "displayName": "42",
+                                "count": 7
+                            },
+                            {
+                                "name": "42 EU",
+                                "displayName": "42 EU",
+                                "count": 13
+                            },
+                            {
+                                "name": "43 EU",
+                                "displayName": "43 EU",
+                                "count": 7
+                            },
+                            {
+                                "name": "44 EU",
+                                "displayName": "44 EU",
+                                "count": 9
+                            },
+                            {
+                                "name": "45 EU",
+                                "displayName": "45 EU",
+                                "count": 8
+                            },
+                            {
+                                "name": "47 EU",
+                                "displayName": "47 EU",
+                                "count": 11
+                            },
+                            {
+                                "name": "HCL BRONZE",
+                                "displayName": "HCL BRONZE",
+                                "count": 7
+                            },
+                            {
+                                "name": "LONG",
+                                "displayName": "LONG",
+                                "count": 19
+                            },
+                            {
+                                "name": "LONG - LEFT ZIP",
+                                "displayName": "LONG - LEFT ZIP",
+                                "count": 26
+                            },
+                            {
+                                "name": "LONG - RIGHT ZIP",
+                                "displayName": "LONG - RIGHT ZIP",
+                                "count": 21
+                            },
+                            {
+                                "name": "NONE",
+                                "displayName": "NONE",
+                                "count": 187
+                            }
+                        ],
+                        "visibleLimit": 7
+                    },
+                    {
+                        "tag": "color",
+                        "title": "Color",
+                        "entries": [
+                            {
+                                "name": "Black",
+                                "displayName": "Black",
+                                "count": 2317
+                            },
+                            {
+                                "name": "Blue",
+                                "displayName": "Blue",
+                                "count": 1310
+                            },
+                            {
+                                "name": "Brown",
+                                "displayName": "Brown",
+                                "count": 612
+                            },
+                            {
+                                "name": "Gray",
+                                "displayName": "Gray",
+                                "count": 1254
+                            },
+                            {
+                                "name": "Green",
+                                "displayName": "Green",
+                                "count": 724
+                            },
+                            {
+                                "name": "Khaki",
+                                "displayName": "Khaki",
+                                "count": 279
+                            },
+                            {
+                                "name": "Multi-colored",
+                                "displayName": "Multi-colored",
+                                "count": 66
+                            },
+                            {
+                                "name": "Not color",
+                                "displayName": "Not color",
+                                "count": 40
+                            },
+                            {
+                                "name": "Orange",
+                                "displayName": "Orange",
+                                "count": 131
+                            },
+                            {
+                                "name": "Pink",
+                                "displayName": "Pink",
+                                "count": 151
+                            },
+                            {
+                                "name": "Purple",
+                                "displayName": "Purple",
+                                "count": 302
+                            },
+                            {
+                                "name": "Red",
+                                "displayName": "Red",
+                                "count": 382
+                            },
+                            {
+                                "name": "White",
+                                "displayName": "White",
+                                "count": 293
+                            },
+                            {
+                                "name": "Yellow",
+                                "displayName": "Yellow",
+                                "count": 87
+                            }
+                        ],
+                        "visibleLimit": 7
+                    },
+                    {
+                        "tag": "condition",
+                        "title": "Condition",
+                        "entries": [
+                            {
+                                "name": "Excellent condition",
+                                "displayName": "Excellent condition",
+                                "count": 5698
+                            },
+                            {
+                                "name": "Lightly worn",
+                                "displayName": "Lightly worn",
+                                "count": 2085
+                            },
+                            {
+                                "name": "Moderately worn",
+                                "displayName": "Moderately worn",
+                                "count": 1274
+                            },
+                            {
+                                "name": "Well worn",
+                                "displayName": "Well worn",
+                                "count": 480
+                            }
+                        ],
+                        "visibleLimit": 7
+                    },
+                    {
+                        "tag": "itemStorefrontPriceRange",
+                        "title": "Price",
+                        "entries": [
+                            {
+                                "name": "Under $50",
+                                "displayName": "Under $50",
+                                "count": 3276
+                            },
+                            {
+                                "name": "$50 - $74",
+                                "displayName": "$50 - $74",
+                                "count": 2245
+                            },
+                            {
+                                "name": "$75 - $99",
+                                "displayName": "$75 - $99",
+                                "count": 1259
+                            },
+                            {
+                                "name": "$100 - $149",
+                                "displayName": "$100 - $149",
+                                "count": 966
+                            },
+                            {
+                                "name": "$150 - $199",
+                                "displayName": "$150 - $199",
+                                "count": 385
+                            },
+                            {
+                                "name": "$200 - $249",
+                                "displayName": "$200 - $249",
+                                "count": 222
+                            },
+                            {
+                                "name": "$250 - $299",
+                                "displayName": "$250 - $299",
+                                "count": 101
+                            },
+                            {
+                                "name": "$300+",
+                                "displayName": "$300+",
+                                "count": 157
+                            }
+                        ],
+                        "visibleLimit": 7
+                    }
+                ],
+                "browse": {
+                    "count": 8174,
+                    "indexName": "production-rei-stack-parent_sku_color",
+                    "queryId": "87cda9d8cff887ebd330ba01668b01cd",
+                    "items": [
+                        {
+                            "availableSizes": [
+                                "10.5"
+                            ],
+                            "availableSizeDisplays": [
+                                "10.5:10.5"
+                            ],
+                            "brand": "Saucony",
+                            "storefrontDepartment": null,
+                            "brandDisplay": "Saucony",
+                            "cmsData": null,
+                            "color": "Black/Fog",
+                            "displayColor": "Black/Fog",
+                            "imageUrls": "{\"alt1\":\"https://www.rei.com/media/d2244533-8f02-4da9-bdd8-62816d87226f?size=501\",\"alt2\":\"https://www.rei.com/media/7be0fdb4-ec47-4d9d-98a3-78203398f615\",\"alt3\":\"https://www.rei.com/media/9004b4da-09ff-45f9-964a-50226fcbecd8?size=571\",\"main\":[\"https://www.rei.com/media/b2b116bd-7c82-4341-aef2-a187c2a1bb39?size=505\"]}",
+                            "itemDetail": {
+                                "displayCondition": null
+                            },
+                            "originalPrice": 16000,
+                            "parentSKU": "203871",
+                            "markdownReason": null,
+                            "price": 8000,
+                            "priceRange": [
+                                8000,
+                                8000
+                            ],
+                            "title": "Tempus Road-Running Shoes",
+                            "stackId": "rei_Valley-240_203871-Black/Fog_3",
+                            "displayTitle": "Tempus Road-Running Shoes - Men's",
+                            "objectType": "itemTile",
+                            "pdpStyle": "used",
+                            "pdpLink": {
+                                "path": "/used/p/saucony-tempus-road-running-shoes-mens/203871?color=Black%2FFog",
+                                "url": "https://www.rei.com/used/p/saucony-tempus-road-running-shoes-mens/203871?color=Black%2FFog"
+                            }
+                        },
+                        {
+                            "availableSizes": [
+                                "7.5"
+                            ],
+                            "availableSizeDisplays": [
+                                "7.5:7.5"
+                            ],
+                            "brand": "Altra",
+                            "storefrontDepartment": null,
+                            "brandDisplay": "Altra",
+                            "cmsData": null,
+                            "color": "Teal/Green",
+                            "displayColor": "Teal/Green",
+                            "imageUrls": "{\"alt1\":\"https://www.rei.com/media/b2a771ba-b44a-4717-a9ce-8d4742214be1?size=546\",\"alt2\":\"https://www.rei.com/media/8df336c9-fd1e-48e1-b760-3cecaa77252e?size=594\",\"alt3\":\"https://www.rei.com/media/13d56ee0-1dea-4d8b-b37c-f268e0b6097f?size=649\",\"main\":[\"https://www.rei.com/media/9ea1bf65-560e-4387-a5ca-e33dad3d4797?size=532\"]}",
+                            "itemDetail": {
+                                "displayCondition": null
+                            },
+                            "originalPrice": 13000,
+                            "parentSKU": "216005",
+                            "markdownReason": null,
+                            "price": 5733,
+                            "priceRange": [
+                                5733,
+                                5733
+                            ],
+                            "title": "Rivera Road-Running Shoes",
+                            "stackId": "rei_Valley-240_216005-Teal/Green_3",
+                            "displayTitle": "Rivera Road-Running Shoes - Women's",
+                            "objectType": "itemTile",
+                            "pdpStyle": "used",
+                            "pdpLink": {
+                                "path": "/used/p/altra-rivera-road-running-shoes-womens/216005?color=Teal%2FGreen",
+                                "url": "https://www.rei.com/used/p/altra-rivera-road-running-shoes-womens/216005?color=Teal%2FGreen"
+                            }
+                        },
+                        {
+                            "availableSizes": [
+                                "10"
+                            ],
+                            "availableSizeDisplays": [
+                                "10:10"
+                            ],
+                            "brand": "New Balance",
+                            "storefrontDepartment": null,
+                            "brandDisplay": "New Balance",
+                            "cmsData": null,
+                            "color": "Light Arctic Grey/Arctic Grey",
+                            "displayColor": "Light Arctic Grey/Arctic Grey",
+                            "imageUrls": "{\"alt1\":\"https://www.rei.com/media/b27b315a-8e46-421c-b0aa-d6e073b8841b\",\"alt2\":\"https://www.rei.com/media/2d40fbab-fa66-4a8f-acc2-01ed1c679c49?size=456\",\"alt3\":\"https://www.rei.com/media/39140ab3-2ee3-4472-ba60-224dd9be12a9\",\"main\":[\"https://www.rei.com/media/9d94f7b8-b112-4e3b-8a21-2ebee9580fef\"]}",
+                            "itemDetail": {
+                                "displayCondition": null
+                            },
+                            "originalPrice": 14000,
+                            "parentSKU": "217355",
+                            "markdownReason": null,
+                            "price": 6678,
+                            "priceRange": [
+                                6678,
+                                6678
+                            ],
+                            "title": "Fresh Foam X 880v13 Road-Running Shoes",
+                            "stackId": "rei_Valley-240_217355-Light Arctic Grey/Arctic Grey_3",
+                            "displayTitle": "Fresh Foam X 880v13 Road-Running Shoes - Women's",
+                            "objectType": "itemTile",
+                            "pdpStyle": "used",
+                            "pdpLink": {
+                                "path": "/used/p/new-balance-fresh-foam-x-880v13-road-running-shoes-womens/217355?color=Light%20Arctic%20Grey%2FArctic%20Grey",
+                                "url": "https://www.rei.com/used/p/new-balance-fresh-foam-x-880v13-road-running-shoes-womens/217355?color=Light%20Arctic%20Grey%2FArctic%20Grey"
+                            }
+                        },
+                        {
+                            "availableSizes": [
+                                "7"
+                            ],
+                            "availableSizeDisplays": [
+                                "7:7"
+                            ],
+                            "brand": "Hoka",
+                            "storefrontDepartment": null,
+                            "brandDisplay": "Hoka",
+                            "cmsData": null,
+                            "color": "Summer Song/Ice Flow",
+                            "displayColor": "Summer Song/Ice Flow",
+                            "imageUrls": "{\"alt1\":\"https://www.rei.com/media/ba5d5157-afaa-41ce-95a5-10290ef06110?size=550\",\"alt2\":\"https://www.rei.com/media/1c0a7dff-edd8-4913-a848-61a309ead1e1?size=542\",\"alt3\":\"https://www.rei.com/media/d2e1c14d-ce47-4245-a909-c4eb630de13f\",\"main\":[\"https://www.rei.com/media/ba5d5157-afaa-41ce-95a5-10290ef06110?size=550\"]}",
+                            "itemDetail": {
+                                "displayCondition": null
+                            },
+                            "originalPrice": 14000,
+                            "parentSKU": "223142",
+                            "markdownReason": null,
+                            "price": 5978,
+                            "priceRange": [
+                                5978,
+                                5978
+                            ],
+                            "title": "Clifton 8 Road-Running Shoes",
+                            "stackId": "rei_Valley-240_223142-Summer Song/Ice Flow_3",
+                            "displayTitle": "Clifton 8 Road-Running Shoes - Women's",
+                            "objectType": "itemTile",
+                            "pdpStyle": "used",
+                            "pdpLink": {
+                                "path": "/used/p/hoka-clifton-8-road-running-shoes-womens/223142?color=Summer%20Song%2FIce%20Flow",
+                                "url": "https://www.rei.com/used/p/hoka-clifton-8-road-running-shoes-womens/223142?color=Summer%20Song%2FIce%20Flow"
+                            }
+                        },
+                        {
+                            "availableSizes": [
+                                "XXS (4-5) Kids",
+                                "S (8) Kids",
+                                "M (10-12) Kids"
+                            ],
+                            "availableSizeDisplays": [
+                                "XXS (4-5) Kids:XXS (4-5) Kids",
+                                "S (8) Kids:S (8) Kids",
+                                "M (10-12) Kids:M (10-12) Kids"
+                            ],
+                            "brand": "REI Co-op",
+                            "storefrontDepartment": null,
+                            "brandDisplay": "REI Co-op",
+                            "cmsData": null,
+                            "color": "Thunder Blue",
+                            "displayColor": "Thunder Blue",
+                            "imageUrls": "{\"main\":[\"https://www.rei.com/media/9834c459-845a-40d2-9101-1a5a3b16152a\"]}",
+                            "itemDetail": {
+                                "displayCondition": null
+                            },
+                            "originalPrice": 3995,
+                            "parentSKU": "148384",
+                            "markdownReason": "re",
+                            "price": 1518,
+                            "priceRange": [
+                                1518,
+                                1518
+                            ],
+                            "title": "Sahara Solid Long-Sleeve Shirt",
+                            "stackId": "rei_Valley-240_148384-Thunder Blue_3",
+                            "displayTitle": "Sahara Solid Long-Sleeve Shirt - Boys'",
+                            "objectType": "itemTile",
+                            "pdpStyle": "used",
+                            "pdpLink": {
+                                "path": "/used/p/rei-co-op-sahara-solid-long-sleeve-shirt/148384?color=Thunder%20Blue",
+                                "url": "https://www.rei.com/used/p/rei-co-op-sahara-solid-long-sleeve-shirt/148384?color=Thunder%20Blue"
+                            }
+                        },
+                        {
+                            "availableSizes": [
+                                "41 EU Medium/Narrow"
+                            ],
+                            "availableSizeDisplays": [
+                                "41 EU Medium/Narrow:41 EU Medium/Narrow"
+                            ],
+                            "brand": "Birkenstock",
+                            "storefrontDepartment": null,
+                            "brandDisplay": "Birkenstock",
+                            "cmsData": null,
+                            "color": "Futura Black",
+                            "displayColor": "Futura Black",
+                            "imageUrls": "{\"alt1\":\"https://www.rei.com/media/b1d3642d-e1a1-484c-a7ee-d3ed9e22f5d5?size=511\",\"alt2\":\"https://www.rei.com/media/87eabd81-032e-42d9-94a8-674bf80a750d\",\"alt3\":\"https://www.rei.com/media/813417d5-b449-45e2-b02e-db781257aa9d\",\"main\":[\"https://www.rei.com/media/714253b4-1e02-408d-b377-0c41d8e82474?size=660\"]}",
+                            "itemDetail": {
+                                "displayCondition": null
+                            },
+                            "originalPrice": 15000,
+                            "parentSKU": "205414",
+                            "markdownReason": "re",
+                            "price": 9300,
+                            "priceRange": [
+                                9300,
+                                9300
+                            ],
+                            "title": "Sahara Sandals",
+                            "stackId": "rei_Valley-240_205414-Futura Black_3",
+                            "displayTitle": "Sahara Sandals - Women's",
+                            "objectType": "itemTile",
+                            "pdpStyle": "used",
+                            "pdpLink": {
+                                "path": "/used/p/birkenstock-sahara-sandals-womens/205414?color=Futura%20Black",
+                                "url": "https://www.rei.com/used/p/birkenstock-sahara-sandals-womens/205414?color=Futura%20Black"
+                            }
+                        },
+                        {
+                            "availableSizes": [
+                                "6"
+                            ],
+                            "availableSizeDisplays": [
+                                "6:6"
+                            ],
+                            "brand": "Chaco",
+                            "storefrontDepartment": null,
+                            "brandDisplay": "Chaco",
+                            "cmsData": null,
+                            "color": "Boost Black",
+                            "displayColor": "Boost Black",
+                            "imageUrls": "{\"alt1\":\"https://www.rei.com/media/edda0278-4b66-4606-8b07-ea2a6a7e07b3\",\"alt2\":\"https://www.rei.com/media/8236ac9f-45af-4d28-9c1d-bd16efd83c14\",\"alt3\":\"https://www.rei.com/media/7270ebf3-092a-4dd0-8929-ac428618f654\",\"main\":[\"https://www.rei.com/media/876cb35c-a31b-4a87-a0db-41b1d40e5b6a?size=644\"]}",
+                            "itemDetail": {
+                                "displayCondition": null
+                            },
+                            "originalPrice": 10500,
+                            "parentSKU": "897078",
+                            "markdownReason": "re",
+                            "price": 5000,
+                            "priceRange": [
+                                5000,
+                                5000
+                            ],
+                            "title": "ZX/2 Classic Sandals",
+                            "stackId": "rei_Valley-240_897078-Boost Black_3",
+                            "displayTitle": "ZX/2 Classic Sandals - Women's",
+                            "objectType": "itemTile",
+                            "pdpStyle": "used",
+                            "pdpLink": {
+                                "path": "/used/p/chaco-zx2-classic-sandals-womens/897078?color=Boost%20Black",
+                                "url": "https://www.rei.com/used/p/chaco-zx2-classic-sandals-womens/897078?color=Boost%20Black"
+                            }
+                        },
+                        {
+                            "availableSizes": [
+                                "XS",
+                                "XL"
+                            ],
+                            "availableSizeDisplays": [
+                                "XS:XS",
+                                "XL:XL"
+                            ],
+                            "brand": "The North Face",
+                            "storefrontDepartment": null,
+                            "brandDisplay": "The North Face",
+                            "cmsData": null,
+                            "color": "Antelope Tan",
+                            "displayColor": "Antelope Tan",
+                            "imageUrls": "{\"alt1\":\"https://www.rei.com/media/6c7607a2-0eaa-49d2-9968-d9770d6b40b2\",\"alt2\":\"https://www.rei.com/media/1ff83acb-a4b7-40c7-bb8c-fbb5e600dc68\",\"alt3\":\"https://www.rei.com/media/1ff83acb-a4b7-40c7-bb8c-fbb5e600dc68\",\"main\":[\"https://www.rei.com/media/6dd8a2a6-5ee9-4c88-9701-fe66d54e0f61\"]}",
+                            "itemDetail": {
+                                "displayCondition": null
+                            },
+                            "originalPrice": 35000,
+                            "parentSKU": "194923",
+                            "markdownReason": null,
+                            "price": 13860,
+                            "priceRange": [
+                                13860,
+                                15400
+                            ],
+                            "title": "Snow Down Parka",
+                            "stackId": "rei_Valley-240_194923-Antelope Tan_3",
+                            "displayTitle": "Snow Down Parka - Women's",
+                            "objectType": "itemTile",
+                            "pdpStyle": "used",
+                            "pdpLink": {
+                                "path": "/used/p/the-north-face-snow-down-parka-womens/194923?color=Antelope%20Tan",
+                                "url": "https://www.rei.com/used/p/the-north-face-snow-down-parka-womens/194923?color=Antelope%20Tan"
+                            }
+                        },
+                        {
+                            "availableSizes": [
+                                "7.5",
+                                "9"
+                            ],
+                            "availableSizeDisplays": [
+                                "7.5:7.5",
+                                "9:9"
+                            ],
+                            "brand": "La Sportiva",
+                            "storefrontDepartment": null,
+                            "brandDisplay": "La Sportiva",
+                            "cmsData": null,
+                            "color": "Taupe/Berry",
+                            "displayColor": "Taupe/Berry",
+                            "imageUrls": "{\"alt1\":\"https://res.cloudinary.com/yerdle/image/upload/v1680630441/production/partners/3/catalogItemImageCache/u2vez7snp1trwswrwkpm.jpg\",\"alt2\":\"https://res.cloudinary.com/yerdle/image/upload/v1671120327/production/partners/3/catalogItemImageCache/gqmqkujx8zvl0is34qsq.jpg\",\"alt3\":\"https://res.cloudinary.com/yerdle/image/upload/v1680630428/production/partners/3/catalogItemImageCache/nspz50p2vphz31j9ltkz.jpg\",\"main\":[\"https://res.cloudinary.com/yerdle/image/upload/v1680630294/production/partners/3/catalogItemImageCache/ykuwmgfw3lvx9hvoadmk.jpg\"]}",
+                            "itemDetail": {
+                                "displayCondition": null
+                            },
+                            "originalPrice": 19900,
+                            "parentSKU": "113108",
+                            "markdownReason": "re",
+                            "price": 7244,
+                            "priceRange": [
+                                7244,
+                                8278
+                            ],
+                            "title": "Nucleo High GTX Hiking Boots",
+                            "stackId": "rei_Valley-240_113108-Taupe/Berry_3",
+                            "displayTitle": "Nucleo High GTX Hiking Boots - Women's",
+                            "objectType": "itemTile",
+                            "pdpStyle": "used",
+                            "pdpLink": {
+                                "path": "/used/p/la-sportiva-nucleo-high-gtx-hiking-boots-womens/113108?color=Taupe%2FBerry",
+                                "url": "https://www.rei.com/used/p/la-sportiva-nucleo-high-gtx-hiking-boots-womens/113108?color=Taupe%2FBerry"
+                            }
+                        },
+                        {
+                            "availableSizes": [
+                                "14"
+                            ],
+                            "availableSizeDisplays": [
+                                "14:14"
+                            ],
+                            "brand": "Merrell",
+                            "storefrontDepartment": null,
+                            "brandDisplay": "Merrell",
+                            "cmsData": null,
+                            "color": "Earth",
+                            "displayColor": "Earth",
+                            "imageUrls": "{\"alt1\":\"https://www.rei.com/media/a9e8877e-7840-4375-87c5-9a49ce4a1bdb\",\"alt2\":\"https://www.rei.com/media/ed69d143-3118-4fac-a643-48506801d1df\",\"alt3\":\"https://www.rei.com/media/0b9aafb6-4cfd-4fcb-a89d-387b099ea9a8\",\"main\":[\"https://www.rei.com/media/a9e8877e-7840-4375-87c5-9a49ce4a1bdb\"]}",
+                            "itemDetail": {
+                                "displayCondition": null
+                            },
+                            "originalPrice": 14500,
+                            "parentSKU": "113822",
+                            "markdownReason": "re",
+                            "price": 3785,
+                            "priceRange": [
+                                3785,
+                                3785
+                            ],
+                            "title": "Moab 2 Mid Waterproof Hiking Boots",
+                            "stackId": "rei_Valley-240_113822-Earth_3",
+                            "displayTitle": "Moab 2 Mid Waterproof Hiking Boots - Men's",
+                            "objectType": "itemTile",
+                            "pdpStyle": "used",
+                            "pdpLink": {
+                                "path": "/used/p/merrell-moab-2-mid-waterproof-hiking-boots-mens/113822?color=Earth",
+                                "url": "https://www.rei.com/used/p/merrell-moab-2-mid-waterproof-hiking-boots-mens/113822?color=Earth"
+                            }
+                        },
+                        {
+                            "availableSizes": [
+                                "6",
+                                "6.5",
+                                "7",
+                                "7 Wide",
+                                "7.5",
+                                "8",
+                                "8.5",
+                                "10",
+                                "10 Wide",
+                                "10.5"
+                            ],
+                            "availableSizeDisplays": [
+                                "6:6",
+                                "6.5:6.5",
+                                "7:7",
+                                "7 Wide:7 Wide",
+                                "7.5:7.5",
+                                "8:8",
+                                "8.5:8.5",
+                                "10:10",
+                                "10 Wide:10 Wide",
+                                "10.5:10.5"
+                            ],
+                            "brand": "Oboz",
+                            "storefrontDepartment": null,
+                            "brandDisplay": "Oboz",
+                            "cmsData": null,
+                            "color": "Huckleberry",
+                            "displayColor": "Huckleberry",
+                            "imageUrls": "{\"alt1\":\"https://www.rei.com/media/57df57cf-1c47-4fd5-b80e-f187b613cd76\",\"alt2\":\"https://www.rei.com/media/89054ec0-c829-409a-909c-6cc8d1a3b4a8\",\"alt3\":\"https://www.rei.com/media/07781840-2fd9-409b-b95d-70c146c4dd3b\",\"main\":[\"https://www.rei.com/media/57df57cf-1c47-4fd5-b80e-f187b613cd76\"]}",
+                            "itemDetail": {
+                                "displayCondition": null
+                            },
+                            "originalPrice": 16000,
+                            "parentSKU": "114409",
+                            "markdownReason": "re",
+                            "price": 4368,
+                            "priceRange": [
+                                4368,
+                                6240
+                            ],
+                            "title": "Sapphire Mid Waterproof Hiking Boots",
+                            "stackId": "rei_Valley-240_114409-Huckleberry_3",
+                            "displayTitle": "Sapphire Mid Waterproof Hiking Boots - Women's",
+                            "objectType": "itemTile",
+                            "pdpStyle": "used",
+                            "pdpLink": {
+                                "path": "/used/p/oboz-sapphire-mid-waterproof-hiking-boots-womens/114409?color=Huckleberry",
+                                "url": "https://www.rei.com/used/p/oboz-sapphire-mid-waterproof-hiking-boots-womens/114409?color=Huckleberry"
+                            }
+                        },
+                        {
+                            "availableSizes": [
+                                "6",
+                                "6.5",
+                                "8.5",
+                                "9",
+                                "9.5",
+                                "10",
+                                "10.5"
+                            ],
+                            "availableSizeDisplays": [
+                                "6:6",
+                                "6.5:6.5",
+                                "8.5:8.5",
+                                "9:9",
+                                "9.5:9.5",
+                                "10:10",
+                                "10.5:10.5"
+                            ],
+                            "brand": "Keen",
+                            "storefrontDepartment": null,
+                            "brandDisplay": "Keen",
+                            "cmsData": null,
+                            "color": "Magnet/Atlantic Blue",
+                            "displayColor": "Magnet/Atlantic Blue",
+                            "imageUrls": "{\"alt1\":\"https://www.rei.com/media/d616369c-c765-4e8c-a537-88ec2d190739?size=460\",\"alt2\":\"https://www.rei.com/media/481e7e25-844a-4b31-8d52-64084b3a53bf\",\"alt3\":\"https://www.rei.com/media/a16757d6-69c0-46fe-8ba3-c7765ae77296\",\"main\":[\"https://www.rei.com/media/3c3541a7-bc58-471f-a1b8-5ff0a8f9ba65?size=458\"]}",
+                            "itemDetail": {
+                                "displayCondition": null
+                            },
+                            "originalPrice": 17495,
+                            "parentSKU": "119903",
+                            "markdownReason": "re",
+                            "price": 5429,
+                            "priceRange": [
+                                5429,
+                                6980
+                            ],
+                            "title": "Targhee III Waterproof Mid Hiking Boots",
+                            "stackId": "rei_Valley-240_119903-Magnet/Atlantic Blue_3",
+                            "displayTitle": "Targhee III Waterproof Mid Hiking Boots - Women's",
+                            "objectType": "itemTile",
+                            "pdpStyle": "used",
+                            "pdpLink": {
+                                "path": "/used/p/keen-targhee-iii-waterproof-mid-hiking-boots-womens/119903?color=Magnet%2FAtlantic%20Blue",
+                                "url": "https://www.rei.com/used/p/keen-targhee-iii-waterproof-mid-hiking-boots-womens/119903?color=Magnet%2FAtlantic%20Blue"
+                            }
+                        },
+                        {
+                            "availableSizes": [
+                                "9.5 Wide",
+                                "15"
+                            ],
+                            "availableSizeDisplays": [
+                                "9.5 Wide:9.5 Wide",
+                                "15:15"
+                            ],
+                            "brand": "Keen",
+                            "storefrontDepartment": null,
+                            "brandDisplay": "Keen",
+                            "cmsData": null,
+                            "color": "Black Olive/Golden Brown",
+                            "displayColor": "Black Olive/Golden Brown",
+                            "imageUrls": "{\"alt1\":\"https://www.rei.com/media/804dc1af-b95f-4e6e-9f50-dde899b29627?size=453\",\"alt2\":\"https://www.rei.com/media/a85c0ba1-4dba-43f5-899a-53a59a12a602\",\"alt3\":\"https://www.rei.com/media/ed049805-f23d-4894-8237-b8d1fa8869a4\",\"main\":[\"https://www.rei.com/media/7dd07e01-06f5-42ba-af2b-e82ff4d918e0\"]}",
+                            "itemDetail": {
+                                "displayCondition": null
+                            },
+                            "originalPrice": 17495,
+                            "parentSKU": "119905",
+                            "markdownReason": "re",
+                            "price": 5143,
+                            "priceRange": [
+                                5143,
+                                5878
+                            ],
+                            "title": "Targhee III Waterproof Mid Hiking Boots",
+                            "stackId": "rei_Valley-240_119905-Black Olive/Golden Brown_3",
+                            "displayTitle": "Targhee III Waterproof Mid Hiking Boots - Men's",
+                            "objectType": "itemTile",
+                            "pdpStyle": "used",
+                            "pdpLink": {
+                                "path": "/used/p/keen-targhee-iii-waterproof-mid-hiking-boots-mens/119905?color=Black%20Olive%2FGolden%20Brown",
+                                "url": "https://www.rei.com/used/p/keen-targhee-iii-waterproof-mid-hiking-boots-mens/119905?color=Black%20Olive%2FGolden%20Brown"
+                            }
+                        },
+                        {
+                            "availableSizes": [
+                                "NONE"
+                            ],
+                            "availableSizeDisplays": [
+                                "NONE:NONE"
+                            ],
+                            "brand": "REI Co-op",
+                            "storefrontDepartment": null,
+                            "brandDisplay": "REI Co-op",
+                            "cmsData": null,
+                            "color": "Marigold",
+                            "displayColor": "Marigold",
+                            "imageUrls": "{\"alt1\":\"https://www.rei.com/media/eebfa8c4-518f-43bb-8c37-62dedc417ac3\",\"alt2\":\"https://www.rei.com/media/300fd83b-222d-44ca-a77f-f448ffc96316\",\"alt3\":\"https://www.rei.com/media/4e76bb97-e35b-4770-8eb5-6b03bf669019\",\"main\":[\"https://www.rei.com/media/55633822-e436-48b0-98b9-d272258a7d74\"]}",
+                            "itemDetail": {
+                                "displayCondition": null
+                            },
+                            "originalPrice": 34900,
+                            "parentSKU": "128688",
+                            "markdownReason": null,
+                            "price": 23173,
+                            "priceRange": [
+                                23173,
+                                23173
+                            ],
+                            "title": "Grand Hut 6 Tent",
+                            "stackId": "rei_Valley-240_128688-Marigold_3",
+                            "displayTitle": "Grand Hut 6 Tent",
+                            "objectType": "itemTile",
+                            "pdpStyle": "used",
+                            "pdpLink": {
+                                "path": "/used/p/rei-co-op-grand-hut-6-tent/128688?color=Marigold",
+                                "url": "https://www.rei.com/used/p/rei-co-op-grand-hut-6-tent/128688?color=Marigold"
+                            }
+                        },
+                        {
+                            "availableSizes": [
+                                "NONE"
+                            ],
+                            "availableSizeDisplays": [
+                                "NONE:NONE"
+                            ],
+                            "brand": "REI Co-op",
+                            "storefrontDepartment": null,
+                            "brandDisplay": "REI Co-op",
+                            "cmsData": null,
+                            "color": "Blue Heaven",
+                            "displayColor": "Blue Heaven",
+                            "imageUrls": "{\"alt1\":\"https://www.rei.com/media/ae4e2770-5988-433b-bc45-4463fa41766f\",\"main\":[\"https://www.rei.com/media/6048bfa0-9db0-4de9-8eea-c7cd4b66e131\"]}",
+                            "itemDetail": {
+                                "displayCondition": null
+                            },
+                            "originalPrice": 34900,
+                            "parentSKU": "128688",
+                            "markdownReason": null,
+                            "price": 27920,
+                            "priceRange": [
+                                27920,
+                                27920
+                            ],
+                            "title": "Grand Hut 6 Tent",
+                            "stackId": "rei_Valley-240_128688-Blue Heaven_3",
+                            "displayTitle": "Grand Hut 6 Tent",
+                            "objectType": "itemTile",
+                            "pdpStyle": "used",
+                            "pdpLink": {
+                                "path": "/used/p/rei-co-op-grand-hut-6-tent/128688?color=Blue%20Heaven",
+                                "url": "https://www.rei.com/used/p/rei-co-op-grand-hut-6-tent/128688?color=Blue%20Heaven"
+                            }
+                        },
+                        {
+                            "availableSizes": [
+                                "One Size"
+                            ],
+                            "availableSizeDisplays": [
+                                "One Size:One Size"
+                            ],
+                            "brand": "REI Co-op",
+                            "storefrontDepartment": null,
+                            "brandDisplay": "REI Co-op",
+                            "cmsData": null,
+                            "color": "Goji Red",
+                            "displayColor": "Goji Red",
+                            "imageUrls": "{\"alt1\":\"https://www.rei.com/media/4e5b7aef-50ed-4b0e-abc2-9ba8d21a23c4\",\"alt2\":\"https://www.rei.com/media/d16e394b-48c8-4c52-81cd-bc459056818f?size=508\",\"alt3\":\"https://www.rei.com/media/1d3f3aa6-7f17-4b3a-9470-eea9c1f5675c?size=480\",\"main\":[\"https://www.rei.com/media/77666e44-96c6-4bf7-9c5f-800f36b9c6da?size=742\"]}",
+                            "itemDetail": {
+                                "displayCondition": null
+                            },
+                            "originalPrice": 14900,
+                            "parentSKU": "129831",
+                            "markdownReason": "01",
+                            "price": 10728,
+                            "priceRange": [
+                                10728,
+                                10728
+                            ],
+                            "title": "Radiant 20 Sleeping Bag",
+                            "stackId": "rei_Valley-240_129831-Goji Red_3",
+                            "displayTitle": "Radiant 20 Sleeping Bag - Kids'",
+                            "objectType": "itemTile",
+                            "pdpStyle": "used",
+                            "pdpLink": {
+                                "path": "/used/p/rei-co-op-radiant-20-sleeping-bag-kids/129831?color=Goji%20Red",
+                                "url": "https://www.rei.com/used/p/rei-co-op-radiant-20-sleeping-bag-kids/129831?color=Goji%20Red"
+                            }
+                        },
+                        {
+                            "availableSizes": [
+                                "Regular"
+                            ],
+                            "availableSizeDisplays": [
+                                "Regular:Regular"
+                            ],
+                            "brand": "Nemo",
+                            "storefrontDepartment": null,
+                            "brandDisplay": "Nemo",
+                            "cmsData": null,
+                            "color": "Skyburst",
+                            "displayColor": "Skyburst",
+                            "imageUrls": "{\"alt1\":\"https://www.rei.com/media/79709251-e05b-4706-b0c2-1e2a0a3dbae1?size=556\",\"alt2\":\"https://www.rei.com/media/725fd76f-9304-44a5-91c9-635b844a57e2\",\"alt3\":\"https://www.rei.com/media/ab24a0da-07fb-456e-919b-ff1a34e77254?size=454\",\"main\":[\"https://www.rei.com/media/f5b5140b-8dfa-4a7e-8d03-b5e0a9db75e0?size=830\"]}",
+                            "itemDetail": {
+                                "displayCondition": null
+                            },
+                            "originalPrice": 5495,
+                            "parentSKU": "141846",
+                            "markdownReason": null,
+                            "price": 3913,
+                            "priceRange": [
+                                3913,
+                                3913
+                            ],
+                            "title": "Switchback Sleeping Pad",
+                            "stackId": "rei_Valley-240_141846-Skyburst_3",
+                            "displayTitle": "Switchback Sleeping Pad",
+                            "objectType": "itemTile",
+                            "pdpStyle": "used",
+                            "pdpLink": {
+                                "path": "/used/p/nemo-switchback-sleeping-pad/141846?color=Skyburst",
+                                "url": "https://www.rei.com/used/p/nemo-switchback-sleeping-pad/141846?color=Skyburst"
+                            }
+                        },
+                        {
+                            "availableSizes": [
+                                "S"
+                            ],
+                            "availableSizeDisplays": [
+                                "S:S"
+                            ],
+                            "brand": "Osprey",
+                            "storefrontDepartment": null,
+                            "brandDisplay": "Osprey",
+                            "cmsData": null,
+                            "color": "Black",
+                            "displayColor": "Black",
+                            "imageUrls": "{\"alt1\":\"https://www.rei.com/media/06f30296-78a7-472c-aaff-703c32ab7998\",\"alt2\":\"https://www.rei.com/media/8bf98c60-295a-40a0-9247-d4e351869fe2\",\"alt3\":\"https://www.rei.com/media/4c7723b9-1da5-4bf4-b434-c0ebc5eedacc\",\"main\":[\"https://www.rei.com/media/product/1446690001\"]}",
+                            "itemDetail": {
+                                "displayCondition": null
+                            },
+                            "originalPrice": 21500,
+                            "parentSKU": "144669",
+                            "markdownReason": null,
+                            "price": 17200,
+                            "priceRange": [
+                                17200,
+                                17200
+                            ],
+                            "title": "Manta 34 Hydration Pack",
+                            "stackId": "rei_Valley-240_144669-Black_3",
+                            "displayTitle": "Manta 34 Hydration Pack - Men's",
+                            "objectType": "itemTile",
+                            "pdpStyle": "used",
+                            "pdpLink": {
+                                "path": "/used/p/osprey-manta-34-hydration-pack-mens/144669?color=Black",
+                                "url": "https://www.rei.com/used/p/osprey-manta-34-hydration-pack-mens/144669?color=Black"
+                            }
+                        },
+                        {
+                            "availableSizes": [
+                                "Regular",
+                                "Regular - Left Zip",
+                                "Regular - Right Zip",
+                                "Long",
+                                "Long - Left Zip",
+                                "Long - Right Zip"
+                            ],
+                            "availableSizeDisplays": [
+                                "Regular:Regular",
+                                "Regular - Left Zip:Regular - Left Zip",
+                                "Regular - Right Zip:Regular - Right Zip",
+                                "Long:Long",
+                                "Long - Left Zip:Long - Left Zip",
+                                "Long - Right Zip:Long - Right Zip"
+                            ],
+                            "brand": "REI Co-op",
+                            "storefrontDepartment": null,
+                            "brandDisplay": "REI Co-op",
+                            "cmsData": null,
+                            "color": "Alloy Grey",
+                            "displayColor": "Alloy Grey",
+                            "imageUrls": "{\"alt1\":\"https://www.rei.com/media/8035df9a-9768-4185-9bef-e43c649669e9\",\"alt2\":\"https://www.rei.com/media/7272e0ab-5fd8-4cdf-8801-b61485c0438e?size=461\",\"alt3\":\"https://www.rei.com/media/2db30f48-7349-4c95-833b-3dde5f0ab74c?size=455\",\"main\":[\"https://www.rei.com/media/a14187d6-646a-464d-bc40-e29fd8d1d08d\"]}",
+                            "itemDetail": {
+                                "displayCondition": null
+                            },
+                            "originalPrice": 34900,
+                            "parentSKU": "148246",
+                            "markdownReason": "ti",
+                            "price": 21696,
+                            "priceRange": [
+                                21696,
+                                27120
+                            ],
+                            "title": "Magma 30 Sleeping Bag",
+                            "stackId": "rei_Valley-240_148246-Alloy Grey_3",
+                            "displayTitle": "Magma 30 Sleeping Bag - Men's",
+                            "objectType": "itemTile",
+                            "pdpStyle": "used",
+                            "pdpLink": {
+                                "path": "/used/p/rei-co-op-magma-30-sleeping-bag-mens/148246?color=Alloy%20Grey",
+                                "url": "https://www.rei.com/used/p/rei-co-op-magma-30-sleeping-bag-mens/148246?color=Alloy%20Grey"
+                            }
+                        },
+                        {
+                            "availableSizes": [
+                                "7.5",
+                                "8"
+                            ],
+                            "availableSizeDisplays": [
+                                "7.5:7.5",
+                                "8:8"
+                            ],
+                            "brand": "Danner",
+                            "storefrontDepartment": null,
+                            "brandDisplay": "Danner",
+                            "cmsData": null,
+                            "color": "Iron/Picante",
+                            "displayColor": "Iron/Picante",
+                            "imageUrls": "{\"alt1\":\"https://www.rei.com/media/40e7d5cf-ebc2-4a2d-9f38-e3b69a89212e\",\"alt2\":\"https://www.rei.com/media/4dd25642-431d-4fef-84a2-49d01c97eb32\",\"alt3\":\"https://www.rei.com/media/a060c9b1-091f-471a-84ab-7497e2cd122e?size=707\",\"main\":[\"https://www.rei.com/media/d5cd3b98-9555-4a4f-9667-e96928c81fc2?size=492\"]}",
+                            "itemDetail": {
+                                "displayCondition": null
+                            },
+                            "originalPrice": 16995,
+                            "parentSKU": "155562",
+                            "markdownReason": "re",
+                            "price": 7197,
+                            "priceRange": [
+                                7197,
+                                7197
+                            ],
+                            "title": "Inquire Chukka Boots",
+                            "stackId": "rei_Valley-240_155562-Iron/Picante_3",
+                            "displayTitle": "Inquire Chukka Boots - Women's",
+                            "objectType": "itemTile",
+                            "pdpStyle": "used",
+                            "pdpLink": {
+                                "path": "/used/p/danner-inquire-chukka-boots-womens/155562?color=Iron%2FPicante",
+                                "url": "https://www.rei.com/used/p/danner-inquire-chukka-boots-womens/155562?color=Iron%2FPicante"
+                            }
+                        },
+                        {
+                            "availableSizes": [
+                                "Regular - Left Zip",
+                                "Long",
+                                "Long - Left Zip"
+                            ],
+                            "availableSizeDisplays": [
+                                "Regular - Left Zip:Regular - Left Zip",
+                                "Long:Long",
+                                "Long - Left Zip:Long - Left Zip"
+                            ],
+                            "brand": "Nemo",
+                            "storefrontDepartment": null,
+                            "brandDisplay": "Nemo",
+                            "cmsData": null,
+                            "color": "Torch/Stormy Night",
+                            "displayColor": "Torch/Stormy Night",
+                            "imageUrls": "{\"alt1\":\"https://www.rei.com/media/e5126723-f432-4979-8297-4e7eedb84078?size=677\",\"alt2\":\"https://www.rei.com/media/fcae20c1-1372-4f1d-bb83-944b8dc36a17?size=505\",\"alt3\":\"https://www.rei.com/media/4f3266a6-87ba-44b5-8f1e-7fc13fcaecb0?size=514\",\"main\":[\"https://www.rei.com/media/c56aec78-bb38-4fba-b11c-54fbb2300294?size=673\"]}",
+                            "itemDetail": {
+                                "displayCondition": null
+                            },
+                            "originalPrice": 34995,
+                            "parentSKU": "163032",
+                            "markdownReason": null,
+                            "price": 21270,
+                            "priceRange": [
+                                21270,
+                                25596
+                            ],
+                            "title": "Disco 15 Sleeping Bag",
+                            "stackId": "rei_Valley-240_163032-Torch/Stormy Night_3",
+                            "displayTitle": "Disco 15 Sleeping Bag - Men's",
+                            "objectType": "itemTile",
+                            "pdpStyle": "used",
+                            "pdpLink": {
+                                "path": "/used/p/nemo-disco-15-sleeping-bag-mens/163032?color=Torch%2FStormy%20Night",
+                                "url": "https://www.rei.com/used/p/nemo-disco-15-sleeping-bag-mens/163032?color=Torch%2FStormy%20Night"
+                            }
+                        },
+                        {
+                            "availableSizes": [
+                                "Long - Right Zip"
+                            ],
+                            "availableSizeDisplays": [
+                                "Long - Right Zip:Long - Right Zip"
+                            ],
+                            "brand": "Nemo",
+                            "storefrontDepartment": null,
+                            "brandDisplay": "Nemo",
+                            "cmsData": null,
+                            "color": "Electra/Starlight Ridge",
+                            "displayColor": "Electra/Starlight Ridge",
+                            "imageUrls": "{\"alt1\":\"https://www.rei.com/media/35d35bd3-530a-41fc-93a1-89457c0ee1fb?size=660\",\"alt2\":\"https://www.rei.com/media/38764cd4-a8f6-480c-85df-febc1ad9cdcc?size=621\",\"alt3\":\"https://www.rei.com/media/887ad727-1927-40bf-b9ed-538d3b704518?size=646\",\"main\":[\"https://www.rei.com/media/b6f38803-4b3f-46a7-bf65-d195e2fc71bc?size=617\"]}",
+                            "itemDetail": {
+                                "displayCondition": null
+                            },
+                            "originalPrice": 34995,
+                            "parentSKU": "163037",
+                            "markdownReason": "ti",
+                            "price": 22489,
+                            "priceRange": [
+                                22489,
+                                22489
+                            ],
+                            "title": "Disco 15 Sleeping Bag",
+                            "stackId": "rei_Valley-240_163037-Electra/Starlight Ridge_3",
+                            "displayTitle": "Disco 15 Sleeping Bag - Women's",
+                            "objectType": "itemTile",
+                            "pdpStyle": "used",
+                            "pdpLink": {
+                                "path": "/used/p/nemo-disco-15-sleeping-bag-womens/163037?color=Electra%2FStarlight%20Ridge",
+                                "url": "https://www.rei.com/used/p/nemo-disco-15-sleeping-bag-womens/163037?color=Electra%2FStarlight%20Ridge"
+                            }
+                        },
+                        {
+                            "availableSizes": [
+                                "Regular - Left Zip"
+                            ],
+                            "availableSizeDisplays": [
+                                "Regular - Left Zip:Regular - Left Zip"
+                            ],
+                            "brand": "Mountain Hardwear",
+                            "storefrontDepartment": null,
+                            "brandDisplay": "Mountain Hardwear",
+                            "cmsData": null,
+                            "color": "Altitude Blue",
+                            "displayColor": "Altitude Blue",
+                            "imageUrls": "{\"alt1\":\"https://www.rei.com/media/76852785-1bab-4b0a-8107-baed55ba6e00?size=737\",\"alt2\":\"https://www.rei.com/media/18609126-fe17-4ea8-8784-8518cfbdc06b\",\"alt3\":\"https://www.rei.com/media/9a6010c9-9bd9-4658-b59a-42da9e9e9ef1\",\"main\":[\"https://www.rei.com/media/b3dd3343-693b-4d3c-8d42-0e777066c0dc?size=695\"]}",
+                            "itemDetail": {
+                                "displayCondition": null
+                            },
+                            "originalPrice": 30500,
+                            "parentSKU": "164849",
+                            "markdownReason": "ti",
+                            "price": 17999,
+                            "priceRange": [
+                                17999,
+                                17999
+                            ],
+                            "title": "Bishop Pass 15 Sleeping Bag",
+                            "stackId": "rei_Valley-240_164849-Altitude Blue_3",
+                            "displayTitle": "Bishop Pass 15 Sleeping Bag - Men's",
+                            "objectType": "itemTile",
+                            "pdpStyle": "used",
+                            "pdpLink": {
+                                "path": "/used/p/mountain-hardwear-bishop-pass-15-sleeping-bag-mens/164849?color=Altitude%20Blue",
+                                "url": "https://www.rei.com/used/p/mountain-hardwear-bishop-pass-15-sleeping-bag-mens/164849?color=Altitude%20Blue"
+                            }
+                        },
+                        {
+                            "availableSizes": [
+                                "4 Kids"
+                            ],
+                            "availableSizeDisplays": [
+                                "4 Kids:4 Kids"
+                            ],
+                            "brand": "Salomon",
+                            "storefrontDepartment": null,
+                            "brandDisplay": "Salomon",
+                            "cmsData": null,
+                            "color": "Castor Gray/Black",
+                            "displayColor": "Castor Gray/Black",
+                            "imageUrls": "{\"alt1\":\"https://www.rei.com/media/1fed9e3c-5ca5-43c6-af13-59d7ba768354\",\"alt2\":\"https://www.rei.com/media/893e2841-cd99-4c7e-ba37-340e89d19ee5\",\"alt3\":\"https://www.rei.com/media/23859f13-cf0c-4979-a1ef-c176eddd1013?size=461\",\"main\":[\"https://www.rei.com/media/1fed9e3c-5ca5-43c6-af13-59d7ba768354?new_image\"]}",
+                            "itemDetail": {
+                                "displayCondition": null
+                            },
+                            "originalPrice": 8995,
+                            "parentSKU": "165349",
+                            "markdownReason": null,
+                            "price": 2975,
+                            "priceRange": [
+                                2975,
+                                2975
+                            ],
+                            "title": "Outward CSWP J Hiking Boots",
+                            "stackId": "rei_Valley-240_165349-Castor Gray/Black_3",
+                            "displayTitle": "Outward CSWP J Hiking Boots - Kids'",
+                            "objectType": "itemTile",
+                            "pdpStyle": "used",
+                            "pdpLink": {
+                                "path": "/used/p/salomon-outward-cswp-j-hiking-boots-kids/165349?color=Castor%20Gray%2FBlack",
+                                "url": "https://www.rei.com/used/p/salomon-outward-cswp-j-hiking-boots-kids/165349?color=Castor%20Gray%2FBlack"
+                            }
+                        },
+                        {
+                            "availableSizes": [
+                                "9"
+                            ],
+                            "availableSizeDisplays": [
+                                "9:9"
+                            ],
+                            "brand": "Vasque",
+                            "storefrontDepartment": null,
+                            "brandDisplay": "Vasque",
+                            "cmsData": null,
+                            "color": "Anthracite/Gargoyle",
+                            "displayColor": "Anthracite/Gargoyle",
+                            "imageUrls": "{\"alt1\":\"https://www.rei.com/media/bbc8261e-775a-4a38-bda4-ad7a7697de7b\",\"alt2\":\"https://www.rei.com/media/697bde3e-b970-4a65-ad7e-81f047905367\",\"alt3\":\"https://www.rei.com/media/d352ea86-2189-41b8-ad2c-894075bb1d7b\",\"main\":[\"https://www.rei.com/media/e377575b-970d-4e10-b16a-3a43e5f9a0b3\"]}",
+                            "itemDetail": {
+                                "displayCondition": null
+                            },
+                            "originalPrice": 22000,
+                            "parentSKU": "165611",
+                            "markdownReason": "re",
+                            "price": 10120,
+                            "priceRange": [
+                                10120,
+                                10120
+                            ],
+                            "title": "Talus XT GTX Mid Hiking Boots",
+                            "stackId": "rei_Valley-240_165611-Anthracite/Gargoyle_3",
+                            "displayTitle": "Talus XT GTX Mid Hiking Boots - Women's",
+                            "objectType": "itemTile",
+                            "pdpStyle": "used",
+                            "pdpLink": {
+                                "path": "/used/p/vasque-talus-xt-gtx-mid-hiking-boots-womens/165611?color=Anthracite%2FGargoyle",
+                                "url": "https://www.rei.com/used/p/vasque-talus-xt-gtx-mid-hiking-boots-womens/165611?color=Anthracite%2FGargoyle"
+                            }
+                        },
+                        {
+                            "availableSizes": [
+                                "Large"
+                            ],
+                            "availableSizeDisplays": [
+                                "Large:Large"
+                            ],
+                            "brand": "Therm-A-Rest",
+                            "storefrontDepartment": null,
+                            "brandDisplay": "Therm-A-Rest",
+                            "cmsData": null,
+                            "color": "Vapor",
+                            "displayColor": "Vapor",
+                            "imageUrls": "{\"alt1\":\"https://www.rei.com/media/4ca21ccf-d44f-4625-859b-7a42682421bc\",\"alt2\":\"https://www.rei.com/media/3a587f26-2e1e-41fe-9b2e-16e5017460b6\",\"alt3\":\"https://www.rei.com/media/860cbef8-c482-4c23-95b2-9674e2329584\",\"main\":[\"https://www.rei.com/media/b557c5b6-8a2c-4f7a-9c88-de574c7f75e1?size=804\"]}",
+                            "itemDetail": {
+                                "displayCondition": null
+                            },
+                            "originalPrice": 25995,
+                            "parentSKU": "171689",
+                            "markdownReason": "ti",
+                            "price": 16119,
+                            "priceRange": [
+                                16119,
+                                16119
+                            ],
+                            "title": "NeoAir Xtherm Sleeping Pad",
+                            "stackId": "rei_Valley-240_171689-Vapor_3",
+                            "displayTitle": "NeoAir Xtherm Sleeping Pad",
+                            "objectType": "itemTile",
+                            "pdpStyle": "used",
+                            "pdpLink": {
+                                "path": "/used/p/therm-a-rest-neoair-xtherm-sleeping-pad/171689?color=Vapor",
+                                "url": "https://www.rei.com/used/p/therm-a-rest-neoair-xtherm-sleeping-pad/171689?color=Vapor"
+                            }
+                        },
+                        {
+                            "availableSizes": [
+                                "Regular",
+                                "Regular Wide",
+                                "Large"
+                            ],
+                            "availableSizeDisplays": [
+                                "Regular:Regular",
+                                "Regular Wide:Regular Wide",
+                                "Large:Large"
+                            ],
+                            "brand": "Therm-A-Rest",
+                            "storefrontDepartment": null,
+                            "brandDisplay": "Therm-A-Rest",
+                            "cmsData": null,
+                            "color": "Heat Wave",
+                            "displayColor": "Heat Wave",
+                            "imageUrls": "{\"alt1\":\"https://www.rei.com/media/a0bf33a5-ce33-419c-bc77-aafbf3bfce70\",\"alt2\":\"https://www.rei.com/media/560f99af-19b1-472c-af18-c80674e89999\",\"alt3\":\"https://www.rei.com/media/3f7fa109-ab81-4573-84d9-400e65f69eb2\",\"main\":[\"https://www.rei.com/media/ca2fcf70-bc8d-4c5d-a241-ac70d4c00ce3?size=544\"]}",
+                            "itemDetail": {
+                                "displayCondition": null
+                            },
+                            "originalPrice": 15495,
+                            "parentSKU": "175625",
+                            "markdownReason": null,
+                            "price": 9252,
+                            "priceRange": [
+                                9252,
+                                10677
+                            ],
+                            "title": "ProLite Apex Sleeping Pad",
+                            "stackId": "rei_Valley-240_175625-Heat Wave_3",
+                            "displayTitle": "ProLite Apex Sleeping Pad",
+                            "objectType": "itemTile",
+                            "pdpStyle": "used",
+                            "pdpLink": {
+                                "path": "/used/p/therm-a-rest-prolite-apex-sleeping-pad/175625?color=Heat%20Wave",
+                                "url": "https://www.rei.com/used/p/therm-a-rest-prolite-apex-sleeping-pad/175625?color=Heat%20Wave"
+                            }
+                        },
+                        {
+                            "availableSizes": [
+                                "NONE"
+                            ],
+                            "availableSizeDisplays": [
+                                "NONE:NONE"
+                            ],
+                            "brand": "Alps Mountaineering",
+                            "storefrontDepartment": null,
+                            "brandDisplay": "Alps Mountaineering",
+                            "cmsData": null,
+                            "color": "Gray",
+                            "displayColor": "Gray",
+                            "imageUrls": "{\"alt1\":\"https://www.rei.com/media/b17e1956-a334-44eb-b51c-d053c7a5e177\",\"alt2\":\"https://www.rei.com/media/b17e1956-a334-44eb-b51c-d053c7a5e177\",\"main\":[\"https://www.rei.com/media/80e04c8b-57e9-4309-8a7c-a21349c86eaf\"]}",
+                            "itemDetail": {
+                                "displayCondition": null
+                            },
+                            "originalPrice": 3999,
+                            "parentSKU": "184980",
+                            "markdownReason": null,
+                            "price": 2676,
+                            "priceRange": [
+                                2676,
+                                2676
+                            ],
+                            "title": "Camp Creek 4 Floor Saver Footprint",
+                            "stackId": "rei_Valley-240_184980-Gray_3",
+                            "displayTitle": "Camp Creek 4 Floor Saver Footprint",
+                            "objectType": "itemTile",
+                            "pdpStyle": "used",
+                            "pdpLink": {
+                                "path": "/used/p/alps-mountaineering-camp-creek-4-floor-saver-footprint/184980?color=Gray",
+                                "url": "https://www.rei.com/used/p/alps-mountaineering-camp-creek-4-floor-saver-footprint/184980?color=Gray"
+                            }
+                        },
+                        {
+                            "availableSizes": [
+                                "KIDS"
+                            ],
+                            "availableSizeDisplays": [
+                                "KIDS:KIDS"
+                            ],
+                            "brand": "REI Co-op",
+                            "storefrontDepartment": null,
+                            "brandDisplay": "REI Co-op",
+                            "cmsData": null,
+                            "color": "Purple Orchid",
+                            "displayColor": "Purple Orchid",
+                            "imageUrls": "{\"alt1\":\"https://res.cloudinary.com/yerdle/image/upload/v1670421282/production/partners/3/catalogItemImageCache/kzhyrc0uhzujwgag3jzd.jpg\",\"alt2\":\"https://res.cloudinary.com/yerdle/image/upload/v1670421005/production/partners/3/catalogItemImageCache/jaekioidtwf6rbrruaff.jpg\",\"alt3\":\"https://res.cloudinary.com/yerdle/image/upload/v1670419369/production/partners/3/catalogItemImageCache/rvpa3o4dshji7bqy4n1l.jpg\",\"main\":[\"https://res.cloudinary.com/yerdle/image/upload/v1670418291/production/partners/3/catalogItemImageCache/cnjolhzx2witjrvxcpxg.jpg\"]}",
+                            "itemDetail": {
+                                "displayCondition": null
+                            },
+                            "originalPrice": 18900,
+                            "parentSKU": "185189",
+                            "markdownReason": null,
+                            "price": 11920,
+                            "priceRange": [
+                                11920,
+                                11920
+                            ],
+                            "title": "Down Time 25 Down Sleeping Bag",
+                            "stackId": "rei_Valley-240_185189-Purple Orchid_3",
+                            "displayTitle": "Down Time 25 Down Sleeping Bag - Kids'",
+                            "objectType": "itemTile",
+                            "pdpStyle": "used",
+                            "pdpLink": {
+                                "path": "/used/p/rei-co-op-down-time-25-down-sleeping-bag-kids/185189?color=Purple%20Orchid",
+                                "url": "https://www.rei.com/used/p/rei-co-op-down-time-25-down-sleeping-bag-kids/185189?color=Purple%20Orchid"
+                            }
+                        },
+                        {
+                            "availableSizes": [
+                                "XS"
+                            ],
+                            "availableSizeDisplays": [
+                                "XS:XS"
+                            ],
+                            "brand": "REI Co-op",
+                            "storefrontDepartment": null,
+                            "brandDisplay": "REI Co-op",
+                            "cmsData": null,
+                            "color": "Blue Nights",
+                            "displayColor": "Blue Nights",
+                            "imageUrls": "{\"alt1\":\"https://www.rei.com/media/e1962dfe-a3c2-49e7-a8f3-5b8a512dee59\",\"alt2\":\"https://www.rei.com/media/3c11d594-7907-4db3-9cd3-04ff4a68ac78\",\"alt3\":\"https://www.rei.com/media/67b5fd4c-47a7-4016-92c5-94f718896460\",\"main\":[\"https://www.rei.com/media/fa6b3974-d26e-49e4-8d0f-daad0dc82c5e\"]}",
+                            "itemDetail": {
+                                "displayCondition": null
+                            },
+                            "originalPrice": 13900,
+                            "parentSKU": "185568",
+                            "markdownReason": null,
+                            "price": 9243,
+                            "priceRange": [
+                                9243,
+                                9243
+                            ],
+                            "title": "Traverse 32 Pack",
+                            "stackId": "rei_Valley-240_185568-Blue Nights_3",
+                            "displayTitle": "Traverse 32 Pack - Women's",
+                            "objectType": "itemTile",
+                            "pdpStyle": "used",
+                            "pdpLink": {
+                                "path": "/used/p/rei-co-op-traverse-32-pack-womens/185568?color=Blue%20Nights",
+                                "url": "https://www.rei.com/used/p/rei-co-op-traverse-32-pack-womens/185568?color=Blue%20Nights"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "extensions": {
+        "sl_translate": "headline,subheadline,metaDescription,title,displayName,brandDisplay,text,displayColor,displayTitle,displayCondition",
+        "runTime": 170
+    }
+}
