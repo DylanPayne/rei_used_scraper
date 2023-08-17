@@ -12,10 +12,19 @@ class DatabaseInserter:
             raise ValueError(f"{env_str} not found in environment variables")
         self.engine = create_engine(self.uri)
     
-    def insert_rei_all(self, df: pd.DataFrame, table_name: str, run_id : int, dt : datetime, logger):
-        # Add run_id as a new column to df
-        df['run_id'] = run_id
-        df['dt'] = dt
+    def insert_rei_all(self, df: pd.DataFrame, table_name: str, helper_columns, logger):
+        if df is None:
+            logger.warning(f"No data to save to {table_name}. Skipping.")
+            return
+        
+        # Add columns and values from helper_columns dictionary
+        for column, value in helper_columns.items():
+            df[column] = value
+        
+        # # Add run_id, dt, and filters columns
+        # df['run_id'] = run_id
+        # df['dt'] = dt
+        # df['filters'] = filters
         
         # Create a SQLAlchemy engine using the given database URI
         engine = create_engine(self.uri)
