@@ -11,8 +11,17 @@ class DatabaseInserter:
         if self.uri is None:
             raise ValueError(f"{env_str} not found in environment variables")
         self.engine = create_engine(self.uri)
+        
+    def __enter__(self):
+        return self
     
-    def insert_rei_all(self, df: pd.DataFrame, table_name: str, helper_columns, logger):
+    def __exit__(self, exc_type, exc_value, traceback):
+        self.close()
+
+    # def create_table(self, table_name, columns):
+        # with self.engine.connect() as connection
+    
+    def insert_to_sql(self, df: pd.DataFrame, table_name: str, helper_columns, logger):
         if df is None:
             logger.warning(f"No data to save to {table_name}. Skipping.")
             return
@@ -20,11 +29,6 @@ class DatabaseInserter:
         # Add columns and values from helper_columns dictionary
         for column, value in helper_columns.items():
             df[column] = value
-        
-        # # Add run_id, dt, and filters columns
-        # df['run_id'] = run_id
-        # df['dt'] = dt
-        # df['filters'] = filters
         
         # Create a SQLAlchemy engine using the given database URI
         engine = create_engine(self.uri)

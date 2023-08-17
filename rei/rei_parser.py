@@ -6,31 +6,38 @@ from selenium.webdriver.chrome.options import Options
 import pandas as pd
 from collections import defaultdict
 
+from utils.clean_utils import str_to_list
+
 def parse_rei_item_all(json_data, page_n, logger): ## 
     # Parse items details ('limit' rows per API page)
     try:
         items_list = json_data['data']['partner']['shop']['browse']['items']
         items_data = []
+        
         for item in items_list:
+            price = item['price']/100
+            price_orig = item['originalPrice']/100            
+            size_range = item['availableSizes']
+            price_range =[price/100 for price in item['priceRange']]
+            
             item_data = {
-                'page': page_n,
                 'title': item['title'],
                 'brand': item['brand'],
                 'path': item['pdpLink']['path'],
                 'parent_sku': item['parentSKU'],
-                'price': item['price'],
-                'price_orig': item['originalPrice'],
-                'price_range': item['priceRange'],
-                'size': item['availableSizes'],
+                'price': price,
+                'price_orig': price_orig,
+                'price_range': price_range,
+                'size_range': size_range,
                 'color': item['color'],
             }
             items_data.append(item_data)
 
         df_items = pd.DataFrame(items_data)
-        logger.info(f"Parsed item-level data")
+        logger.info(f"Parsed item-level data for page {page_n}")
         return df_items
     except Exception as e:
-        logger.info(f"Failed to parse item-level data. Error: {str(e)}")
+        logger.info(f"Failed to parse item-level data for page {page_n}. Error: {str(e)}")
         return None
     
 def parse_rei_item_page(json_data, page_n, limit, filters, logger): ##
@@ -41,14 +48,11 @@ def parse_rei_item_page(json_data, page_n, limit, filters, logger): ##
         condition = parsed_filter['name']
 
         df_page = pd.DataFrame({
-            'page_n':[page_n],
             'limit':[limit],
             'count': [count],
-            'condition': [condition]
-            # **fixed_filter_dict # Unpack the filter columns into the df so each filter has its own column
         })
         logger.info(f"Parsed page data for {filters} n={page_n})")
-        return df_page
+        return df_page, condition
     except Exception as e:
         logger.error(f"Failed to parse page data for {filters} n={page_n}. Error {str(e)}")
         return None

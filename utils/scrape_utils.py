@@ -28,17 +28,9 @@ user_agents = [
     # Apple Safari (iOS)
     # "Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Mobile/15E148 Safari/604.1"  
 ]
-#[{tag: "condition", name: "Excellent condition"}, {tag: "gender", name: "Women's"}]
-# def rei_splitter(categories=('condition','gender')):
+   
     
-    
-#     category_dict = [
-#         {"condition":["Excellent condition", "Lightly worn", "Moderately worn", "Well worn"]},
-#         {"gender"}: ["Women's", "Men's", "Unisex", "Kids"],
-#         #{"size"}: [] size may avoid the need to scrape individual listings, other than category data. Maybe I scrape the size options, partition by size and condition,
-#     ]
-    
-rei_all_api_filters = [
+rei_all_filter_conditions = [
     '{"tag": "condition", "name": "Excellent condition"}',
     '{"tag": "condition", "name": "Lightly worn"}',
     '{"tag": "condition", "name": "Moderately worn"}',
