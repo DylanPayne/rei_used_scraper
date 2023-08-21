@@ -28,19 +28,17 @@ user_agents = [
     # Apple Safari (iOS)
     # "Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Mobile/15E148 Safari/604.1"  
 ]
-   
     
-rei_all_filter_conditions = [
+rei_sweep_filter_conditions = [
     '{"tag": "condition", "name": "Excellent condition"}',
     '{"tag": "condition", "name": "Lightly worn"}',
     '{"tag": "condition", "name": "Moderately worn"}',
     '{"tag": "condition", "name": "Well worn"}',
 ]
 
-def fetch_rei_all_api(logger, offset=0, limit=100, filter_json=None):
+def fetch_rei_sweep_api(logger, offset=0, page_limit=100, filter_json=None):
     try:
         filter_json = filter_json if filter_json is not None else [] # Set filters to an empty list if None
-        # breakpoint()
         user_agent_str = random.choice(user_agents)
         
         url = 'https://reware-api-production.trovesite.com/v4/graphql?q=query-initShop'
@@ -150,7 +148,7 @@ def fetch_rei_all_api(logger, offset=0, limit=100, filter_json=None):
                 "slug": "all",
                 "filters": [filter_json], # [{tag: "condition", name: "Excellent condition"}, {tag: "gender", name: "Women's"}]
                 "offset": offset, # i.e., 60
-                "limit": limit, # ie., 30
+                "limit": page_limit, # ie., 30
                 "sort": "",
                 "metadata": {}
             }
@@ -160,7 +158,7 @@ def fetch_rei_all_api(logger, offset=0, limit=100, filter_json=None):
         request_datetime = datetime.utcnow().isoformat()
         return response_json, request_datetime
     except Exception as e:
-        logger.error(f"Failed to fetch_rei_all_api. {filter_json} offset: {offset} limit: {limit}. Error {str(e)}")
+        logger.error(f"Failed to fetch_rei_sweep_api. {filter_json} offset: {offset} limit: {limit}. Error {str(e)}")
         return None, request_datetime
 
 def initialize_driver():

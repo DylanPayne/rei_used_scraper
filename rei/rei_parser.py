@@ -8,8 +8,8 @@ from collections import defaultdict
 
 from utils.clean_utils import str_to_list
 
-def parse_rei_item_all(json_data, page_n, logger): ## 
-    # Parse items details ('limit' rows per API page)
+def parse_rei_sweep_all(json_data, page_n, logger): ## 
+    # Parse items details ('page_limit' rows per API page)
     try:
         items_list = json_data['data']['partner']['shop']['browse']['items']
         items_data = []
@@ -40,15 +40,15 @@ def parse_rei_item_all(json_data, page_n, logger): ##
         logger.info(f"Failed to parse item-level data for page {page_n}. Error: {str(e)}")
         return None
     
-def parse_rei_item_page(json_data, page_n, limit, filters, logger): ##
-    # Parse page-level data for rei_item_table
+def parse_rei_sweep_page(json_data, page_n, page_limit, filters, logger): ##
+    # Parse page-level data for rei_sweep
     try:
         count = json_data['data']['partner']['shop']['browse']['count']
         parsed_filter = json.loads(filters)
         condition = parsed_filter['name']
 
         df_page = pd.DataFrame({
-            'limit':[limit],
+            'page_limit':[page_limit],
             'count': [count],
         })
         logger.info(f"Parsed page data for {filters} n={page_n})")
