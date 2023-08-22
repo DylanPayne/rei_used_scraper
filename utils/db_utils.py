@@ -4,7 +4,10 @@ from sqlalchemy import create_engine, text
 from datetime import datetime
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv() # load env variables, i.e., database URIs, proxies
+
+logging.basicConfig()
+logging.getLogger('sqlalchemy.engine').setLevel(logging.INFO)
 
 # Define the table schemas using a dictionary
 table_schema_rei_sweep = { # create_table appends primary_key, id (sequential)
@@ -22,9 +25,9 @@ table_schema_rei_sweep = { # create_table appends primary_key, id (sequential)
         'path': 'VARCHAR(180)', # 116 max obs
         'parent_sku': 'INTEGER',
         'color': 'VARCHAR(60)', # 29 max obs
-        'price': 'NUMERIC(7,2)', # Stores up to $99,999.99
-        'price_orig': 'NUMERIC(7,2)', # 116 max obs
-        'price_range': 'NUMERIC(7,2)[]', # 116 max obs
+        'price': 'NUMERIC(10,2)', # Stores up to $99,999.99
+        'price_orig': 'NUMERIC(10,2)', 
+        'price_range': 'NUMERIC(10,2)[]', # 116 max obs
         'size_range': 'VARCHAR(50)[]', # 26 max obs
         'condition': 'VARCHAR(20)', # 19 max obs, code already breaks if condition names change
         'page_n': 'INTEGER',
@@ -50,11 +53,20 @@ class DatabaseInserter:
 
     def create_table(self, table_name, columns):
         with self.engine.connect() as connection:
+            connection = connection.execution_options(autocommit=True)  # testing
             column_definitions = [f"{column} {data_type}" for column, data_type in columns.items()]
             column_definitions.append("id SERIAL PRIMARY KEY")
             create_table_query = f"CREATE TABLE IF NOT EXISTS {table_name} ({', '.join(column_definitions)})"
             print("Executing query:", create_table_query)
-            connection.execute(text(create_table_query))
+            breakpoint()
+            # connection.execute(text(create_table_query))
+            # new (try/except below)
+            try:
+                connection.execute(text(create_table_query))
+                connection.commit() # Commit the transaction if needed
+            except Exception as e:
+                print(f"Error executing query: {e}")
+
             
     def insert_to_sql(self, df: pd.DataFrame, table_name: str, helper_columns, logger):
         if df is None:
