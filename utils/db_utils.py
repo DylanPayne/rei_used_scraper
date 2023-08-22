@@ -1,4 +1,4 @@
-import os, logging
+import os, logging, traceback
 import pandas as pd
 from sqlalchemy import create_engine, text
 from datetime import datetime
@@ -34,7 +34,6 @@ table_schema_rei_sweep = { # create_table appends primary_key, id (sequential)
         'run_id': 'TIMESTAMP',
         'dt': 'TIMESTAMP',
     },
-    # Add more tables and their schemas here
 }
 
 class DatabaseInserter:
@@ -79,7 +78,8 @@ class DatabaseInserter:
             df.to_sql(table_name, self.engine, index=False, if_exists='append')
             logger.info(f"Saved {len(df)} rows to {table_name}")
         except Exception as e:
-            logger.error(f"Error saving data to {table_name}: {e}")
+            logger.error(f"Error saving data to {table_name}: \n{traceback.format_exc()}")
+            breakpoint()
     
     def close(self):
         self.engine.dispose()  # Close the database engine
