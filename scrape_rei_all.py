@@ -5,29 +5,25 @@ from utils.scrape_utils import rei_sweep_filter_conditions, fetch_rei_sweep_api
 from rei.rei_parser import parse_rei_sweep_page, parse_rei_sweep_all
 from utils.log_config import log_config
 
-def main(suffix=None):
+def main(suffix=""):
     # Log the start time
     start_time = time.time()
-    run_id = int(time.time() * 1000)
+    run_id = datetime.utcnow() # Save run_id as datetime
     logger = log_config("scrape_rei_all.log")
     logger.info(f"\nScript started: {run_id}")
+    logging.getLogger('sqlalchemy.engine').setLevel(logging.ERROR)
     
-    # Create postgresql tables via table schemas
+    # Create tables in postgresql, with naming dependant on optional argparse suffix
     try:
-        with DatabaseInserter() as conn:
+        with DatabaseInserter() as db_conn:
             for table_name, schema in table_schema_rei_sweep.items():
-                if suffix is None:
-                    conn.create_table(table_name, schema) # create tables
-                else:
-                    conn.create_table(f'{table_name}_{suffix}', schema) # create tables
+                db_conn.create_table(f'{table_name}{suffix}', schema, logger) # create tables
     except Exception as e:
         logger.error(f"Error creating rei_sweep tables: {e}")
-        
-    breakpoint()
             
     # Determine the output table names based on optional suffix input
-    items_table_name = f'rei_sweep_all_{suffix}' if suffix is not None else 'rei_sweep_all'
-    page_table_name = f'rei_sweep_page_{suffix}' if suffix is not None else 'rei_sweep_page'
+    items_table_name = f'rei_sweep_all{suffix}'
+    page_table_name = f'rei_sweep_page{suffix}'
 
     item_cap = 100 # set to None for unpage_limited. Per filter
     page_limit = 100
@@ -46,7 +42,7 @@ def main(suffix=None):
             helper_columns = {'run_id': run_id, 'dt': dt, 'page_n':page_n, 'condition': condition}
 
             try:
-                with DatabaseInserter() as db_conn: # context manager closes connetion regardless of errors
+                with DatabaseInserter() as db_conn:
                     db_conn.insert_to_sql(df_items, items_table_name, helper_columns, logger)
                     db_conn.insert_to_sql(df_page, page_table_name, helper_columns, logger)
             except Exception as e:
@@ -63,7 +59,7 @@ def main(suffix=None):
 # argparse allows you to pass in suffix: python scrape_rei_all.py --suffix=test
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Scrape and save REI data")
-    parser.add_argument("--suffix", help="Optional suffix for the table name")
+    parser.add_argument("--suffix", help="Optional suffix for table names")
     args = parser.parse_args()
 
     main(args.suffix)
