@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-import sys
-from os.path import dirname, join
-venv_path = join(dirname(__file__), 'venv')  # Path to your virtual environment
-activate_this = join(venv_path, 'bin/activate_this.py')
-with open(activate_this) as file_:
-    exec(file_.read(), dict(__file__=activate_this))
-
 import os, argparse, logging, time, random, json
 from datetime import datetime, timezone
 from utils.db_utils import DatabaseInserter, table_schema_rei_sweep
