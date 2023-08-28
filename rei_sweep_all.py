@@ -3,18 +3,20 @@ from datetime import datetime, timezone
 from utils.db_utils import DatabaseInserter, table_schema_rei_sweep
 from utils.scrape_utils import rei_sweep_filter_conditions, fetch_rei_sweep_api
 from rei.rei_parser import parse_rei_sweep_page, parse_rei_sweep_all
-from utils.log_config import log_config
+from log.log_config import log_config
 
-def main(prefix):
+def main(prefix, page_cap):
     # Log the start time
     start_time = time.time()
-    
+    # Determine script_name, and strip off extension to determine run_name
     script_name = os.path.basename(os.path.abspath(__file__))
     run_name = os.path.splitext(script_name)[0]
-    
+    # Configure logging
     logger = log_config(f"{run_name}.log")
     logger.info(f"/n Starting {script_name}")
     logging.getLogger('sqlalchemy.engine').setLevel(logging.ERROR)
+    # initioalize run_id to handle errors within try block
+    run_id = None
     
     # Create tables in postgresql, naming incorporates optional argparse prefix
     try:
@@ -23,15 +25,15 @@ def main(prefix):
                 db_conn.create_table(f'{prefix}{table_name}', schema, logger) # create tables
             run_id = db_conn.start_run(run_name, prefix, logger) # start run by inserting row
             logger.info(f"\n {script_name} started run_id: {run_id}")
+            
+            # Determine output table names based on optional prefix input
+            items_table_name = f'{prefix}rei_sweep_all'
+            page_table_name = f'{prefix}rei_sweep_page'
     except Exception as e:
         logger.error(f"Error creating rei_sweep tables: {e}")
-            
-    # Determine output table names based on optional prefix input
-    items_table_name = f'{prefix}rei_sweep_all'
-    page_table_name = f'{prefix}rei_sweep_page'
 
-    item_cap = None # set to None for unpage_limited. Per filter
     page_limit = 100
+    item_cap = None if page_cap is None else page_limit * page_cap
     
     for filter in rei_sweep_filter_conditions:
         offset = 0
@@ -61,10 +63,12 @@ def main(prefix):
     elapsed_time = round((time.time() - start_time) / 60, 1)
     logger.info(f"Script completed. Time elapsed: {elapsed_time} minutes.")
     
-# argparse allows you to pass in prefix: python scrape_rei_all.py --prefix=test
+# argparse to pass in prefix
+#> mimir_scraper % python3 rei_sweep_all.py --prefix=test_ --page_cap=1
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Scrape and save REI data")
-    parser.add_argument("--prefix", help="Optional prefix for table names", default="")
+    parser.add_argument("--prefix", help="Optional prefix for table names. ", default="")
+    parser.add_argument("--page_cap", help="Cap number of pages for testing. None for unlimited", type=int, default=None)
     args = parser.parse_args()
 
-    main(args.prefix)
+    main(args.prefix, args.page_cap)

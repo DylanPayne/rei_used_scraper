@@ -19,3 +19,4 @@ PYTHON_SCRIPT="$SCRIPT_DIR/../rei_sweep_all.py"
 
 # Run the Python script using the Python interpreter from the virtual environment
 "$PYTHON_INTERPRETER" "$PYTHON_SCRIPT"
+# "$PYTHON_INTERPRETER" "$PYTHON_SCRIPT" --prefix=test_ --page_cap=1 # DEBUG
