@@ -1,17 +1,19 @@
-import os, logging, time
+import os, logging, time, json
 import pandas as pd
 import random
+import requests
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from datetime import datetime
 from selenium.webdriver.chrome.options import Options
-import requests
-import json
+
 
 logging.basicConfig(level=logging.INFO, format='%(message)s')
 
+# Desktop user agents only (mobile commented out)
 user_agents = [
     # Google Chrome (Windows 10)
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
@@ -35,6 +37,33 @@ rei_sweep_filter_conditions = [
     '{"tag": "condition", "name": "Moderately worn"}',
     '{"tag": "condition", "name": "Well worn"}',
 ]
+
+def simple_logger(msg):
+    print(f"[LOG]: {msg}")
+
+def test_fetch_api(
+        logger=simple_logger,
+        url='https://www.rei.com/used/p/rei-co-op-flash-hiking-boots-womens/189065?color=Dusty%20Olive%2FGray&aqi=3ac82c162d900347ad193501b65c641a',
+        user_agents=["Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15"]
+):
+    request_datetime = datetime.utcnow().isoformat()
+    
+    try:
+        user_agent_str = random.choice(user_agents)
+
+        headers = {
+            'authority': 'www.rei.com',
+            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+            'accept-language': 'en-US,en;q=0.9',
+            'user-agent': user_agent_str,
+        }
+
+        response = requests.post(url, headers=headers)
+        response_content = response.content.decode('utf-8')
+        return response_content, request_datetime
+    except Exception as e:
+        logger(f"Failed to fetch {url} via {user_agent_str}. Error {str(e)}")
+        return None, request_datetime
 
 def fetch_rei_sweep_api(logger, offset=0, page_limit=100, filter_json=None):
     try:
@@ -158,7 +187,8 @@ def fetch_rei_sweep_api(logger, offset=0, page_limit=100, filter_json=None):
         request_datetime = datetime.utcnow().isoformat()
         return response_json, request_datetime
     except Exception as e:
-        logger.error(f"Failed to fetch_rei_sweep_api. {filter_json} offset: {offset} limit: {limit}. Error {str(e)}")
+        logger.error(f"Failed to fetch_rei_sweep_api. {filter_json} offset: {offset} limit: {page_limit}. Error {str(e)}")
+        request_datetime = datetime.utcnow().isoformat()
         return None, request_datetime
 
 def initialize_driver():
