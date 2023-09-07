@@ -3,7 +3,6 @@ import logging, os
 def log_config(log_file,logger_name='CentralLogger'):
     logger = logging.getLogger(logger_name)
     logger.setLevel(logging.INFO) # Set logger level to info
-    # logger.propagate = False # to prevent sqlalchemy logging from being set to INFO
     
     print(f"Current Handlers: {logger.handlers}") # DEBUG
     
@@ -12,7 +11,6 @@ def log_config(log_file,logger_name='CentralLogger'):
     full_log_path = os.path.join(log_dir, log_file)
 
     print(f"Log file will be saved at: {full_log_path}") # DEBUG
-    
     
     # Check if a FileHandler already exists, if not, create one
     if not any(isinstance(handler, logging.FileHandler) for handler in logger.handlers):

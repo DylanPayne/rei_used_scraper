@@ -14,8 +14,8 @@ def main(prefix, page_cap):
     # Configure logging
     logger = log_config(f"{run_name}.log")
     logger.info(f"/n Starting {script_name}")
-    logging.getLogger('sqlalchemy.engine').setLevel(logging.ERROR)
-    # initioalize run_id to handle errors within try block
+    logging.getLogger('sqlalchemy.engine').setLevel(logging.ERROR) ## To migrate into log_config.py
+    # initialize run_id to handle errors within try block
     run_id = None
     
     # Create tables in postgresql, naming incorporates optional argparse prefix
@@ -46,7 +46,7 @@ def main(prefix, page_cap):
             df_page, condition = parse_rei_sweep_page(json_data, page_n, page_limit, filter, logger)
             df_items = parse_rei_sweep_all(json_data, page_n, logger)
             
-            helper_columns = {'run_id': run_id, 'dt': dt, 'page_n':page_n, 'condition': condition}
+            helper_columns = {'run_id': run_id, 'dt': dt, 'page_n': page_n, 'condition': condition}
 
             try:
                 with DatabaseInserter() as db_conn:

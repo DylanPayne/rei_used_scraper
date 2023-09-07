@@ -1,7 +1,9 @@
-import os, logging, time, json
+#!/usr/bin/env python3
+import os, logging, time, json, re
 import pandas as pd
 import random
 import requests
+from bs4 import BeautifulSoup
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -41,13 +43,14 @@ rei_sweep_filter_conditions = [
 def simple_logger(msg):
     print(f"[LOG]: {msg}")
 
-def test_fetch_api(
+def fetch_rei_scrape_api(
         logger=simple_logger,
-        url='https://www.rei.com/used/p/rei-co-op-flash-hiking-boots-womens/189065?color=Dusty%20Olive%2FGray&aqi=3ac82c162d900347ad193501b65c641a',
+        base_url='https://www.rei.com/used/p/rei-co-op-flash-hiking-boots-womens/189065?color=Dusty%20Olive%2FGray',
+        aqi='3ac82c162d900347ad193501b65c641a',
         user_agents=["Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15"]
 ):
     request_datetime = datetime.utcnow().isoformat()
-    
+    url = f"{base_url}&aqi={aqi}"
     try:
         user_agent_str = random.choice(user_agents)
 
@@ -201,3 +204,12 @@ def initialize_driver():
     driver = webdriver.Chrome(options=chrome_options)
     logging.info(f"UserAgent: {user_agent_str}")
     return driver
+
+if __name__ == "__main__":
+    response_content, request_datetime = test_fetch_api()
+    file_path = 'output.html'
+    
+    with open(file_path, "w") as file:
+        file.write(response_content)
+
+    breakpoint()
