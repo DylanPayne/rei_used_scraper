@@ -1,0 +1,2042 @@
+{
+    "allSizes": [
+        "6",
+        "6.5",
+        "7",
+        "7 Wide",
+        "7.5",
+        "7.5 Wide",
+        "8",
+        "8 Wide",
+        "8.5",
+        "8.5 Wide",
+        "9",
+        "9 Wide",
+        "9.5",
+        "9.5 Wide",
+        "10",
+        "10 Wide",
+        "10.5",
+        "11"
+    ],
+    "availableColorsForSelection": {
+        "Granite Black": 1,
+        "Smoke/Lilac": 1,
+        "Bark/Moss": 1,
+        "Dusty Olive/Gray": 1,
+        "Orange Earth": 1
+    },
+    "availableConditionsForSelection": {
+        "GRADE_C": 1,
+        "GRADE_A": 1,
+        "GRADE_D": 1
+    },
+    "availableSizesForSelection": {
+        "6": 1,
+        "10": 1,
+        "11": 1,
+        "7 Wide": 1,
+        "8 Wide": 1,
+        "8.5": 1,
+        "8.5 Wide": 1,
+        "9 Wide": 1,
+        "9.5": 1,
+        "9.5 Wide": 1,
+        "10 Wide": 1
+    },
+    "fetchedAt": {
+        "{\"parentSKU\":\"189065\",\"color\":\"Dusty Olive/Gray\"}": 1694639032728
+    },
+    "isFailing": false,
+    "isRequesting": false,
+    "size": null,
+    "condition": null,
+    "shouldDisplayAddedToCart": false,
+    "allSizeDisplays": [
+        "6:6",
+        "6.5:6.5",
+        "7:7",
+        "7 Wide:7 Wide",
+        "7.5:7.5",
+        "7.5 Wide:7.5 Wide",
+        "8:8",
+        "8 Wide:8 Wide",
+        "8.5:8.5",
+        "8.5 Wide:8.5 Wide",
+        "9:9",
+        "9 Wide:9 Wide",
+        "9.5:9.5",
+        "9.5 Wide:9.5 Wide",
+        "10:10",
+        "10 Wide:10 Wide",
+        "10.5:10.5",
+        "11:11"
+    ],
+    "allColorFamilies": null,
+    "brand": "REI Co-op",
+    "brandDisplay": "REI Co-op",
+    "brandSlug": "rei-co-op",
+    "collection": null,
+    "color": "Dusty Olive/Gray",
+    "configuredNewPrice": 15000,
+    "data": {
+        "upc": "418906500775",
+        "url": "https://www.rei.com/product/189065/rei-co-op-flash-hiking-boots-womens",
+        "brand": "REI Co-op",
+        "title": "Flash Hiking Boots",
+        "upper": "99% recycled PET polyester FirmaKnit\u2122; 30% recycled thermoplastic urethane (TPU) overlay",
+        "deptId": "8",
+        "gender": [
+            "Women's"
+        ],
+        "shopId": "60",
+        "bestUse": "Hiking",
+        "classId": "115",
+        "midsole": "TerraLoft\u2122 EVA using 10% algae-based BLOOM\u00ae foam",
+        "outsole": "TerraGrip\u2122 rubber (20% recycled)",
+        "saleEnd": "9999-12-31T23:59:59.000-08:00",
+        "taxCode": "AlwaysTaxable",
+        "activity": "HIK DAY HIKE",
+        "ageGroup": "adult",
+        "deptName": "HIKING FOOTWEAR",
+        "features": {
+            "details": [
+                "Strong and socklike FirmaKnit\u2122 uppers are made from 99% recycled PET polyester and are designed for lightweight yet durable comfort right out of the box",
+                "HydroWall\u2122 complete waterproof/breathable protection keeps your feet dry when the trail ahead isn't\u2014and uses 75% recycled polyester to do so",
+                "20% recycled rubber TerraGrip\u2122 tread provides anti-slip grip on all kinds of terrain with 4 mm forefoot climbing lugs for going up and 4 mm heel braking lugs for coming down",
+                "TerraLoft\u2122 midsoles use 10% algae-based BLOOM\u2122 foam to cradle your feet with a cushioning system that feels like your favorite trail-running shoes (soft, but not too soft)",
+                "TrailBed\u2122 insoles use Insite\u00ae Contoura\u00ae technology created with podiatrists to ensure support and comfort; plus, it's made with 25% USDA-certified bio-based Susterra\u00ae compound",
+                "2-layer 30% recycled TPU overlays are designed to create durable and supportive uppers\u2014the structure you need for long hours on the trail that's still light and minimalist",
+                "Molded nylon midfoot shanks provide lightweight support to protect your feet from the trail and help propel you forward",
+                "Recycled PET polyester webbing and lacing creates a midfoot cradle system that allows for a highly adjustable and locked-down fit",
+                "Extra space in the toe boxes allows for natural changes in your feet (like swelling) during hours of trail exploration",
+                "Informed by feedback from over 6,000 people and field tested by 100 co-op members over 2,000 hours and 700+ miles"
+            ]
+        },
+        "shopName": "HIKE AND OUTSIDE LIFE FOOTWEAR",
+        "sizeCode": "7 Wide",
+        "taxCatId": "d932a754-a061-4a71-b5ec-7c5371b90892 > 5ae9d04f-cf4d-4d6d-8d4c-3f11429ac820 > c6cb76d1-06c1-4aea-b071-0522eb7cfcdd",
+        "className": "WOMEN'S HIKING BOOTS",
+        "condition": "NEW",
+        "valueTier": "GOOD",
+        "genderSpec": "Women's",
+        "partnerUrl": "https://www.rei.com/product/189065/rei-co-op-flash-hiking-boots-womens",
+        "saleStatus": "TRUE",
+        "skillLevel": "NOT APPLICABLE",
+        "subclassId": "30",
+        "taxCatName": "Footwear > Boots > Hiking Boots",
+        "technology": {
+            "Upper": [
+                "99% recycled PET polyester FirmaKnit\u2122; 30% recycled thermoplastic urethane (TPU) overlay"
+            ],
+            "Vegan": [
+                "Yes"
+            ],
+            "Gender": [
+                "Women's"
+            ],
+            "Midsole": [
+                "TerraLoft\u2122 EVA using 10% algae-based BLOOM\u00ae foam"
+            ],
+            "Outsole": [
+                "TerraGrip\u2122 rubber (20% recycled)"
+            ],
+            "Support": [
+                "Molded nylon midfoot shank"
+            ],
+            "Best Use": [
+                "Hiking"
+            ],
+            "Waterproof": [
+                "Yes"
+            ],
+            "Weight (g)": [
+                "822"
+            ],
+            "Product Line": [
+                "Flash"
+            ],
+            "Weight (Pair)": [
+                "1 lb. 13 oz."
+            ],
+            "Sustainability": [
+                "Contains recycled materials",
+                "From a Climate Neutral Certified brand"
+            ],
+            "Footwear Height": [
+                "Over-the-ankle"
+            ],
+            "Footwear Closure": [
+                "Lace-up"
+            ],
+            "Featured Technologies": [
+                "FirmaKnit",
+                "HydroWall",
+                "TerraGrip"
+            ],
+            "Type of Waterproofing": [
+                "HydroWall\u2122 waterproof/breathable membrane using 75% recycled polyester"
+            ]
+        },
+        "colorFamily": "Green",
+        "couponPrice": "33.62",
+        "markdownEnd": "9999-12-31T23:59:59.000-08:00",
+        "releaseDate": "2021-11-12",
+        "reviewCount": "202",
+        "sizeDisplay": "7 Wide",
+        "altVideoUrl1": "https://youtu.be/OJsLJemvtiA",
+        "colorDisplay": "Dusty Olive/Gray",
+        "mainVideoUrl": "https://youtu.be/P5WG4R_1MRw",
+        "manufacturer": "CAPITAL CONCORD ENTERPRISES LIMITED",
+        "outletStatus": "False",
+        "subclassName": "W'S FAST HIKING BOOTS",
+        "coopExclusive": "false",
+        "futureSaleEnd": "2023-09-04T23:59:59.000-07:00",
+        "markdownStart": "2023-08-22T00:00:00.000-07:00",
+        "merchantCatId": "67352c34-b013-4542-b389-a1617a93fc84 > 34355f84-94ac-450c-ac3b-dfde75904b49 > fedc6ace-298e-4aed-ab03-b1c2cb33df39 > f390915f-3ce9-471d-9919-b2a4341f0328 > 549a0857-126b-4f99-a258-7cf3660195d2",
+        "productGender": "women's",
+        "reviewAverage": "4.0050",
+        "futureSalePrice": "112.49",
+        "futureSaleStart": "2023-08-25T00:00:00.000-07:00",
+        "additionalCatsId": "67352c34-b013-4542-b389-a1617a93fc84 > 85e8edac-4cc8-4d4a-9999-57db97673343 > b3c2fef6-d404-48a6-9edb-898c95f38f8a > 586e2cef-2bf8-4a5f-a6b0-71b254d37302 > 549a0857-126b-4f99-a258-7cf3660195d2 ~ 67352c34-b013-4542-b389-a1617a93fc84 > c75ec982-c640-4e01-8c68-fc3e62b0e605 > 75143a5b-58f9-4644-be24-4171179718bc > f390915f-3ce9-471d-9919-b2a4341f0328 > 549a0857-126b-4f99-a258-7cf3660195d2",
+        "altImage1MaxSize": "4061",
+        "altImage2MaxSize": "2897",
+        "altImage3MaxSize": "2415",
+        "assemblyRequired": "false",
+        "mainImageMaxSize": "3914",
+        "futureMarkdownPrice": "44.83",
+        "additionalCategories": "Footwear > Boots > Hiking Boots > Day Hiking Boots > Women's Day Hiking Boots ~ Footwear > Hiking Footwear > Women's Hiking Footwear > Women's Hiking Boots > Women's Day Hiking Boots",
+        "merchantCatCanonical": "footwear > womens-footwear > womens-boots > womens-hiking-boots > womens-day-hiking-boots",
+        "additionalCatsCanonical": "footwear > boots > hiking-boots > day-hiking-boots > womens-day-hiking-boots ~ footwear > hiking-footwear > womens-hiking-footwear > womens-hiking-boots > womens-day-hiking-boots",
+        "keysDisplay": {
+            "upc": "upc",
+            "url": "url",
+            "brand": "brand",
+            "title": "title",
+            "upper": "upper",
+            "deptId": "deptId",
+            "gender": "gender",
+            "shopId": "shopId",
+            "bestUse": "bestUse",
+            "classId": "classId",
+            "midsole": "midsole",
+            "outsole": "outsole",
+            "saleEnd": "saleEnd",
+            "taxCode": "taxCode",
+            "activity": "activity",
+            "ageGroup": "ageGroup",
+            "deptName": "deptName",
+            "features": "features",
+            "details": "details",
+            "shopName": "shopName",
+            "sizeCode": "sizeCode",
+            "taxCatId": "taxCatId",
+            "className": "className",
+            "condition": "condition",
+            "valueTier": "valueTier",
+            "genderSpec": "genderSpec",
+            "partnerUrl": "partnerUrl",
+            "saleStatus": "saleStatus",
+            "skillLevel": "skillLevel",
+            "subclassId": "subclassId",
+            "taxCatName": "taxCatName",
+            "technology": "technology",
+            "Upper": "Upper",
+            "Vegan": "Vegan",
+            "Gender": "Gender",
+            "Midsole": "Midsole",
+            "Outsole": "Outsole",
+            "Support": "Support",
+            "Best Use": "Best Use",
+            "Waterproof": "Waterproof",
+            "Weight (g)": "Weight (g)",
+            "Product Line": "Product Line",
+            "Weight (Pair)": "Weight (Pair)",
+            "Sustainability": "Sustainability",
+            "Footwear Height": "Footwear Height",
+            "Footwear Closure": "Footwear Closure",
+            "Featured Technologies": "Featured Technologies",
+            "Type of Waterproofing": "Type of Waterproofing",
+            "colorFamily": "colorFamily",
+            "couponPrice": "couponPrice",
+            "markdownEnd": "markdownEnd",
+            "releaseDate": "releaseDate",
+            "reviewCount": "reviewCount",
+            "sizeDisplay": "sizeDisplay",
+            "altVideoUrl1": "altVideoUrl1",
+            "colorDisplay": "colorDisplay",
+            "mainVideoUrl": "mainVideoUrl",
+            "manufacturer": "manufacturer",
+            "outletStatus": "outletStatus",
+            "subclassName": "subclassName",
+            "coopExclusive": "coopExclusive",
+            "futureSaleEnd": "futureSaleEnd",
+            "markdownStart": "markdownStart",
+            "merchantCatId": "merchantCatId",
+            "productGender": "productGender",
+            "reviewAverage": "reviewAverage",
+            "futureSalePrice": "futureSalePrice",
+            "futureSaleStart": "futureSaleStart",
+            "additionalCatsId": "additionalCatsId",
+            "altImage1MaxSize": "altImage1MaxSize",
+            "altImage2MaxSize": "altImage2MaxSize",
+            "altImage3MaxSize": "altImage3MaxSize",
+            "assemblyRequired": "assemblyRequired",
+            "mainImageMaxSize": "mainImageMaxSize",
+            "futureMarkdownPrice": "futureMarkdownPrice",
+            "additionalCategories": "additionalCategories",
+            "merchantCatCanonical": "merchantCatCanonical",
+            "additionalCatsCanonical": "additionalCatsCanonical"
+        }
+    },
+    "dataLocalized": {
+        "upc": "418906500775",
+        "url": "https://www.rei.com/product/189065/rei-co-op-flash-hiking-boots-womens",
+        "brand": "REI Co-op",
+        "title": "Flash Hiking Boots",
+        "upper": "99% recycled PET polyester FirmaKnit\u2122; 30% recycled thermoplastic urethane (TPU) overlay",
+        "deptId": "8",
+        "gender": [
+            "Women's"
+        ],
+        "shopId": "60",
+        "bestUse": "Hiking",
+        "classId": "115",
+        "midsole": "TerraLoft\u2122 EVA using 10% algae-based BLOOM\u00ae foam",
+        "outsole": "TerraGrip\u2122 rubber (20% recycled)",
+        "saleEnd": "9999-12-31T23:59:59.000-08:00",
+        "taxCode": "AlwaysTaxable",
+        "activity": "HIK DAY HIKE",
+        "ageGroup": "adult",
+        "deptName": "HIKING FOOTWEAR",
+        "features": {
+            "details": [
+                "Strong and socklike FirmaKnit\u2122 uppers are made from 99% recycled PET polyester and are designed for lightweight yet durable comfort right out of the box",
+                "HydroWall\u2122 complete waterproof/breathable protection keeps your feet dry when the trail ahead isn't\u2014and uses 75% recycled polyester to do so",
+                "20% recycled rubber TerraGrip\u2122 tread provides anti-slip grip on all kinds of terrain with 4 mm forefoot climbing lugs for going up and 4 mm heel braking lugs for coming down",
+                "TerraLoft\u2122 midsoles use 10% algae-based BLOOM\u2122 foam to cradle your feet with a cushioning system that feels like your favorite trail-running shoes (soft, but not too soft)",
+                "TrailBed\u2122 insoles use Insite\u00ae Contoura\u00ae technology created with podiatrists to ensure support and comfort; plus, it's made with 25% USDA-certified bio-based Susterra\u00ae compound",
+                "2-layer 30% recycled TPU overlays are designed to create durable and supportive uppers\u2014the structure you need for long hours on the trail that's still light and minimalist",
+                "Molded nylon midfoot shanks provide lightweight support to protect your feet from the trail and help propel you forward",
+                "Recycled PET polyester webbing and lacing creates a midfoot cradle system that allows for a highly adjustable and locked-down fit",
+                "Extra space in the toe boxes allows for natural changes in your feet (like swelling) during hours of trail exploration",
+                "Informed by feedback from over 6,000 people and field tested by 100 co-op members over 2,000 hours and 700+ miles"
+            ]
+        },
+        "shopName": "HIKE AND OUTSIDE LIFE FOOTWEAR",
+        "sizeCode": "7 Wide",
+        "taxCatId": "d932a754-a061-4a71-b5ec-7c5371b90892 > 5ae9d04f-cf4d-4d6d-8d4c-3f11429ac820 > c6cb76d1-06c1-4aea-b071-0522eb7cfcdd",
+        "className": "WOMEN'S HIKING BOOTS",
+        "condition": "NEW",
+        "valueTier": "GOOD",
+        "genderSpec": "Women's",
+        "partnerUrl": "https://www.rei.com/product/189065/rei-co-op-flash-hiking-boots-womens",
+        "saleStatus": "TRUE",
+        "skillLevel": "NOT APPLICABLE",
+        "subclassId": "30",
+        "taxCatName": "Footwear > Boots > Hiking Boots",
+        "technology": {
+            "Upper": [
+                "99% recycled PET polyester FirmaKnit\u2122; 30% recycled thermoplastic urethane (TPU) overlay"
+            ],
+            "Vegan": [
+                "Yes"
+            ],
+            "Gender": [
+                "Women's"
+            ],
+            "Midsole": [
+                "TerraLoft\u2122 EVA using 10% algae-based BLOOM\u00ae foam"
+            ],
+            "Outsole": [
+                "TerraGrip\u2122 rubber (20% recycled)"
+            ],
+            "Support": [
+                "Molded nylon midfoot shank"
+            ],
+            "Best Use": [
+                "Hiking"
+            ],
+            "Waterproof": [
+                "Yes"
+            ],
+            "Weight (g)": [
+                "822"
+            ],
+            "Product Line": [
+                "Flash"
+            ],
+            "Weight (Pair)": [
+                "1 lb. 13 oz."
+            ],
+            "Sustainability": [
+                "Contains recycled materials",
+                "From a Climate Neutral Certified brand"
+            ],
+            "Footwear Height": [
+                "Over-the-ankle"
+            ],
+            "Footwear Closure": [
+                "Lace-up"
+            ],
+            "Featured Technologies": [
+                "FirmaKnit",
+                "HydroWall",
+                "TerraGrip"
+            ],
+            "Type of Waterproofing": [
+                "HydroWall\u2122 waterproof/breathable membrane using 75% recycled polyester"
+            ]
+        },
+        "colorFamily": "Green",
+        "couponPrice": "33.62",
+        "markdownEnd": "9999-12-31T23:59:59.000-08:00",
+        "releaseDate": "2021-11-12",
+        "reviewCount": "202",
+        "sizeDisplay": "7 Wide",
+        "altVideoUrl1": "https://youtu.be/OJsLJemvtiA",
+        "colorDisplay": "Dusty Olive/Gray",
+        "mainVideoUrl": "https://youtu.be/P5WG4R_1MRw",
+        "manufacturer": "CAPITAL CONCORD ENTERPRISES LIMITED",
+        "outletStatus": "False",
+        "subclassName": "W'S FAST HIKING BOOTS",
+        "coopExclusive": "false",
+        "futureSaleEnd": "2023-09-04T23:59:59.000-07:00",
+        "markdownStart": "2023-08-22T00:00:00.000-07:00",
+        "merchantCatId": "67352c34-b013-4542-b389-a1617a93fc84 > 34355f84-94ac-450c-ac3b-dfde75904b49 > fedc6ace-298e-4aed-ab03-b1c2cb33df39 > f390915f-3ce9-471d-9919-b2a4341f0328 > 549a0857-126b-4f99-a258-7cf3660195d2",
+        "productGender": "women's",
+        "reviewAverage": "4.0050",
+        "futureSalePrice": "112.49",
+        "futureSaleStart": "2023-08-25T00:00:00.000-07:00",
+        "additionalCatsId": "67352c34-b013-4542-b389-a1617a93fc84 > 85e8edac-4cc8-4d4a-9999-57db97673343 > b3c2fef6-d404-48a6-9edb-898c95f38f8a > 586e2cef-2bf8-4a5f-a6b0-71b254d37302 > 549a0857-126b-4f99-a258-7cf3660195d2 ~ 67352c34-b013-4542-b389-a1617a93fc84 > c75ec982-c640-4e01-8c68-fc3e62b0e605 > 75143a5b-58f9-4644-be24-4171179718bc > f390915f-3ce9-471d-9919-b2a4341f0328 > 549a0857-126b-4f99-a258-7cf3660195d2",
+        "altImage1MaxSize": "4061",
+        "altImage2MaxSize": "2897",
+        "altImage3MaxSize": "2415",
+        "assemblyRequired": "false",
+        "mainImageMaxSize": "3914",
+        "futureMarkdownPrice": "44.83",
+        "additionalCategories": "Footwear > Boots > Hiking Boots > Day Hiking Boots > Women's Day Hiking Boots ~ Footwear > Hiking Footwear > Women's Hiking Footwear > Women's Hiking Boots > Women's Day Hiking Boots",
+        "merchantCatCanonical": "footwear > womens-footwear > womens-boots > womens-hiking-boots > womens-day-hiking-boots",
+        "additionalCatsCanonical": "footwear > boots > hiking-boots > day-hiking-boots > womens-day-hiking-boots ~ footwear > hiking-footwear > womens-hiking-footwear > womens-hiking-boots > womens-day-hiking-boots",
+        "keysDisplay": {
+            "upc": "upc",
+            "url": "url",
+            "brand": "brand",
+            "title": "title",
+            "upper": "upper",
+            "deptId": "deptId",
+            "gender": "gender",
+            "shopId": "shopId",
+            "bestUse": "bestUse",
+            "classId": "classId",
+            "midsole": "midsole",
+            "outsole": "outsole",
+            "saleEnd": "saleEnd",
+            "taxCode": "taxCode",
+            "activity": "activity",
+            "ageGroup": "ageGroup",
+            "deptName": "deptName",
+            "features": "features",
+            "details": "details",
+            "shopName": "shopName",
+            "sizeCode": "sizeCode",
+            "taxCatId": "taxCatId",
+            "className": "className",
+            "condition": "condition",
+            "valueTier": "valueTier",
+            "genderSpec": "genderSpec",
+            "partnerUrl": "partnerUrl",
+            "saleStatus": "saleStatus",
+            "skillLevel": "skillLevel",
+            "subclassId": "subclassId",
+            "taxCatName": "taxCatName",
+            "technology": "technology",
+            "Upper": "Upper",
+            "Vegan": "Vegan",
+            "Gender": "Gender",
+            "Midsole": "Midsole",
+            "Outsole": "Outsole",
+            "Support": "Support",
+            "Best Use": "Best Use",
+            "Waterproof": "Waterproof",
+            "Weight (g)": "Weight (g)",
+            "Product Line": "Product Line",
+            "Weight (Pair)": "Weight (Pair)",
+            "Sustainability": "Sustainability",
+            "Footwear Height": "Footwear Height",
+            "Footwear Closure": "Footwear Closure",
+            "Featured Technologies": "Featured Technologies",
+            "Type of Waterproofing": "Type of Waterproofing",
+            "colorFamily": "colorFamily",
+            "couponPrice": "couponPrice",
+            "markdownEnd": "markdownEnd",
+            "releaseDate": "releaseDate",
+            "reviewCount": "reviewCount",
+            "sizeDisplay": "sizeDisplay",
+            "altVideoUrl1": "altVideoUrl1",
+            "colorDisplay": "colorDisplay",
+            "mainVideoUrl": "mainVideoUrl",
+            "manufacturer": "manufacturer",
+            "outletStatus": "outletStatus",
+            "subclassName": "subclassName",
+            "coopExclusive": "coopExclusive",
+            "futureSaleEnd": "futureSaleEnd",
+            "markdownStart": "markdownStart",
+            "merchantCatId": "merchantCatId",
+            "productGender": "productGender",
+            "reviewAverage": "reviewAverage",
+            "futureSalePrice": "futureSalePrice",
+            "futureSaleStart": "futureSaleStart",
+            "additionalCatsId": "additionalCatsId",
+            "altImage1MaxSize": "altImage1MaxSize",
+            "altImage2MaxSize": "altImage2MaxSize",
+            "altImage3MaxSize": "altImage3MaxSize",
+            "assemblyRequired": "assemblyRequired",
+            "mainImageMaxSize": "mainImageMaxSize",
+            "futureMarkdownPrice": "futureMarkdownPrice",
+            "additionalCategories": "additionalCategories",
+            "merchantCatCanonical": "merchantCatCanonical",
+            "additionalCatsCanonical": "additionalCatsCanonical"
+        }
+    },
+    "description": null,
+    "displayColor": "Dusty Olive/Gray",
+    "displayTitle": "Flash Hiking Boots - Women's",
+    "imageUrls": {
+        "main": "https://res.cloudinary.com/yerdle/image/upload/v1670584086/production/partners/3/catalogItemImageCache/wq5ct7oy3l0aambprcg2.jpg",
+        "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670584212/production/partners/3/catalogItemImageCache/fatoxhjtombvxnorsdyg.jpg",
+        "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670584559/production/partners/3/catalogItemImageCache/r5d7dcrtftu8hxyyp9kt.jpg",
+        "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670584498/production/partners/3/catalogItemImageCache/b1aftwxcubnvjfpxfvat.jpg"
+    },
+    "mixedStylesDefaultSize": "9 Wide",
+    "parentSKU": "189065",
+    "pdpStyle": "used",
+    "prevPrice": 4350,
+    "priceRange": [
+        3480,
+        4350
+    ],
+    "prop65Code": "",
+    "prop65Message": "",
+    "redirectTo": null,
+    "stackId": "rei__189065-Dusty Olive/Gray_3",
+    "title": "Flash Hiking Boots",
+    "facets": [
+        {
+            "tag": "resalePriceRange",
+            "name": "resalePrice_30to44",
+            "displayName": "resalePrice_30to44"
+        },
+        {
+            "tag": "itemStorefrontPriceRange",
+            "name": "Under $50",
+            "displayName": "Under $50"
+        },
+        {
+            "tag": "added",
+            "name": "20230726",
+            "displayName": "20230726"
+        },
+        {
+            "tag": "grade",
+            "name": "GRADE_B",
+            "displayName": "GRADE_B"
+        },
+        {
+            "tag": "condition",
+            "name": "Excellent condition",
+            "displayName": "Excellent condition"
+        },
+        {
+            "tag": "markdownReason",
+            "name": "re",
+            "displayName": "re"
+        },
+        {
+            "tag": "sourcePartnerType",
+            "name": "marketMaker",
+            "displayName": "marketMaker"
+        },
+        {
+            "tag": "tradeinAvailability",
+            "name": "false",
+            "displayName": "false"
+        },
+        {
+            "tag": "tradeinSize",
+            "name": "LARGE_POLY",
+            "displayName": "LARGE_POLY"
+        },
+        {
+            "tag": "activity",
+            "name": "Camping & Hiking",
+            "displayName": "Camping & Hiking"
+        },
+        {
+            "tag": "gender",
+            "name": "Women's",
+            "displayName": "Women's"
+        },
+        {
+            "tag": "brand",
+            "name": "REI Co-op",
+            "displayName": "REI Co-op"
+        },
+        {
+            "tag": "parentSkuHighestMsrpPriceRange",
+            "name": "parentSkuMsrpPrice_100to200",
+            "displayName": "parentSkuMsrpPrice_100to200"
+        },
+        {
+            "tag": "catalogItemType",
+            "name": "TRADITIONAL_SKU",
+            "displayName": "TRADITIONAL_SKU"
+        },
+        {
+            "tag": "zeroPayout",
+            "name": "false",
+            "displayName": "false"
+        },
+        {
+            "tag": "size",
+            "name": "7",
+            "displayName": "7"
+        },
+        {
+            "tag": "color",
+            "name": "Green",
+            "displayName": "Green"
+        },
+        {
+            "tag": "category",
+            "name": "Hiking, Work & Winter Boots",
+            "displayName": "Hiking, Work & Winter Boots"
+        },
+        {
+            "tag": "department",
+            "name": "Women's Footwear",
+            "displayName": "Women's Footwear"
+        },
+        {
+            "tag": "instiTradeinAvailability",
+            "name": "ELIGIBLE",
+            "displayName": "ELIGIBLE"
+        },
+        {
+            "tag": "mitiTradeinAvailability",
+            "name": "ELIGIBLE",
+            "displayName": "ELIGIBLE"
+        },
+        {
+            "tag": "collection",
+            "name": "other",
+            "displayName": "other"
+        }
+    ],
+    "wishColors": [
+        {
+            "name": "Brown",
+            "displayName": "Brown",
+            "url": null,
+            "type": "colorFamily"
+        },
+        {
+            "name": "Gray",
+            "displayName": "Gray",
+            "url": null,
+            "type": "colorFamily"
+        },
+        {
+            "name": "Green",
+            "displayName": "Green",
+            "url": null,
+            "type": "colorFamily"
+        },
+        {
+            "name": "Orange",
+            "displayName": "Orange",
+            "url": null,
+            "type": "colorFamily"
+        }
+    ],
+    "breadcrumbs": [
+        {
+            "name": "Women's Footwear",
+            "url": "https://www.rei.com/used/shop/womens-footwear",
+            "urlPath": "/shop/womens-footwear"
+        },
+        {
+            "name": "Hiking, Work & Winter Boots",
+            "url": "https://www.rei.com/used/shop/womens-footwear?category=Hiking%2C%20Work%20%26%20Winter%20Boots",
+            "urlPath": "/shop/womens-footwear?category=Hiking%2C%20Work%20%26%20Winter%20Boots"
+        }
+    ],
+    "offers": [
+        {
+            "sku": "REI_189065_BARKMOSS_6_418906500010",
+            "price": 2880,
+            "image": "https://www.rei.com/media/f61192d0-da80-4e2f-896f-3fadabc729e9"
+        },
+        {
+            "sku": "REI_189065_BARKMOSS_7_418906500034",
+            "price": 2880,
+            "image": "https://www.rei.com/media/f61192d0-da80-4e2f-896f-3fadabc729e9"
+        },
+        {
+            "sku": "REI_189065_BARKMOSS_9_418906500072",
+            "price": 3600,
+            "image": "https://www.rei.com/media/f61192d0-da80-4e2f-896f-3fadabc729e9"
+        },
+        {
+            "sku": "REI_189065_DUSTY-OLIVEGRAY_10_418906500744",
+            "price": 3915,
+            "image": "https://www.rei.com/media/d1ec5217-e80f-47db-aa51-8da25a0bb433"
+        },
+        {
+            "sku": "REI_189065_DUSTY-OLIVEGRAY_10-WIDE_418906500836",
+            "price": 4350,
+            "image": "https://www.rei.com/media/d1ec5217-e80f-47db-aa51-8da25a0bb433"
+        },
+        {
+            "sku": "REI_189065_DUSTY-OLIVEGRAY_11_418906500768",
+            "price": 4350,
+            "image": "https://www.rei.com/media/d1ec5217-e80f-47db-aa51-8da25a0bb433"
+        },
+        {
+            "sku": "REI_189065_DUSTY-OLIVEGRAY_6_418906500669",
+            "price": 3915,
+            "image": "https://www.rei.com/media/d1ec5217-e80f-47db-aa51-8da25a0bb433"
+        },
+        {
+            "sku": "REI_189065_DUSTY-OLIVEGRAY_7-WIDE_418906500775",
+            "price": 4350,
+            "image": "https://www.rei.com/media/d1ec5217-e80f-47db-aa51-8da25a0bb433"
+        },
+        {
+            "sku": "REI_189065_DUSTY-OLIVEGRAY_8.5_418906500713",
+            "price": 4350,
+            "image": "https://www.rei.com/media/d1ec5217-e80f-47db-aa51-8da25a0bb433"
+        },
+        {
+            "sku": "REI_189065_DUSTY-OLIVEGRAY_8.5-WIDE_418906500805",
+            "price": 4350,
+            "image": "https://www.rei.com/media/d1ec5217-e80f-47db-aa51-8da25a0bb433"
+        },
+        {
+            "sku": "REI_189065_DUSTY-OLIVEGRAY_8-WIDE_418906500799",
+            "price": 4350,
+            "image": "https://www.rei.com/media/d1ec5217-e80f-47db-aa51-8da25a0bb433"
+        },
+        {
+            "sku": "REI_189065_DUSTY-OLIVEGRAY_9.5_418906500737",
+            "price": 3480,
+            "image": "https://www.rei.com/media/d1ec5217-e80f-47db-aa51-8da25a0bb433"
+        },
+        {
+            "sku": "REI_189065_DUSTY-OLIVEGRAY_9.5-WIDE_418906500829",
+            "price": 4350,
+            "image": "https://www.rei.com/media/d1ec5217-e80f-47db-aa51-8da25a0bb433"
+        },
+        {
+            "sku": "REI_189065_DUSTY-OLIVEGRAY_9-WIDE_418906500812",
+            "price": 4350,
+            "image": "https://www.rei.com/media/d1ec5217-e80f-47db-aa51-8da25a0bb433"
+        },
+        {
+            "sku": "REI_189065_GRANITE-BLACK_6_418906500126",
+            "price": 4350,
+            "image": "https://www.rei.com/media/990b6fdf-d92e-4239-ae3e-ffae364e43e9"
+        },
+        {
+            "sku": "REI_189065_GRANITE-BLACK_8_418906500164",
+            "price": 3480,
+            "image": "https://www.rei.com/media/990b6fdf-d92e-4239-ae3e-ffae364e43e9"
+        },
+        {
+            "sku": "REI_189065_GRANITE-BLACK_9.5_418906500195",
+            "price": 3915,
+            "image": "https://www.rei.com/media/990b6fdf-d92e-4239-ae3e-ffae364e43e9"
+        },
+        {
+            "sku": "REI_189065_ORANGE-EARTH_9_418906500409",
+            "price": 4350,
+            "image": "https://www.rei.com/media/2a799886-c0db-4352-a31d-86eb6fd660e7"
+        },
+        {
+            "sku": "REI_189065_SMOKELILAC_10_418906500317",
+            "price": 4350,
+            "image": "https://www.rei.com/media/db7c7258-a5bd-4f3a-8ce3-8cdde4226748"
+        },
+        {
+            "sku": "REI_189065_SMOKELILAC_10.5_418906500324",
+            "price": 4350,
+            "image": "https://www.rei.com/media/db7c7258-a5bd-4f3a-8ce3-8cdde4226748"
+        },
+        {
+            "sku": "REI_189065_SMOKELILAC_6_418906500232",
+            "price": 4350,
+            "image": "https://www.rei.com/media/db7c7258-a5bd-4f3a-8ce3-8cdde4226748"
+        },
+        {
+            "sku": "REI_189065_SMOKELILAC_9_418906500294",
+            "price": 4350,
+            "image": "https://www.rei.com/media/db7c7258-a5bd-4f3a-8ce3-8cdde4226748"
+        }
+    ],
+    "pdpLink": {
+        "canonical": "https://www.rei.com/used/p/rei-co-op-flash-hiking-boots-womens/189065",
+        "path": "/used/p/rei-co-op-flash-hiking-boots-womens/189065?color=Dusty%20Olive%2FGray",
+        "url": "https://www.rei.com/used/p/rei-co-op-flash-hiking-boots-womens/189065?color=Dusty%20Olive%2FGray"
+    },
+    "availableSizes": [
+        {
+            "color": "Granite Black",
+            "condition": "GRADE_A",
+            "displayColor": "Granite Black",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670418127/production/partners/3/catalogItemImageCache/cfdbg8g1l4vtvdcdlwod.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670419771/production/partners/3/catalogItemImageCache/y4zblwkdmig1bmo6jwvk.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670416671/production/partners/3/catalogItemImageCache/aghzkrianr2m4cf6jugh.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670421316/production/partners/3/catalogItemImageCache/jpjspf9zpuexanlukn5y.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "",
+            "notesByNewLine": [],
+            "originalPrice": 15000,
+            "price": 4350,
+            "seasonDisplay": null,
+            "size": "6",
+            "sku": "REI_189065_GRANITE-BLACK_6_418906500126",
+            "surchargeAmount": null,
+            "uuid": "4fe8b67c-64e6-472b-aa3c-ef199f751061"
+        },
+        {
+            "color": "Smoke/Lilac",
+            "condition": "GRADE_A",
+            "displayColor": "Smoke/Lilac",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670419739/production/partners/3/catalogItemImageCache/t7fbmkkuemifw25hvzuq.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670421127/production/partners/3/catalogItemImageCache/imqdtm6ztewydjcbtxpq.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670421071/production/partners/3/catalogItemImageCache/kkggez13l7r5sar6tzow.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670416941/production/partners/3/catalogItemImageCache/gbs0mhuywdt0dpdtm91f.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "",
+            "notesByNewLine": [],
+            "originalPrice": 15000,
+            "price": 4350,
+            "seasonDisplay": null,
+            "size": "6",
+            "sku": "REI_189065_SMOKELILAC_6_418906500232",
+            "surchargeAmount": null,
+            "uuid": "67ab8a39-8369-40ff-920d-f7c52b15ba20"
+        },
+        {
+            "color": "Bark/Moss",
+            "condition": "GRADE_C",
+            "displayColor": "Bark/Moss",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670583719/production/partners/3/catalogItemImageCache/vuanuxgbwrer2wlzck04.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670583444/production/partners/3/catalogItemImageCache/egnjgtv3gudsq3cke6ky.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670592865/production/partners/3/catalogItemImageCache/g5jkm6rnsqk4olferuwu.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670584478/production/partners/3/catalogItemImageCache/radbue0vkopl9xwjlfw0.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "Moderate discoloration on outsoles. Minor creasing on uppers.",
+            "notesByNewLine": [
+                "Moderate discoloration on outsoles. Minor creasing on uppers."
+            ],
+            "originalPrice": 15000,
+            "price": 3240,
+            "seasonDisplay": null,
+            "size": "6",
+            "sku": "REI_189065_BARKMOSS_6_418906500010",
+            "surchargeAmount": null,
+            "uuid": "46dcda4c-dfff-457f-9991-3860d38a65db"
+        },
+        {
+            "color": "Dusty Olive/Gray",
+            "condition": "GRADE_C",
+            "displayColor": "Dusty Olive/Gray",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670584086/production/partners/3/catalogItemImageCache/wq5ct7oy3l0aambprcg2.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670584212/production/partners/3/catalogItemImageCache/fatoxhjtombvxnorsdyg.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670584559/production/partners/3/catalogItemImageCache/r5d7dcrtftu8hxyyp9kt.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670584498/production/partners/3/catalogItemImageCache/b1aftwxcubnvjfpxfvat.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "Minor creasing on uppers. Minor discoloration on multiple locations. Minor tread wear on outsoles.",
+            "notesByNewLine": [
+                "Minor creasing on uppers. Minor discoloration on multiple locations. Minor tread wear on outsoles."
+            ],
+            "originalPrice": 15000,
+            "price": 3915,
+            "seasonDisplay": null,
+            "size": "6",
+            "sku": "REI_189065_DUSTY-OLIVEGRAY_6_418906500669",
+            "surchargeAmount": null,
+            "uuid": "6b659497-eff8-4291-bcde-d18903f93f36"
+        },
+        {
+            "color": "Bark/Moss",
+            "condition": "GRADE_D",
+            "displayColor": "Bark/Moss",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670583719/production/partners/3/catalogItemImageCache/vuanuxgbwrer2wlzck04.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670583444/production/partners/3/catalogItemImageCache/egnjgtv3gudsq3cke6ky.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670592865/production/partners/3/catalogItemImageCache/g5jkm6rnsqk4olferuwu.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670584478/production/partners/3/catalogItemImageCache/radbue0vkopl9xwjlfw0.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "Dust found on item.",
+            "notesByNewLine": [
+                "Dust found on item."
+            ],
+            "originalPrice": 15000,
+            "price": 2880,
+            "seasonDisplay": null,
+            "size": "6",
+            "sku": "REI_189065_BARKMOSS_6_418906500010",
+            "surchargeAmount": null,
+            "uuid": "10310ba5-319b-4b5f-b1e3-a07e5f68ee49"
+        },
+        {
+            "color": "Bark/Moss",
+            "condition": "GRADE_D",
+            "displayColor": "Bark/Moss",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670583719/production/partners/3/catalogItemImageCache/vuanuxgbwrer2wlzck04.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1687522466/production/partners/3/catalogItemImageCache/jpwu9ih9ygickyhtlasx.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1687522446/production/partners/3/catalogItemImageCache/v7jcbw7pqpg5xrro4fkq.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1687522446/production/partners/3/catalogItemImageCache/qvlynyba5w0ti25lilqv.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "Moderate discoloration on multiple locations.",
+            "notesByNewLine": [
+                "Moderate discoloration on multiple locations."
+            ],
+            "originalPrice": 15000,
+            "price": 2880,
+            "seasonDisplay": null,
+            "size": "7",
+            "sku": "REI_189065_BARKMOSS_7_418906500034",
+            "surchargeAmount": null,
+            "uuid": "f6d2c6a1-1914-4c9b-bd65-71cc60bab06b"
+        },
+        {
+            "color": "Dusty Olive/Gray",
+            "condition": "GRADE_A",
+            "displayColor": "Dusty Olive/Gray",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670584086/production/partners/3/catalogItemImageCache/wq5ct7oy3l0aambprcg2.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670584212/production/partners/3/catalogItemImageCache/fatoxhjtombvxnorsdyg.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670584559/production/partners/3/catalogItemImageCache/r5d7dcrtftu8hxyyp9kt.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670584498/production/partners/3/catalogItemImageCache/b1aftwxcubnvjfpxfvat.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "Minor discoloration on outsoles. Minor debris on outsoles.",
+            "notesByNewLine": [
+                "Minor discoloration on outsoles. Minor debris on outsoles."
+            ],
+            "originalPrice": 15000,
+            "price": 4350,
+            "seasonDisplay": null,
+            "size": "7 Wide",
+            "sku": "REI_189065_DUSTY-OLIVEGRAY_7-WIDE_418906500775",
+            "surchargeAmount": null,
+            "uuid": "da3ab247-b730-43e8-86c0-b4475272edbc"
+        },
+        {
+            "color": "Granite Black",
+            "condition": "GRADE_D",
+            "displayColor": "Granite Black",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670418127/production/partners/3/catalogItemImageCache/cfdbg8g1l4vtvdcdlwod.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670419771/production/partners/3/catalogItemImageCache/y4zblwkdmig1bmo6jwvk.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670416671/production/partners/3/catalogItemImageCache/aghzkrianr2m4cf6jugh.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670421316/production/partners/3/catalogItemImageCache/jpjspf9zpuexanlukn5y.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "Moderate debris on outsoles. Moderate discoloration on multiple locations. Minor scratch on multiple locations. Minor creasing on toe boxes.",
+            "notesByNewLine": [
+                "Moderate debris on outsoles. Moderate discoloration on multiple locations. Minor scratch on multiple locations. Minor creasing on toe boxes."
+            ],
+            "originalPrice": 15000,
+            "price": 3480,
+            "seasonDisplay": null,
+            "size": "8",
+            "sku": "REI_189065_GRANITE-BLACK_8_418906500164",
+            "surchargeAmount": null,
+            "uuid": "8f5f00a7-1e3d-4a1e-b675-d448651638c9"
+        },
+        {
+            "color": "Dusty Olive/Gray",
+            "condition": "GRADE_A",
+            "displayColor": "Dusty Olive/Gray",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670584086/production/partners/3/catalogItemImageCache/wq5ct7oy3l0aambprcg2.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670584212/production/partners/3/catalogItemImageCache/fatoxhjtombvxnorsdyg.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670584559/production/partners/3/catalogItemImageCache/r5d7dcrtftu8hxyyp9kt.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670584498/production/partners/3/catalogItemImageCache/b1aftwxcubnvjfpxfvat.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "",
+            "notesByNewLine": [],
+            "originalPrice": 15000,
+            "price": 4350,
+            "seasonDisplay": null,
+            "size": "8 Wide",
+            "sku": "REI_189065_DUSTY-OLIVEGRAY_8-WIDE_418906500799",
+            "surchargeAmount": null,
+            "uuid": "2641bac0-5a58-41fa-8c7b-39850142645b"
+        },
+        {
+            "color": "Dusty Olive/Gray",
+            "condition": "GRADE_A",
+            "displayColor": "Dusty Olive/Gray",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670584086/production/partners/3/catalogItemImageCache/wq5ct7oy3l0aambprcg2.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670584212/production/partners/3/catalogItemImageCache/fatoxhjtombvxnorsdyg.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670584559/production/partners/3/catalogItemImageCache/r5d7dcrtftu8hxyyp9kt.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670584498/production/partners/3/catalogItemImageCache/b1aftwxcubnvjfpxfvat.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "Faint discoloration on multiple locations. Faint tread wear on outsoles.",
+            "notesByNewLine": [
+                "Faint discoloration on multiple locations. Faint tread wear on outsoles."
+            ],
+            "originalPrice": 15000,
+            "price": 4350,
+            "seasonDisplay": null,
+            "size": "8.5",
+            "sku": "REI_189065_DUSTY-OLIVEGRAY_8.5_418906500713",
+            "surchargeAmount": null,
+            "uuid": "f3492454-f793-485f-a98b-c843dec03685"
+        },
+        {
+            "color": "Dusty Olive/Gray",
+            "condition": "GRADE_A",
+            "displayColor": "Dusty Olive/Gray",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670584086/production/partners/3/catalogItemImageCache/wq5ct7oy3l0aambprcg2.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670584212/production/partners/3/catalogItemImageCache/fatoxhjtombvxnorsdyg.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670584559/production/partners/3/catalogItemImageCache/r5d7dcrtftu8hxyyp9kt.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670584498/production/partners/3/catalogItemImageCache/b1aftwxcubnvjfpxfvat.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "Faint discoloration on uppers. Faint scratch on multiple locations.",
+            "notesByNewLine": [
+                "Faint discoloration on uppers. Faint scratch on multiple locations."
+            ],
+            "originalPrice": 15000,
+            "price": 4350,
+            "seasonDisplay": null,
+            "size": "8.5 Wide",
+            "sku": "REI_189065_DUSTY-OLIVEGRAY_8.5-WIDE_418906500805",
+            "surchargeAmount": null,
+            "uuid": "c402d239-89c0-4c3f-9b88-732466d17951"
+        },
+        {
+            "color": "Smoke/Lilac",
+            "condition": "GRADE_A",
+            "displayColor": "Smoke/Lilac",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670419739/production/partners/3/catalogItemImageCache/t7fbmkkuemifw25hvzuq.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670421127/production/partners/3/catalogItemImageCache/imqdtm6ztewydjcbtxpq.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670421071/production/partners/3/catalogItemImageCache/kkggez13l7r5sar6tzow.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670416941/production/partners/3/catalogItemImageCache/gbs0mhuywdt0dpdtm91f.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "",
+            "notesByNewLine": [],
+            "originalPrice": 15000,
+            "price": 4350,
+            "seasonDisplay": null,
+            "size": "9",
+            "sku": "REI_189065_SMOKELILAC_9_418906500294",
+            "surchargeAmount": null,
+            "uuid": "7a195be2-ba49-4c25-8c83-7d15d0a06e22"
+        },
+        {
+            "color": "Bark/Moss",
+            "condition": "GRADE_A",
+            "displayColor": "Bark/Moss",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670583719/production/partners/3/catalogItemImageCache/vuanuxgbwrer2wlzck04.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1687522466/production/partners/3/catalogItemImageCache/jpwu9ih9ygickyhtlasx.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1687522446/production/partners/3/catalogItemImageCache/v7jcbw7pqpg5xrro4fkq.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1687522446/production/partners/3/catalogItemImageCache/qvlynyba5w0ti25lilqv.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "Minor discoloration on outsoles.",
+            "notesByNewLine": [
+                "Minor discoloration on outsoles."
+            ],
+            "originalPrice": 15000,
+            "price": 3600,
+            "seasonDisplay": null,
+            "size": "9",
+            "sku": "REI_189065_BARKMOSS_9_418906500072",
+            "surchargeAmount": null,
+            "uuid": "7db55636-5199-4305-8625-bc73c943bbb9"
+        },
+        {
+            "color": "Orange Earth",
+            "condition": "GRADE_A",
+            "displayColor": "Orange Earth",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670584098/production/partners/3/catalogItemImageCache/shk4athx943czgqasrum.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670589944/production/partners/3/catalogItemImageCache/memgimkh8tx8uw9aoi3o.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670586714/production/partners/3/catalogItemImageCache/jrqauhjk8oclorlac3bt.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670589927/production/partners/3/catalogItemImageCache/mwxob2b5ksqmempv3aws.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "Minor discoloration on outsoles.",
+            "notesByNewLine": [
+                "Minor discoloration on outsoles."
+            ],
+            "originalPrice": 15000,
+            "price": 4350,
+            "seasonDisplay": null,
+            "size": "9",
+            "sku": "REI_189065_ORANGE-EARTH_9_418906500409",
+            "surchargeAmount": null,
+            "uuid": "4b61f902-a02b-4a7b-b401-69b49bbc700a"
+        },
+        {
+            "color": "Dusty Olive/Gray",
+            "condition": "GRADE_A",
+            "displayColor": "Dusty Olive/Gray",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670584086/production/partners/3/catalogItemImageCache/wq5ct7oy3l0aambprcg2.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670584212/production/partners/3/catalogItemImageCache/fatoxhjtombvxnorsdyg.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670584559/production/partners/3/catalogItemImageCache/r5d7dcrtftu8hxyyp9kt.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670584498/production/partners/3/catalogItemImageCache/b1aftwxcubnvjfpxfvat.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "",
+            "notesByNewLine": [],
+            "originalPrice": 15000,
+            "price": 4350,
+            "seasonDisplay": null,
+            "size": "9 Wide",
+            "sku": "REI_189065_DUSTY-OLIVEGRAY_9-WIDE_418906500812",
+            "surchargeAmount": null,
+            "uuid": "4d10e5f4-a3bc-4d41-82e7-ac03dcd8bd20"
+        },
+        {
+            "color": "Granite Black",
+            "condition": "GRADE_A",
+            "displayColor": "Granite Black",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670418127/production/partners/3/catalogItemImageCache/cfdbg8g1l4vtvdcdlwod.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670419771/production/partners/3/catalogItemImageCache/y4zblwkdmig1bmo6jwvk.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670416671/production/partners/3/catalogItemImageCache/aghzkrianr2m4cf6jugh.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670421316/production/partners/3/catalogItemImageCache/jpjspf9zpuexanlukn5y.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "",
+            "notesByNewLine": [],
+            "originalPrice": 15000,
+            "price": 4350,
+            "seasonDisplay": null,
+            "size": "9.5",
+            "sku": "REI_189065_GRANITE-BLACK_9.5_418906500195",
+            "surchargeAmount": null,
+            "uuid": "4ec801f0-7091-4c30-9b18-b4db5e06741a"
+        },
+        {
+            "color": "Granite Black",
+            "condition": "GRADE_C",
+            "displayColor": "Granite Black",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670418127/production/partners/3/catalogItemImageCache/cfdbg8g1l4vtvdcdlwod.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670419771/production/partners/3/catalogItemImageCache/y4zblwkdmig1bmo6jwvk.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670416671/production/partners/3/catalogItemImageCache/aghzkrianr2m4cf6jugh.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670421316/production/partners/3/catalogItemImageCache/jpjspf9zpuexanlukn5y.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "Minor discoloration on outsoles.",
+            "notesByNewLine": [
+                "Minor discoloration on outsoles."
+            ],
+            "originalPrice": 15000,
+            "price": 3915,
+            "seasonDisplay": null,
+            "size": "9.5",
+            "sku": "REI_189065_GRANITE-BLACK_9.5_418906500195",
+            "surchargeAmount": null,
+            "uuid": "65fdb47b-70e9-46bb-96d8-3e088b38c9c7"
+        },
+        {
+            "color": "Dusty Olive/Gray",
+            "condition": "GRADE_D",
+            "displayColor": "Dusty Olive/Gray",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670584086/production/partners/3/catalogItemImageCache/wq5ct7oy3l0aambprcg2.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670584212/production/partners/3/catalogItemImageCache/fatoxhjtombvxnorsdyg.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670584559/production/partners/3/catalogItemImageCache/r5d7dcrtftu8hxyyp9kt.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670584498/production/partners/3/catalogItemImageCache/b1aftwxcubnvjfpxfvat.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "Minor discoloration on interior. Minor debris on outsoles. Moderate creasing on multiple locations. Moderate discoloration on multiple locations. Minor tread wear on outsoles.",
+            "notesByNewLine": [
+                "Minor discoloration on interior. Minor debris on outsoles. Moderate creasing on multiple locations. Moderate discoloration on multiple locations. Minor tread wear on outsoles."
+            ],
+            "originalPrice": 15000,
+            "price": 3480,
+            "seasonDisplay": null,
+            "size": "9.5",
+            "sku": "REI_189065_DUSTY-OLIVEGRAY_9.5_418906500737",
+            "surchargeAmount": null,
+            "uuid": "abad8755-fc02-4103-a926-459dd3699a01"
+        },
+        {
+            "color": "Dusty Olive/Gray",
+            "condition": "GRADE_A",
+            "displayColor": "Dusty Olive/Gray",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670584086/production/partners/3/catalogItemImageCache/wq5ct7oy3l0aambprcg2.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670584212/production/partners/3/catalogItemImageCache/fatoxhjtombvxnorsdyg.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670584559/production/partners/3/catalogItemImageCache/r5d7dcrtftu8hxyyp9kt.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670584498/production/partners/3/catalogItemImageCache/b1aftwxcubnvjfpxfvat.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "Faint discoloration on outsoles. Faint discoloration on uppers.",
+            "notesByNewLine": [
+                "Faint discoloration on outsoles. Faint discoloration on uppers."
+            ],
+            "originalPrice": 15000,
+            "price": 4350,
+            "seasonDisplay": null,
+            "size": "9.5 Wide",
+            "sku": "REI_189065_DUSTY-OLIVEGRAY_9.5-WIDE_418906500829",
+            "surchargeAmount": null,
+            "uuid": "9f87a7a5-cd43-4495-8bfa-c9a7104052e1"
+        },
+        {
+            "color": "Smoke/Lilac",
+            "condition": "GRADE_A",
+            "displayColor": "Smoke/Lilac",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670419739/production/partners/3/catalogItemImageCache/t7fbmkkuemifw25hvzuq.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670421127/production/partners/3/catalogItemImageCache/imqdtm6ztewydjcbtxpq.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670421071/production/partners/3/catalogItemImageCache/kkggez13l7r5sar6tzow.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670416941/production/partners/3/catalogItemImageCache/gbs0mhuywdt0dpdtm91f.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "Faint creasing on uppers.",
+            "notesByNewLine": [
+                "Faint creasing on uppers."
+            ],
+            "originalPrice": 15000,
+            "price": 4350,
+            "seasonDisplay": null,
+            "size": "10",
+            "sku": "REI_189065_SMOKELILAC_10_418906500317",
+            "surchargeAmount": null,
+            "uuid": "4786082d-2353-4d0a-94c7-d2f59cb7b8a6"
+        },
+        {
+            "color": "Dusty Olive/Gray",
+            "condition": "GRADE_C",
+            "displayColor": "Dusty Olive/Gray",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670584086/production/partners/3/catalogItemImageCache/wq5ct7oy3l0aambprcg2.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670584212/production/partners/3/catalogItemImageCache/fatoxhjtombvxnorsdyg.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670584559/production/partners/3/catalogItemImageCache/r5d7dcrtftu8hxyyp9kt.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670584498/production/partners/3/catalogItemImageCache/b1aftwxcubnvjfpxfvat.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "Faint debris on outsoles. Minor creasing on multiple locations. Minor discoloration on multiple locations.",
+            "notesByNewLine": [
+                "Faint debris on outsoles. Minor creasing on multiple locations. Minor discoloration on multiple locations."
+            ],
+            "originalPrice": 15000,
+            "price": 3915,
+            "seasonDisplay": null,
+            "size": "10",
+            "sku": "REI_189065_DUSTY-OLIVEGRAY_10_418906500744",
+            "surchargeAmount": null,
+            "uuid": "5895814a-5140-4938-826a-a455e17b6e60"
+        },
+        {
+            "color": "Dusty Olive/Gray",
+            "condition": "GRADE_A",
+            "displayColor": "Dusty Olive/Gray",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670584086/production/partners/3/catalogItemImageCache/wq5ct7oy3l0aambprcg2.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670584212/production/partners/3/catalogItemImageCache/fatoxhjtombvxnorsdyg.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670584559/production/partners/3/catalogItemImageCache/r5d7dcrtftu8hxyyp9kt.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670584498/production/partners/3/catalogItemImageCache/b1aftwxcubnvjfpxfvat.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "",
+            "notesByNewLine": [],
+            "originalPrice": 15000,
+            "price": 4350,
+            "seasonDisplay": null,
+            "size": "10 Wide",
+            "sku": "REI_189065_DUSTY-OLIVEGRAY_10-WIDE_418906500836",
+            "surchargeAmount": null,
+            "uuid": "c27ab9be-23d0-44b9-9de4-aafca315f616"
+        },
+        {
+            "color": "Smoke/Lilac",
+            "condition": "GRADE_A",
+            "displayColor": "Smoke/Lilac",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670419739/production/partners/3/catalogItemImageCache/t7fbmkkuemifw25hvzuq.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670421127/production/partners/3/catalogItemImageCache/imqdtm6ztewydjcbtxpq.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670421071/production/partners/3/catalogItemImageCache/kkggez13l7r5sar6tzow.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670416941/production/partners/3/catalogItemImageCache/gbs0mhuywdt0dpdtm91f.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "",
+            "notesByNewLine": [],
+            "originalPrice": 15000,
+            "price": 4350,
+            "seasonDisplay": null,
+            "size": "10.5",
+            "sku": "REI_189065_SMOKELILAC_10.5_418906500324",
+            "surchargeAmount": null,
+            "uuid": "0fbc9f4c-52c6-40b1-a04d-15276bfb998f"
+        },
+        {
+            "color": "Dusty Olive/Gray",
+            "condition": "GRADE_A",
+            "displayColor": "Dusty Olive/Gray",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670584086/production/partners/3/catalogItemImageCache/wq5ct7oy3l0aambprcg2.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670584212/production/partners/3/catalogItemImageCache/fatoxhjtombvxnorsdyg.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670584559/production/partners/3/catalogItemImageCache/r5d7dcrtftu8hxyyp9kt.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670584498/production/partners/3/catalogItemImageCache/b1aftwxcubnvjfpxfvat.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "",
+            "notesByNewLine": [],
+            "originalPrice": 15000,
+            "price": 4350,
+            "seasonDisplay": null,
+            "size": "11",
+            "sku": "REI_189065_DUSTY-OLIVEGRAY_11_418906500768",
+            "surchargeAmount": null,
+            "uuid": "d41e8f38-5111-4fdf-b4e2-e2cd63f2c7de"
+        }
+    ],
+    "category": "Hiking, Work & Winter Boots",
+    "department": "Women's Footwear",
+    "markdownReason": null,
+    "images": [],
+    "itemStatus": "available",
+    "notes": "Minor creasing on uppers. Minor discoloration on multiple locations. Minor tread wear on outsoles.",
+    "notesByNewLine": [
+        "Minor creasing on uppers. Minor discoloration on multiple locations. Minor tread wear on outsoles."
+    ],
+    "price": null,
+    "seasonDisplay": null,
+    "sku": "REI_189065_DUSTY-OLIVEGRAY_6_418906500669",
+    "surchargeAmount": null,
+    "uuid": null,
+    "activelySelectedColor": "Dusty Olive/Gray",
+    "allSizeDisplayKeys": {
+        "6": "6",
+        "7": "7",
+        "8": "8",
+        "9": "9",
+        "10": "10",
+        "11": "11",
+        "6.5": "6.5",
+        "7 Wide": "7 Wide",
+        "7.5": "7.5",
+        "7.5 Wide": "7.5 Wide",
+        "8 Wide": "8 Wide",
+        "8.5": "8.5",
+        "8.5 Wide": "8.5 Wide",
+        "9 Wide": "9 Wide",
+        "9.5": "9.5",
+        "9.5 Wide": "9.5 Wide",
+        "10 Wide": "10 Wide",
+        "10.5": "10.5"
+    },
+    "availableItemsPerColor": [
+        {
+            "color": "Granite Black",
+            "condition": "GRADE_C",
+            "displayColor": "Granite Black",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670418127/production/partners/3/catalogItemImageCache/cfdbg8g1l4vtvdcdlwod.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670419771/production/partners/3/catalogItemImageCache/y4zblwkdmig1bmo6jwvk.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670416671/production/partners/3/catalogItemImageCache/aghzkrianr2m4cf6jugh.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670421316/production/partners/3/catalogItemImageCache/jpjspf9zpuexanlukn5y.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "Minor discoloration on outsoles.",
+            "notesByNewLine": [
+                "Minor discoloration on outsoles."
+            ],
+            "originalPrice": 15000,
+            "price": 3915,
+            "seasonDisplay": null,
+            "size": "9.5",
+            "sku": "REI_189065_GRANITE-BLACK_9.5_418906500195",
+            "surchargeAmount": null,
+            "uuid": "65fdb47b-70e9-46bb-96d8-3e088b38c9c7"
+        },
+        {
+            "color": "Smoke/Lilac",
+            "condition": "GRADE_A",
+            "displayColor": "Smoke/Lilac",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670419739/production/partners/3/catalogItemImageCache/t7fbmkkuemifw25hvzuq.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670421127/production/partners/3/catalogItemImageCache/imqdtm6ztewydjcbtxpq.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670421071/production/partners/3/catalogItemImageCache/kkggez13l7r5sar6tzow.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670416941/production/partners/3/catalogItemImageCache/gbs0mhuywdt0dpdtm91f.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "",
+            "notesByNewLine": [],
+            "originalPrice": 15000,
+            "price": 4350,
+            "seasonDisplay": null,
+            "size": "10.5",
+            "sku": "REI_189065_SMOKELILAC_10.5_418906500324",
+            "surchargeAmount": null,
+            "uuid": "0fbc9f4c-52c6-40b1-a04d-15276bfb998f"
+        },
+        {
+            "color": "Bark/Moss",
+            "condition": "GRADE_A",
+            "displayColor": "Bark/Moss",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670583719/production/partners/3/catalogItemImageCache/vuanuxgbwrer2wlzck04.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1687522466/production/partners/3/catalogItemImageCache/jpwu9ih9ygickyhtlasx.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1687522446/production/partners/3/catalogItemImageCache/v7jcbw7pqpg5xrro4fkq.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1687522446/production/partners/3/catalogItemImageCache/qvlynyba5w0ti25lilqv.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "Minor discoloration on outsoles.",
+            "notesByNewLine": [
+                "Minor discoloration on outsoles."
+            ],
+            "originalPrice": 15000,
+            "price": 3600,
+            "seasonDisplay": null,
+            "size": "9",
+            "sku": "REI_189065_BARKMOSS_9_418906500072",
+            "surchargeAmount": null,
+            "uuid": "7db55636-5199-4305-8625-bc73c943bbb9"
+        },
+        {
+            "color": "Dusty Olive/Gray",
+            "condition": "GRADE_A",
+            "displayColor": "Dusty Olive/Gray",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670584086/production/partners/3/catalogItemImageCache/wq5ct7oy3l0aambprcg2.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670584212/production/partners/3/catalogItemImageCache/fatoxhjtombvxnorsdyg.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670584559/production/partners/3/catalogItemImageCache/r5d7dcrtftu8hxyyp9kt.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670584498/production/partners/3/catalogItemImageCache/b1aftwxcubnvjfpxfvat.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "",
+            "notesByNewLine": [],
+            "originalPrice": 15000,
+            "price": 4350,
+            "seasonDisplay": null,
+            "size": "11",
+            "sku": "REI_189065_DUSTY-OLIVEGRAY_11_418906500768",
+            "surchargeAmount": null,
+            "uuid": "d41e8f38-5111-4fdf-b4e2-e2cd63f2c7de"
+        },
+        {
+            "color": "Orange Earth",
+            "condition": "GRADE_A",
+            "displayColor": "Orange Earth",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670584098/production/partners/3/catalogItemImageCache/shk4athx943czgqasrum.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670589944/production/partners/3/catalogItemImageCache/memgimkh8tx8uw9aoi3o.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670586714/production/partners/3/catalogItemImageCache/jrqauhjk8oclorlac3bt.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670589927/production/partners/3/catalogItemImageCache/mwxob2b5ksqmempv3aws.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "Minor discoloration on outsoles.",
+            "notesByNewLine": [
+                "Minor discoloration on outsoles."
+            ],
+            "originalPrice": 15000,
+            "price": 4350,
+            "seasonDisplay": null,
+            "size": "9",
+            "sku": "REI_189065_ORANGE-EARTH_9_418906500409",
+            "surchargeAmount": null,
+            "uuid": "4b61f902-a02b-4a7b-b401-69b49bbc700a"
+        }
+    ],
+    "availableItemsPerCondition": [
+        {
+            "color": "Dusty Olive/Gray",
+            "condition": "GRADE_A",
+            "displayColor": "Dusty Olive/Gray",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670584086/production/partners/3/catalogItemImageCache/wq5ct7oy3l0aambprcg2.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670584212/production/partners/3/catalogItemImageCache/fatoxhjtombvxnorsdyg.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670584559/production/partners/3/catalogItemImageCache/r5d7dcrtftu8hxyyp9kt.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670584498/production/partners/3/catalogItemImageCache/b1aftwxcubnvjfpxfvat.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "",
+            "notesByNewLine": [],
+            "originalPrice": 15000,
+            "price": 4350,
+            "seasonDisplay": null,
+            "size": "11",
+            "sku": "REI_189065_DUSTY-OLIVEGRAY_11_418906500768",
+            "surchargeAmount": null,
+            "uuid": "d41e8f38-5111-4fdf-b4e2-e2cd63f2c7de"
+        },
+        {
+            "color": "Dusty Olive/Gray",
+            "condition": "GRADE_C",
+            "displayColor": "Dusty Olive/Gray",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670584086/production/partners/3/catalogItemImageCache/wq5ct7oy3l0aambprcg2.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670584212/production/partners/3/catalogItemImageCache/fatoxhjtombvxnorsdyg.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670584559/production/partners/3/catalogItemImageCache/r5d7dcrtftu8hxyyp9kt.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670584498/production/partners/3/catalogItemImageCache/b1aftwxcubnvjfpxfvat.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "Faint debris on outsoles. Minor creasing on multiple locations. Minor discoloration on multiple locations.",
+            "notesByNewLine": [
+                "Faint debris on outsoles. Minor creasing on multiple locations. Minor discoloration on multiple locations."
+            ],
+            "originalPrice": 15000,
+            "price": 3915,
+            "seasonDisplay": null,
+            "size": "10",
+            "sku": "REI_189065_DUSTY-OLIVEGRAY_10_418906500744",
+            "surchargeAmount": null,
+            "uuid": "5895814a-5140-4938-826a-a455e17b6e60"
+        },
+        {
+            "color": "Dusty Olive/Gray",
+            "condition": "GRADE_D",
+            "displayColor": "Dusty Olive/Gray",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670584086/production/partners/3/catalogItemImageCache/wq5ct7oy3l0aambprcg2.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670584212/production/partners/3/catalogItemImageCache/fatoxhjtombvxnorsdyg.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670584559/production/partners/3/catalogItemImageCache/r5d7dcrtftu8hxyyp9kt.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670584498/production/partners/3/catalogItemImageCache/b1aftwxcubnvjfpxfvat.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "Minor discoloration on interior. Minor debris on outsoles. Moderate creasing on multiple locations. Moderate discoloration on multiple locations. Minor tread wear on outsoles.",
+            "notesByNewLine": [
+                "Minor discoloration on interior. Minor debris on outsoles. Moderate creasing on multiple locations. Moderate discoloration on multiple locations. Minor tread wear on outsoles."
+            ],
+            "originalPrice": 15000,
+            "price": 3480,
+            "seasonDisplay": null,
+            "size": "9.5",
+            "sku": "REI_189065_DUSTY-OLIVEGRAY_9.5_418906500737",
+            "surchargeAmount": null,
+            "uuid": "abad8755-fc02-4103-a926-459dd3699a01"
+        }
+    ],
+    "availableItemsPerSize": [
+        {
+            "color": "Bark/Moss",
+            "condition": "GRADE_D",
+            "displayColor": "Bark/Moss",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670583719/production/partners/3/catalogItemImageCache/vuanuxgbwrer2wlzck04.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670583444/production/partners/3/catalogItemImageCache/egnjgtv3gudsq3cke6ky.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670592865/production/partners/3/catalogItemImageCache/g5jkm6rnsqk4olferuwu.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670584478/production/partners/3/catalogItemImageCache/radbue0vkopl9xwjlfw0.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "Dust found on item.",
+            "notesByNewLine": [
+                "Dust found on item."
+            ],
+            "originalPrice": 15000,
+            "price": 2880,
+            "seasonDisplay": null,
+            "size": "6",
+            "sku": "REI_189065_BARKMOSS_6_418906500010",
+            "surchargeAmount": null,
+            "uuid": "10310ba5-319b-4b5f-b1e3-a07e5f68ee49"
+        },
+        {
+            "color": "Bark/Moss",
+            "condition": "GRADE_D",
+            "displayColor": "Bark/Moss",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670583719/production/partners/3/catalogItemImageCache/vuanuxgbwrer2wlzck04.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1687522466/production/partners/3/catalogItemImageCache/jpwu9ih9ygickyhtlasx.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1687522446/production/partners/3/catalogItemImageCache/v7jcbw7pqpg5xrro4fkq.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1687522446/production/partners/3/catalogItemImageCache/qvlynyba5w0ti25lilqv.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "Moderate discoloration on multiple locations.",
+            "notesByNewLine": [
+                "Moderate discoloration on multiple locations."
+            ],
+            "originalPrice": 15000,
+            "price": 2880,
+            "seasonDisplay": null,
+            "size": "7",
+            "sku": "REI_189065_BARKMOSS_7_418906500034",
+            "surchargeAmount": null,
+            "uuid": "f6d2c6a1-1914-4c9b-bd65-71cc60bab06b"
+        },
+        {
+            "color": "Granite Black",
+            "condition": "GRADE_D",
+            "displayColor": "Granite Black",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670418127/production/partners/3/catalogItemImageCache/cfdbg8g1l4vtvdcdlwod.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670419771/production/partners/3/catalogItemImageCache/y4zblwkdmig1bmo6jwvk.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670416671/production/partners/3/catalogItemImageCache/aghzkrianr2m4cf6jugh.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670421316/production/partners/3/catalogItemImageCache/jpjspf9zpuexanlukn5y.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "Moderate debris on outsoles. Moderate discoloration on multiple locations. Minor scratch on multiple locations. Minor creasing on toe boxes.",
+            "notesByNewLine": [
+                "Moderate debris on outsoles. Moderate discoloration on multiple locations. Minor scratch on multiple locations. Minor creasing on toe boxes."
+            ],
+            "originalPrice": 15000,
+            "price": 3480,
+            "seasonDisplay": null,
+            "size": "8",
+            "sku": "REI_189065_GRANITE-BLACK_8_418906500164",
+            "surchargeAmount": null,
+            "uuid": "8f5f00a7-1e3d-4a1e-b675-d448651638c9"
+        },
+        {
+            "color": "Orange Earth",
+            "condition": "GRADE_A",
+            "displayColor": "Orange Earth",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670584098/production/partners/3/catalogItemImageCache/shk4athx943czgqasrum.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670589944/production/partners/3/catalogItemImageCache/memgimkh8tx8uw9aoi3o.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670586714/production/partners/3/catalogItemImageCache/jrqauhjk8oclorlac3bt.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670589927/production/partners/3/catalogItemImageCache/mwxob2b5ksqmempv3aws.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "Minor discoloration on outsoles.",
+            "notesByNewLine": [
+                "Minor discoloration on outsoles."
+            ],
+            "originalPrice": 15000,
+            "price": 4350,
+            "seasonDisplay": null,
+            "size": "9",
+            "sku": "REI_189065_ORANGE-EARTH_9_418906500409",
+            "surchargeAmount": null,
+            "uuid": "4b61f902-a02b-4a7b-b401-69b49bbc700a"
+        },
+        {
+            "color": "Dusty Olive/Gray",
+            "condition": "GRADE_C",
+            "displayColor": "Dusty Olive/Gray",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670584086/production/partners/3/catalogItemImageCache/wq5ct7oy3l0aambprcg2.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670584212/production/partners/3/catalogItemImageCache/fatoxhjtombvxnorsdyg.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670584559/production/partners/3/catalogItemImageCache/r5d7dcrtftu8hxyyp9kt.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670584498/production/partners/3/catalogItemImageCache/b1aftwxcubnvjfpxfvat.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "Faint debris on outsoles. Minor creasing on multiple locations. Minor discoloration on multiple locations.",
+            "notesByNewLine": [
+                "Faint debris on outsoles. Minor creasing on multiple locations. Minor discoloration on multiple locations."
+            ],
+            "originalPrice": 15000,
+            "price": 3915,
+            "seasonDisplay": null,
+            "size": "10",
+            "sku": "REI_189065_DUSTY-OLIVEGRAY_10_418906500744",
+            "surchargeAmount": null,
+            "uuid": "5895814a-5140-4938-826a-a455e17b6e60"
+        },
+        {
+            "color": "Dusty Olive/Gray",
+            "condition": "GRADE_A",
+            "displayColor": "Dusty Olive/Gray",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670584086/production/partners/3/catalogItemImageCache/wq5ct7oy3l0aambprcg2.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670584212/production/partners/3/catalogItemImageCache/fatoxhjtombvxnorsdyg.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670584559/production/partners/3/catalogItemImageCache/r5d7dcrtftu8hxyyp9kt.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670584498/production/partners/3/catalogItemImageCache/b1aftwxcubnvjfpxfvat.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "",
+            "notesByNewLine": [],
+            "originalPrice": 15000,
+            "price": 4350,
+            "seasonDisplay": null,
+            "size": "11",
+            "sku": "REI_189065_DUSTY-OLIVEGRAY_11_418906500768",
+            "surchargeAmount": null,
+            "uuid": "d41e8f38-5111-4fdf-b4e2-e2cd63f2c7de"
+        },
+        {
+            "color": "Dusty Olive/Gray",
+            "condition": "GRADE_A",
+            "displayColor": "Dusty Olive/Gray",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670584086/production/partners/3/catalogItemImageCache/wq5ct7oy3l0aambprcg2.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670584212/production/partners/3/catalogItemImageCache/fatoxhjtombvxnorsdyg.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670584559/production/partners/3/catalogItemImageCache/r5d7dcrtftu8hxyyp9kt.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670584498/production/partners/3/catalogItemImageCache/b1aftwxcubnvjfpxfvat.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "Minor discoloration on outsoles. Minor debris on outsoles.",
+            "notesByNewLine": [
+                "Minor discoloration on outsoles. Minor debris on outsoles."
+            ],
+            "originalPrice": 15000,
+            "price": 4350,
+            "seasonDisplay": null,
+            "size": "7 Wide",
+            "sku": "REI_189065_DUSTY-OLIVEGRAY_7-WIDE_418906500775",
+            "surchargeAmount": null,
+            "uuid": "da3ab247-b730-43e8-86c0-b4475272edbc"
+        },
+        {
+            "color": "Dusty Olive/Gray",
+            "condition": "GRADE_A",
+            "displayColor": "Dusty Olive/Gray",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670584086/production/partners/3/catalogItemImageCache/wq5ct7oy3l0aambprcg2.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670584212/production/partners/3/catalogItemImageCache/fatoxhjtombvxnorsdyg.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670584559/production/partners/3/catalogItemImageCache/r5d7dcrtftu8hxyyp9kt.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670584498/production/partners/3/catalogItemImageCache/b1aftwxcubnvjfpxfvat.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "",
+            "notesByNewLine": [],
+            "originalPrice": 15000,
+            "price": 4350,
+            "seasonDisplay": null,
+            "size": "8 Wide",
+            "sku": "REI_189065_DUSTY-OLIVEGRAY_8-WIDE_418906500799",
+            "surchargeAmount": null,
+            "uuid": "2641bac0-5a58-41fa-8c7b-39850142645b"
+        },
+        {
+            "color": "Dusty Olive/Gray",
+            "condition": "GRADE_A",
+            "displayColor": "Dusty Olive/Gray",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670584086/production/partners/3/catalogItemImageCache/wq5ct7oy3l0aambprcg2.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670584212/production/partners/3/catalogItemImageCache/fatoxhjtombvxnorsdyg.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670584559/production/partners/3/catalogItemImageCache/r5d7dcrtftu8hxyyp9kt.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670584498/production/partners/3/catalogItemImageCache/b1aftwxcubnvjfpxfvat.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "Faint discoloration on multiple locations. Faint tread wear on outsoles.",
+            "notesByNewLine": [
+                "Faint discoloration on multiple locations. Faint tread wear on outsoles."
+            ],
+            "originalPrice": 15000,
+            "price": 4350,
+            "seasonDisplay": null,
+            "size": "8.5",
+            "sku": "REI_189065_DUSTY-OLIVEGRAY_8.5_418906500713",
+            "surchargeAmount": null,
+            "uuid": "f3492454-f793-485f-a98b-c843dec03685"
+        },
+        {
+            "color": "Dusty Olive/Gray",
+            "condition": "GRADE_A",
+            "displayColor": "Dusty Olive/Gray",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670584086/production/partners/3/catalogItemImageCache/wq5ct7oy3l0aambprcg2.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670584212/production/partners/3/catalogItemImageCache/fatoxhjtombvxnorsdyg.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670584559/production/partners/3/catalogItemImageCache/r5d7dcrtftu8hxyyp9kt.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670584498/production/partners/3/catalogItemImageCache/b1aftwxcubnvjfpxfvat.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "Faint discoloration on uppers. Faint scratch on multiple locations.",
+            "notesByNewLine": [
+                "Faint discoloration on uppers. Faint scratch on multiple locations."
+            ],
+            "originalPrice": 15000,
+            "price": 4350,
+            "seasonDisplay": null,
+            "size": "8.5 Wide",
+            "sku": "REI_189065_DUSTY-OLIVEGRAY_8.5-WIDE_418906500805",
+            "surchargeAmount": null,
+            "uuid": "c402d239-89c0-4c3f-9b88-732466d17951"
+        },
+        {
+            "color": "Dusty Olive/Gray",
+            "condition": "GRADE_A",
+            "displayColor": "Dusty Olive/Gray",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670584086/production/partners/3/catalogItemImageCache/wq5ct7oy3l0aambprcg2.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670584212/production/partners/3/catalogItemImageCache/fatoxhjtombvxnorsdyg.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670584559/production/partners/3/catalogItemImageCache/r5d7dcrtftu8hxyyp9kt.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670584498/production/partners/3/catalogItemImageCache/b1aftwxcubnvjfpxfvat.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "",
+            "notesByNewLine": [],
+            "originalPrice": 15000,
+            "price": 4350,
+            "seasonDisplay": null,
+            "size": "9 Wide",
+            "sku": "REI_189065_DUSTY-OLIVEGRAY_9-WIDE_418906500812",
+            "surchargeAmount": null,
+            "uuid": "4d10e5f4-a3bc-4d41-82e7-ac03dcd8bd20"
+        },
+        {
+            "color": "Dusty Olive/Gray",
+            "condition": "GRADE_D",
+            "displayColor": "Dusty Olive/Gray",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670584086/production/partners/3/catalogItemImageCache/wq5ct7oy3l0aambprcg2.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670584212/production/partners/3/catalogItemImageCache/fatoxhjtombvxnorsdyg.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670584559/production/partners/3/catalogItemImageCache/r5d7dcrtftu8hxyyp9kt.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670584498/production/partners/3/catalogItemImageCache/b1aftwxcubnvjfpxfvat.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "Minor discoloration on interior. Minor debris on outsoles. Moderate creasing on multiple locations. Moderate discoloration on multiple locations. Minor tread wear on outsoles.",
+            "notesByNewLine": [
+                "Minor discoloration on interior. Minor debris on outsoles. Moderate creasing on multiple locations. Moderate discoloration on multiple locations. Minor tread wear on outsoles."
+            ],
+            "originalPrice": 15000,
+            "price": 3480,
+            "seasonDisplay": null,
+            "size": "9.5",
+            "sku": "REI_189065_DUSTY-OLIVEGRAY_9.5_418906500737",
+            "surchargeAmount": null,
+            "uuid": "abad8755-fc02-4103-a926-459dd3699a01"
+        },
+        {
+            "color": "Dusty Olive/Gray",
+            "condition": "GRADE_A",
+            "displayColor": "Dusty Olive/Gray",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670584086/production/partners/3/catalogItemImageCache/wq5ct7oy3l0aambprcg2.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670584212/production/partners/3/catalogItemImageCache/fatoxhjtombvxnorsdyg.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670584559/production/partners/3/catalogItemImageCache/r5d7dcrtftu8hxyyp9kt.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670584498/production/partners/3/catalogItemImageCache/b1aftwxcubnvjfpxfvat.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "Faint discoloration on outsoles. Faint discoloration on uppers.",
+            "notesByNewLine": [
+                "Faint discoloration on outsoles. Faint discoloration on uppers."
+            ],
+            "originalPrice": 15000,
+            "price": 4350,
+            "seasonDisplay": null,
+            "size": "9.5 Wide",
+            "sku": "REI_189065_DUSTY-OLIVEGRAY_9.5-WIDE_418906500829",
+            "surchargeAmount": null,
+            "uuid": "9f87a7a5-cd43-4495-8bfa-c9a7104052e1"
+        },
+        {
+            "color": "Dusty Olive/Gray",
+            "condition": "GRADE_A",
+            "displayColor": "Dusty Olive/Gray",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670584086/production/partners/3/catalogItemImageCache/wq5ct7oy3l0aambprcg2.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670584212/production/partners/3/catalogItemImageCache/fatoxhjtombvxnorsdyg.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670584559/production/partners/3/catalogItemImageCache/r5d7dcrtftu8hxyyp9kt.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670584498/production/partners/3/catalogItemImageCache/b1aftwxcubnvjfpxfvat.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "",
+            "notesByNewLine": [],
+            "originalPrice": 15000,
+            "price": 4350,
+            "seasonDisplay": null,
+            "size": "10 Wide",
+            "sku": "REI_189065_DUSTY-OLIVEGRAY_10-WIDE_418906500836",
+            "surchargeAmount": null,
+            "uuid": "c27ab9be-23d0-44b9-9de4-aafca315f616"
+        },
+        {
+            "color": "Smoke/Lilac",
+            "condition": "GRADE_A",
+            "displayColor": "Smoke/Lilac",
+            "markdownReason": null,
+            "imageUrls": {
+                "main": "https://res.cloudinary.com/yerdle/image/upload/v1670419739/production/partners/3/catalogItemImageCache/t7fbmkkuemifw25hvzuq.jpg",
+                "alt3": "https://res.cloudinary.com/yerdle/image/upload/v1670421127/production/partners/3/catalogItemImageCache/imqdtm6ztewydjcbtxpq.jpg",
+                "alt2": "https://res.cloudinary.com/yerdle/image/upload/v1670421071/production/partners/3/catalogItemImageCache/kkggez13l7r5sar6tzow.jpg",
+                "alt1": "https://res.cloudinary.com/yerdle/image/upload/v1670416941/production/partners/3/catalogItemImageCache/gbs0mhuywdt0dpdtm91f.jpg"
+            },
+            "images": [],
+            "itemStatus": "available",
+            "notes": "",
+            "notesByNewLine": [],
+            "originalPrice": 15000,
+            "price": 4350,
+            "seasonDisplay": null,
+            "size": "10.5",
+            "sku": "REI_189065_SMOKELILAC_10.5_418906500324",
+            "surchargeAmount": null,
+            "uuid": "0fbc9f4c-52c6-40b1-a04d-15276bfb998f"
+        }
+    ],
+    "availableSizesDisplayForSelection": [
+        {
+            "code": "6",
+            "displayName": "6"
+        },
+        {
+            "code": "10",
+            "displayName": "10"
+        },
+        {
+            "code": "11",
+            "displayName": "11"
+        },
+        {
+            "code": "7 Wide",
+            "displayName": "7 Wide"
+        },
+        {
+            "code": "8 Wide",
+            "displayName": "8 Wide"
+        },
+        {
+            "code": "8.5",
+            "displayName": "8.5"
+        },
+        {
+            "code": "8.5 Wide",
+            "displayName": "8.5 Wide"
+        },
+        {
+            "code": "9 Wide",
+            "displayName": "9 Wide"
+        },
+        {
+            "code": "9.5",
+            "displayName": "9.5"
+        },
+        {
+            "code": "9.5 Wide",
+            "displayName": "9.5 Wide"
+        },
+        {
+            "code": "10 Wide",
+            "displayName": "10 Wide"
+        }
+    ],
+    "shouldDisplayProp65": "",
+    "sortedSizesForItem": [
+        "6",
+        "7",
+        "7 Wide",
+        "8",
+        "8 Wide",
+        "8.5",
+        "8.5 Wide",
+        "9",
+        "9 Wide",
+        "9.5",
+        "9.5 Wide",
+        "10",
+        "10 Wide",
+        "10.5",
+        "11"
+    ],
+    "didReachStyleLimit": false,
+    "failingMessage": null,
+    "isItemUnavailable": false
+}

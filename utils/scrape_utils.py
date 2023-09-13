@@ -205,11 +205,77 @@ def initialize_driver():
     logging.info(f"UserAgent: {user_agent_str}")
     return driver
 
+def split_content(content, split_by, index):
+    split_data = content.split(split_by, 1) # Only split first instance
+    if len(split_data) > index:
+        return split_data[index]
+    else:
+        raise ValueError(f"Error splitting content, {split_by} not found.")
+
+def extract_json_btw_strings(content, logger, start_str, end_str):
+    try:
+        trim_front = split_content(content, start_str, 1)
+        trim_end = split_content(trim_front, end_str, 0)
+        return json.loads(trim_end)
+    except ValueError as ve:
+        logger.error(ve)
+        return None
+    
+def extract_item_level(item_json, logger):
+    item_json["confNewPrice"]
+
+# FOR TESTING
 if __name__ == "__main__":
-    response_content, request_datetime = test_fetch_api()
+    response_content, request_datetime = fetch_rei_scrape_api()
     file_path = 'output.html'
     
     with open(file_path, "w") as file:
         file.write(response_content)
+        
+    full_json = extract_json_btw_strings(
+        response_content,
+        logger=simple_logger,
+        start_str = '<script>window.__PRELOADED_STATE__ = ',
+        end_str = '</script>')
+    
+    # Serialize the Python object back into a formatted JSON string
+    str_full_json = json.dumps(full_json, indent=4)
+
+    # Write the formatted JSON string to a file
+    with open('output_full.json', 'w') as file:
+        file.write(str_full_json)
+        
+    if "item" in full_json:
+        item_json = full_json["item"]
+        str_item_json = json.dumps(item_json, indent=4)
+        with open('output_item.json', 'w') as file:
+            file.write(str_item_json)
+    else:
+        print("The key 'item' does not exist in the JSON data.")
+    
+    # extract_item_level()
+    
+    # sku_n = extract_skus()
 
     breakpoint()
+    
+    # split_by_start = '<script>window.__PRELOADED_STATE__ = '
+    # split_by_end = '</script>'
+    
+    # split_html = response_content.split(split_by_start, 1) # Only split at first instance
+    # breakpoint()
+    
+    # if(len(split_html)) > 1:
+    #     extracted_json = split_html[1]
+    # else:
+    #     print(f"Split string {split_by_start} not found in the response_content")
+    #     print(response_content)
+    
+    # split_json = extracted_json.split(split_by_end, 1)
+    # if(len(split_json)) > 1:
+    #     clean_json = split_json[0]
+    # else:
+    #     print(f"Split string {split_by_end} not found in the extracted_json")
+    #     print(extracted_json)
+    # parsed_json = json.loads(clean_json)
+    # return parsed_json

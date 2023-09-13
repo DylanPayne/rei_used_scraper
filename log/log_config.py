@@ -3,6 +3,7 @@ import logging, os
 def log_config(log_file,logger_name='CentralLogger'):
     logger = logging.getLogger(logger_name)
     logger.setLevel(logging.INFO) # Set logger level to info
+    logging.getLogger('sqlalchemy.engine').setLevel(logging.ERROR) ## To migrate into log_config.py?
     
     print(f"Current Handlers: {logger.handlers}") # DEBUG
     
@@ -24,5 +25,6 @@ def log_config(log_file,logger_name='CentralLogger'):
 
         # Add the file handler to the logger
         logger.addHandler(file_handler)
-    
+        
+    logger.info(f"\n Starting script with {log_file}")
     return logger

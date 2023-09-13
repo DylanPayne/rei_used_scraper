@@ -6,25 +6,20 @@ from rei.rei_parser import parse_rei_sweep_page, parse_rei_sweep_all
 from log.log_config import log_config
 
 def main(prefix, page_cap):
-    # Log the start time
     start_time = time.time()
-    # Determine script_name, and strip off extension to determine run_name
+    # Determine start_time, script_name, and strip off extension to determine run_name
     script_name = os.path.basename(os.path.abspath(__file__))
     run_name = os.path.splitext(script_name)[0]
     # Configure logging
-    logger = log_config(f"{run_name}.log")
-    logger.info(f"/n Starting {script_name}")
-    logging.getLogger('sqlalchemy.engine').setLevel(logging.ERROR) ## To migrate into log_config.py
-    # initialize run_id to handle errors within try block
-    run_id = None
+    logger = log_config(f"{prefix}{run_name}.log")
     
     # Create tables in postgresql, naming incorporates optional argparse prefix
+    run_id = None # initialize run_id to avoid erroring out
     try:
         with DatabaseInserter() as db_conn:
             for table_name, schema in table_schema_rei_sweep.items():
                 db_conn.create_table(f'{prefix}{table_name}', schema, logger) # create tables
             run_id = db_conn.start_run(run_name, prefix, logger) # start run by inserting row
-            logger.info(f"\n {script_name} started run_id: {run_id}")
             
             # Determine output table names based on optional prefix input
             items_table_name = f'{prefix}rei_sweep_all'
@@ -32,7 +27,7 @@ def main(prefix, page_cap):
     except Exception as e:
         logger.error(f"Error creating rei_sweep tables: {e}")
 
-    page_limit = 100
+    page_limit = 100  # display 100 items per page for fewer requests
     item_cap = None if page_cap is None else page_limit * page_cap
     
     for filter in rei_sweep_filter_conditions:

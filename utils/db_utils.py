@@ -94,6 +94,7 @@ class DatabaseInserter:
                 connection.execution_options(isolation_level="AUTOCOMMIT") # automatically commit insertions
                 result = connection.execute(insert_query, {'run_dt': run_dt, 'run_name': run_name})
                 run_id = result.fetchone()[0]
+                logger.info(f"{run_name} started run_id: {run_id}")
                 return run_id
         except Exception as e:
             logger.error(f"Error adding run {run_id} of {run_name} into {table_name}: {e} \n {insert_query}")

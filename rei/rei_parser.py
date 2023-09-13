@@ -6,7 +6,12 @@ from selenium.webdriver.chrome.options import Options
 import pandas as pd
 from collections import defaultdict
 
-from utils.clean_utils import str_to_list
+
+def parse_rei_scrape_sku(json_data, logger):
+    return None
+
+def parse_rei_scrape_variants(json_data, logger):
+    return None
 
 def parse_rei_sweep_all(json_data, page_n, logger): ## 
     # Parse items details ('page_limit' rows per API page)
