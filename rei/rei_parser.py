@@ -44,7 +44,6 @@ def parse_rei_sweep_all(json_data, page_n, logger): ##
                 items_data.append(item_data)
             except Exception as e:
                 logger.warning(f"Failed to parse an item. Error: {str(e)}")
-                
 
         df_items = pd.DataFrame(items_data)
         logger.info(f"Parsed item-level data for page {page_n}")
