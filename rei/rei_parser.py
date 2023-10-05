@@ -20,23 +20,31 @@ def parse_rei_sweep_all(json_data, page_n, logger): ##
         items_data = []
         
         for item in items_list:
-            price = item['price']/100
-            price_orig = item['originalPrice']/100            
-            size_range = item['availableSizes']
-            price_range =[price/100 for price in item['priceRange']]
-            
-            item_data = {
-                'title': item['title'],
-                'brand': item['brand'],
-                'path': item['pdpLink']['path'],
-                'parent_sku': item['parentSKU'],
-                'price': price,
-                'price_orig': price_orig,
-                'price_range': price_range,
-                'size_range': size_range,
-                'color': item['color'],
-            }
-            items_data.append(item_data)
+            try:
+                # Check if 'parent SKU' exists in item, if not set it to None
+                parent_sku = item['parentSKU'] if 'parentSKU' in item and str(item['parentSKU']).isnumeric() else None
+                if parent_sku is None:
+                    logger.warning(f"Invalid or missing parent SKU. Setting it to NULL.")
+                price = item['price']/100 if item['price'] is not None else None # To handle NULL prices
+                price_orig = item['originalPrice']/100 if item['originalPrice'] is not None else None
+                size_range = item['availableSizes']
+                price_range = [price/100 for price in item['priceRange']] if item['priceRange'] is not None else None # To handle NULL price_range
+                
+                item_data = {
+                    'title': item['title'],
+                    'brand': item['brand'],
+                    'path': item['pdpLink']['path'],
+                    'parent_sku': parent_sku,
+                    'price': price,
+                    'price_orig': price_orig,
+                    'price_range': price_range,
+                    'size_range': size_range,
+                    'color': item['color'],
+                }
+                items_data.append(item_data)
+            except Exception as e:
+                logger.warning(f"Failed to parse an item. Error: {str(e)}")
+                
 
         df_items = pd.DataFrame(items_data)
         logger.info(f"Parsed item-level data for page {page_n}")

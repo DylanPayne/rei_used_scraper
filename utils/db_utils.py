@@ -101,3 +101,57 @@ class DatabaseInserter:
         
     def close(self):
         self.engine.dispose()  # Close the database engine
+        
+def generate_rei_scrape_queue(db_conn, item_limit, logger):
+    # Query another table in PostgreSQL to generate the daily queue
+    # This could be any query that suits your use case
+    queue_query = "SELECT distinct item_id FROM some_table WHERE some_condition=True;"
+    try:
+        queue_items = db_conn.execute_query(queue_query)
+        # Store these items in a queue table or in-memory data structure
+        # ... (implementation depends on your needs)
+        logger.info(f"Generated daily queue with {len(queue_items)} items.")
+    except Exception as e:
+        logger.error(f"Error generating daily queue: {e}")
+        
+        
+table_schema_rei_scrape = { # create_table appends primary_key, id (sequential)
+    'rei_scrape_sku': {
+        'count': 'INTEGER',
+        'page_limit': 'INTEGER',
+        'condition': 'VARCHAR(20)',
+        'page_n': 'INTEGER',
+        'id': 'SERIAL PRIMARY KEY',
+        'run_id': 'INTEGER',
+        'dt': 'TIMESTAMP',
+    },
+    'rei_scrape_item': {
+        'title': 'VARCHAR(100)', # 51 max observed
+        'brand': 'VARCHAR(40)', # 17 max obs
+        'path': 'VARCHAR(180)', # 116 max obs
+        'parent_sku': 'INTEGER',
+        'color': 'VARCHAR(60)', # 29 max obs
+        'price': 'NUMERIC(10,2)', # Stores up to $99,999.99
+        'price_orig': 'NUMERIC(10,2)', 
+        'price_range': 'NUMERIC(10,2)[]', # 116 max obs
+        'size_range': 'VARCHAR(50)[]', # 26 max obs
+        'condition': 'VARCHAR(20)', # 19 max obs, code already breaks if condition names change
+        'page_n': 'INTEGER',
+        'id': 'SERIAL PRIMARY KEY',
+        'run_id': 'INTEGER',
+        'dt': 'TIMESTAMP',
+    },
+    'rei_scrape_queue' : {
+        'parent_sku': 'UNIQUE NOT NULL',
+        'path': 'TEXT',
+        'status': 'VARCHAR(20) DEFAULT "pending"',
+        'id': 'SERIAL PRIMARY  KEY',
+        'run_id': 'INTEGER',
+        'dt': 'TIMESTAMP NOT NULL',
+    },
+    'rei_run' : {
+        'run_id': 'SERIAL PRIMARY KEY',
+        'run_name': 'VARCHAR(200) NOT NULL',
+        'run_dt': 'TIMESTAMP NOT NULL',
+    },
+}
